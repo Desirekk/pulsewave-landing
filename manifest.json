@@ -1,16 +1,16 @@
 {
   "version": "0.2.3",
-  "notes": "Grindare Studio intro replaces the Godot boot logo (geometric neon, 'WHERE GRIND NEVER ENDS' tagline, click-to-skip). Profile sidebar avatar now uses the same chevron ship as the skill tree + in-match player so all three match. Launcher 0.1.9 reliably self-updates with verbose logging.",
+  "notes": "Grindare Studio intro replaces the Godot boot logo (geometric neon, 'WHERE GRIND NEVER ENDS' tagline, click-to-skip). Profile sidebar avatar now uses the same chevron ship as the skill tree + in-match player so all three match. Launcher 0.1.10 has reliable Windows self-update + always-visible safety-net link to pulsewavegame.com.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.3/Pulsewave-0.2.3-mac.zip",
     "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.3/Pulsewave-0.2.3-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.3/Pulsewave-0.2.3-linux.zip"
   },
-  "launcher_version": "0.1.9",
-  "launcher_notes": "Self-update overhaul. Windows uses copy+del instead of move (Defender-friendly), retries up to 24s for the file lock, logs every step to %TEMP%\\pulsewave_launcher_update.log. Download size sanity check >= 5MB. Live download progress (X / Y MB).",
+  "launcher_version": "0.1.10",
+  "launcher_notes": "Always-visible safety-net footer link to pulsewavegame.com so users have a one-click escape hatch if self-update ever breaks. Reliable Windows self-update (copy+del, Defender-friendly) carried forward from v0.1.9 with verbose log at %TEMP%\\pulsewave_launcher_update.log.",
   "launcher_builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.9/Pulsewave-Launcher-0.1.9-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.9/Pulsewave-Launcher-0.1.9.exe",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.9/Pulsewave-Launcher-0.1.9.x86_64"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.10/Pulsewave-Launcher-0.1.10-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.10/Pulsewave-Launcher-0.1.10.exe",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.10/Pulsewave-Launcher-0.1.10.x86_64"
   }
 }

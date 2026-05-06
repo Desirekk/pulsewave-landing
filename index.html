@@ -190,12 +190,16 @@ footer a:hover { color: var(--cyan); }
     </header>
 
     <div class="download">
-        <a id="primary-btn" class="btn-primary" href="#">DETECTING PLATFORM…</a>
+        <a id="primary-btn" class="btn-primary" href="https://github.com/Desirekk/pulsewave-releases/releases/latest">DETECTING PLATFORM…</a>
         <div class="alts">
-            <span>Or download for:</span>
-            <a id="dl-mac" href="https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-Launcher-0.1.7-mac.zip">macOS</a>·
-            <a id="dl-win" href="https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-Launcher-0.1.7.exe">Windows</a>·
-            <a id="dl-linux" href="https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-Launcher-0.1.7.x86_64">Linux</a>
+            <span>Latest launcher <strong id="launcher-ver">·</strong> · download for:</span>
+            <a id="dl-mac" href="#">macOS</a>·
+            <a id="dl-win" href="#">Windows</a>·
+            <a id="dl-linux" href="#">Linux</a>
+        </div>
+        <div class="alts" style="margin-top: 8px; font-size: 0.78rem; opacity: 0.75;">
+            <span>Launcher won't update?</span>
+            <a href="#manual-download">Manual download instructions</a>
         </div>
     </div>
 
@@ -221,7 +225,14 @@ footer a:hover { color: var(--cyan); }
     <div class="notice">
         <strong>macOS:</strong> Unzip, then right-click the app → <em>Open</em> to get past Gatekeeper (the launcher isn't signed yet during alpha).<br>
         <strong>Windows:</strong> Single .exe — just run it. SmartScreen may flag the unsigned exe → click <em>More info</em> → <em>Run anyway</em>.<br>
-        <strong>Linux:</strong> Single binary — make it executable first: <code>chmod +x Pulsewave-Launcher-0.1.7.x86_64</code>, then double-click or run from terminal.
+        <strong>Linux:</strong> Single binary — make it executable first (<code>chmod +x</code>), then double-click or run from terminal.
+    </div>
+
+    <div id="manual-download" class="notice" style="margin-top: 18px; border-color: rgba(255, 140, 0, 0.55);">
+        <strong style="color: #ffb14a;">Launcher won't auto-update?</strong><br>
+        If clicking <em>Update Launcher</em> fails or the launcher silently restarts on the old version, just download the latest one from the buttons above and replace your existing file. The launcher saves your login + game install path, so you won't lose anything.<br><br>
+        <strong>Windows:</strong> a self-update log gets written to <code>%TEMP%\pulsewave_launcher_update.log</code>. Open that file (paste <code>%TEMP%</code> into Explorer) and send it to us if you want help debugging.<br>
+        <strong>Direct release page (always current):</strong> <a href="https://github.com/Desirekk/pulsewave-releases/releases/latest" style="color: #ffb14a;">github.com/Desirekk/pulsewave-releases/releases/latest</a>
     </div>
 </main>
 
@@ -231,31 +242,70 @@ footer a:hover { color: var(--cyan); }
 </footer>
 
 <script>
+// Pull the latest launcher URLs from manifest.json at page load — always
+// in sync with whatever's published. Critical safety net for users whose
+// in-launcher self-update breaks: this page is their fallback.
 (function () {
     var ua = navigator.userAgent.toLowerCase();
     var p = navigator.platform.toLowerCase();
-
-    var BASE = "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/";
     var btn = document.getElementById("primary-btn");
+    var verEl = document.getElementById("launcher-ver");
+    var dlMac = document.getElementById("dl-mac");
+    var dlWin = document.getElementById("dl-win");
+    var dlLinux = document.getElementById("dl-linux");
 
     var isMac   = /mac|iphone|ipad|ipod/.test(p) || /mac os/.test(ua);
     var isWin   = /win/.test(p) || /windows/.test(ua);
     var isLinux = /linux/.test(p) && !/android/.test(ua);
 
-    if (isMac) {
-        btn.href = BASE + "Pulsewave-Launcher-0.1.7-mac.zip";
-        btn.textContent = "DOWNLOAD FOR MACOS";
-    } else if (isWin) {
-        btn.href = BASE + "Pulsewave-Launcher-0.1.7.exe";
-        btn.textContent = "DOWNLOAD FOR WINDOWS";
-    } else if (isLinux) {
-        btn.href = BASE + "Pulsewave-Launcher-0.1.7.x86_64";
-        btn.textContent = "DOWNLOAD FOR LINUX";
-    } else {
-        // Mobile / unknown — point at GitHub release page so they can pick.
-        btn.href = "https://github.com/Desirekk/pulsewave-releases/releases/latest";
-        btn.textContent = "VIEW ALL DOWNLOADS";
+    function platformLabel() {
+        if (isMac) return "MACOS";
+        if (isWin) return "WINDOWS";
+        if (isLinux) return "LINUX";
+        return "";
     }
+
+    function applyManifest(m) {
+        var lb = m && m.launcher_builds ? m.launcher_builds : null;
+        if (!lb) return false;
+        if (lb.macos) dlMac.href = lb.macos;
+        if (lb.windows) dlWin.href = lb.windows;
+        if (lb.linux) dlLinux.href = lb.linux;
+        if (verEl && m.launcher_version) verEl.textContent = "v" + m.launcher_version;
+        if (isMac && lb.macos) {
+            btn.href = lb.macos;
+            btn.textContent = "DOWNLOAD FOR MACOS";
+        } else if (isWin && lb.windows) {
+            btn.href = lb.windows;
+            btn.textContent = "DOWNLOAD FOR WINDOWS";
+        } else if (isLinux && lb.linux) {
+            btn.href = lb.linux;
+            btn.textContent = "DOWNLOAD FOR LINUX";
+        } else {
+            btn.href = "https://github.com/Desirekk/pulsewave-releases/releases/latest";
+            btn.textContent = "VIEW ALL DOWNLOADS";
+        }
+        return true;
+    }
+
+    function fallbackToReleasesPage() {
+        var pl = platformLabel();
+        btn.href = "https://github.com/Desirekk/pulsewave-releases/releases/latest";
+        btn.textContent = pl ? "DOWNLOAD FOR " + pl : "VIEW ALL DOWNLOADS";
+        dlMac.href = "https://github.com/Desirekk/pulsewave-releases/releases/latest";
+        dlWin.href = "https://github.com/Desirekk/pulsewave-releases/releases/latest";
+        dlLinux.href = "https://github.com/Desirekk/pulsewave-releases/releases/latest";
+    }
+
+    fetch("/manifest.json", { cache: "no-cache" })
+        .then(function (r) {
+            if (!r.ok) throw new Error("manifest http " + r.status);
+            return r.json();
+        })
+        .then(function (m) {
+            if (!applyManifest(m)) fallbackToReleasesPage();
+        })
+        .catch(function () { fallbackToReleasesPage(); });
 })();
 </script>
 </body>
