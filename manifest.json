@@ -6,11 +6,11 @@
     "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-0.1.6-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-0.1.6-linux.zip"
   },
-  "launcher_version": "0.1.6",
-  "launcher_notes": "Manifest now served from pulsewavegame.com (30s cache) instead of GitHub raw (5-min cache), so future updates appear in the launcher within seconds.",
+  "launcher_version": "0.1.7",
+  "launcher_notes": "Fixes the v0.1.5 → v0.1.6 self-update crash on Windows. Defensive checks around file writes, absolute cmd.exe path, retry-loop until file lock is released before swap.",
   "launcher_builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-Launcher-0.1.6-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-Launcher-0.1.6.exe",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-Launcher-0.1.6.x86_64"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-Launcher-0.1.7-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-Launcher-0.1.7.exe",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-Launcher-0.1.7.x86_64"
   }
 }
