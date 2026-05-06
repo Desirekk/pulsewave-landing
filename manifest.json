@@ -1,10 +1,10 @@
 {
-  "version": "0.1.8",
-  "notes": "PLAY tab is now SP/CO-OP + MULTIPLAYER (locked) cards. Difficulty pick actually applies to the bot. EASY=clean arena, NORMAL=current, HARD=more beams, BRUTAL=max chaos. Sidebar polished — bigger animated triangle stage above the nickname, currency rows with accent bars, gradient panel body.",
+  "version": "0.1.9",
+  "notes": "Hotfix + stats: second-match crash fixed (signal double-connect guarded), ESC on home now opens STAY/QUIT confirm modal instead of closing the game, lifetime stats tracked (kills/deaths/K-D/matches/wins/best score), sidebar + account page show live numbers.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.8/Pulsewave-0.1.8-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.8/Pulsewave-0.1.8-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.8/Pulsewave-0.1.8-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.9/Pulsewave-0.1.9-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.9/Pulsewave-0.1.9-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.9/Pulsewave-0.1.9-linux.zip"
   },
   "launcher_version": "0.1.7",
   "launcher_notes": "Hardened self-update flow on Windows. Manifest now served from pulsewavegame.com with 30s cache.",
