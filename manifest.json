@@ -1,10 +1,10 @@
 {
-  "version": "0.1.9",
-  "notes": "Hotfix + stats: second-match crash fixed (signal double-connect guarded), ESC on home now opens STAY/QUIT confirm modal instead of closing the game, lifetime stats tracked (kills/deaths/K-D/matches/wins/best score), sidebar + account page show live numbers.",
+  "version": "0.1.10",
+  "notes": "8 new Suno tracks live: Halcyon Grid + Slow Bloom (chill), Vector + Geometry (combat), Inferno + Drift (pressure), Velocity (flow), Apex (chaos). Conductor now picks a random track per match keyed to the difficulty tier. EASY→chill, NORMAL→combat, HARD→pressure, BRUTAL→chaos. v0.1.11 will rebuild the PLAY page as 5 vibe-cards.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.9/Pulsewave-0.1.9-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.9/Pulsewave-0.1.9-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.9/Pulsewave-0.1.9-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.10/Pulsewave-0.1.10-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.10/Pulsewave-0.1.10-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.10/Pulsewave-0.1.10-linux.zip"
   },
   "launcher_version": "0.1.7",
   "launcher_notes": "Hardened self-update flow on Windows. Manifest now served from pulsewavegame.com with 30s cache.",
