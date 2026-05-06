@@ -1,0 +1,16 @@
+{
+  "version": "0.1.6",
+  "notes": "Hotfix: clicking SETTINGS or ACCOUNT crashed the game (modal panel lookup used wrong API). All other v0.1.5 features intact: main menu, volume/fullscreen/bloom toggle, local nickname, ESC returns to menu, drifting class shapes in menu background.",
+  "builds": {
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-0.1.6-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-0.1.6-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-0.1.6-linux.zip"
+  },
+  "launcher_version": "0.1.5",
+  "launcher_notes": "Self-update support. From now on the launcher updates itself automatically when a newer build is published. News + classes panels fixed. Steam ID display formatting fixed.",
+  "launcher_builds": {
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.5/Pulsewave-Launcher-0.1.5-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.5/Pulsewave-Launcher-0.1.5.exe",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.5/Pulsewave-Launcher-0.1.5.x86_64"
+  }
+}
