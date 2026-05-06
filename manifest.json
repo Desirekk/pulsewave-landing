@@ -1,10 +1,10 @@
 {
-  "version": "0.1.12",
-  "notes": "Dashboard on HOME — Recent Matches panel + Daily Challenge panel + Tonight's Track chip. PULSE economy: +1 per kill, +25 per win, +50-80 daily reward. SURGE: 100 free for alpha. ESC STAY/QUIT modal stable.",
+  "version": "0.1.13",
+  "notes": "Click-anywhere crash fixed (deferred page rebuild). Songs no longer loop — match length = song length, ends with VICTORY/DEFEAT results overlay. ACCOUNT page renamed PROFILE with big animated character showcase, currency chips, level/XP bar.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.12/Pulsewave-0.1.12-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.12/Pulsewave-0.1.12-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.12/Pulsewave-0.1.12-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.13/Pulsewave-0.1.13-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.13/Pulsewave-0.1.13-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.13/Pulsewave-0.1.13-linux.zip"
   },
   "launcher_version": "0.1.7",
   "launcher_notes": "Hardened self-update flow on Windows. Manifest now served from pulsewavegame.com with 30s cache.",
