@@ -1,10 +1,10 @@
 {
-  "version": "0.1.18",
-  "notes": "Hotfix for v0.1.17 black-screen-on-PLAY: _rebuild_crosshair_tex had strict-typing parse errors (clamp/max return Variant, inferred-Variant warning is treated as error). Export still produced binaries but the script failed to load at runtime. All locals now explicitly typed. Click-after-match crash root-cause fix from v0.1.17 + crosshair size slider + AAA top-bar profile all carried forward.",
+  "version": "0.1.19",
+  "notes": "Fullscreen background now fills the whole screen (was hardcoded to 1920x1080 → black gutter on ultrawide). Profile avatar is now the actual in-game ship — chevron triangle, energy ring, glow halo, floor pedestal. time_alive field exists now, so all menu animations actually move (sidebar pulse, currency glyphs, top-bar wave, ship aim sweep).",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.18/Pulsewave-0.1.18-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.18/Pulsewave-0.1.18-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.18/Pulsewave-0.1.18-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.19/Pulsewave-0.1.19-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.19/Pulsewave-0.1.19-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.19/Pulsewave-0.1.19-linux.zip"
   },
   "launcher_version": "0.1.7",
   "launcher_notes": "Hardened self-update flow on Windows. Manifest now served from pulsewavegame.com with 30s cache.",
