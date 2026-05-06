@@ -1,10 +1,10 @@
 {
-  "version": "0.1.17",
-  "notes": "Click-after-match crash root-caused: spawn_bullet/spawn_hit_burst/spawn_death_burst were calling add_child on a freed bullets_root/fx_root during teardown — held LMB during the 1–2 frame window crashed the engine. Now null-guarded + state-gated on player/bot. Crosshair size slider in SETTINGS (0.6x – 2.0x) with live preview tile. HOME panel rebuilt as a real AAA top bar — animated wave background, side glows, level pill + XP bar, animated PULSE/SURGE glyphs, quick-stat chips.",
+  "version": "0.1.18",
+  "notes": "Hotfix for v0.1.17 black-screen-on-PLAY: _rebuild_crosshair_tex had strict-typing parse errors (clamp/max return Variant, inferred-Variant warning is treated as error). Export still produced binaries but the script failed to load at runtime. All locals now explicitly typed. Click-after-match crash root-cause fix from v0.1.17 + crosshair size slider + AAA top-bar profile all carried forward.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.17/Pulsewave-0.1.17-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.17/Pulsewave-0.1.17-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.17/Pulsewave-0.1.17-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.18/Pulsewave-0.1.18-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.18/Pulsewave-0.1.18-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.18/Pulsewave-0.1.18-linux.zip"
   },
   "launcher_version": "0.1.7",
   "launcher_notes": "Hardened self-update flow on Windows. Manifest now served from pulsewavegame.com with 30s cache.",
