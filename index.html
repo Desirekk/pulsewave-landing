@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pulsewave — Closed Alpha</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A 90-second arena shooter that hits like a kick drum. Closed alpha — by invitation.">
+<meta property="og:title" content="Pulsewave">
+<meta property="og:description" content="A music-reactive PvP arena shooter. Closed alpha.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pulsewavegame.com">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpolygon points='32,8 56,52 8,52' fill='%235cf2ff'/%3E%3C/svg%3E">
+<style>
+:root {
+    --cyan: #5cf2ff;
+    --magenta: #ff4dd2;
+    --bg: #06080f;
+    --bg2: #0c1126;
+    --fg: #cfe5ff;
+    --fg-dim: #6a8bb5;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+    background: radial-gradient(ellipse at top, var(--bg2), var(--bg) 60%);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+/* Animated grid backdrop */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(92, 242, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(92, 242, 255, 0.05) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+    z-index: 0;
+    animation: scroll-grid 30s linear infinite;
+}
+@keyframes scroll-grid {
+    from { transform: translateY(0); }
+    to   { transform: translateY(60px); }
+}
+main {
+    position: relative;
+    z-index: 1;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 5rem 2rem 4rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.tag {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--cyan);
+    color: var(--cyan);
+    font-size: 0.75rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    animation: pulse 2.4s ease-in-out infinite;
+}
+@keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(92, 242, 255, 0); }
+    50%      { box-shadow: 0 0 24px 0 rgba(92, 242, 255, 0.45); }
+}
+h1 {
+    font-size: clamp(3rem, 9vw, 7rem);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    margin-bottom: 1rem;
+    background: linear-gradient(180deg, #fff 0%, var(--cyan) 70%, var(--magenta) 130%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 40px rgba(92, 242, 255, 0.3);
+}
+.tagline {
+    font-size: clamp(1rem, 2vw, 1.4rem);
+    color: var(--fg-dim);
+    max-width: 36rem;
+    margin: 0 auto 0.5rem;
+}
+.download {
+    text-align: center;
+    margin: 3rem 0;
+}
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 22rem;
+    padding: 1.4rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--bg);
+    background: var(--cyan);
+    border: none;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+    box-shadow: 0 0 0 0 rgba(92, 242, 255, 0.6);
+}
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 32px 0 rgba(92, 242, 255, 0.5);
+}
+.btn-primary:active {
+    transform: translateY(0);
+}
+.alts {
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--fg-dim);
+}
+.alts a {
+    color: var(--fg);
+    text-decoration: none;
+    margin: 0 0.6rem;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s;
+}
+.alts a:hover { border-bottom-color: var(--cyan); }
+.steps {
+    margin: 4rem auto 0;
+    max-width: 44rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 1.5rem;
+}
+.step {
+    border: 1px solid rgba(92, 242, 255, 0.15);
+    background: rgba(12, 17, 38, 0.5);
+    padding: 1.2rem 1.4rem;
+}
+.step-num {
+    color: var(--cyan);
+    font-size: 0.75rem;
+    letter-spacing: 0.3em;
+    margin-bottom: 0.4rem;
+}
+.step-text {
+    font-size: 0.92rem;
+    color: var(--fg);
+}
+.notice {
+    margin-top: 2rem;
+    padding: 1rem 1.4rem;
+    border-left: 2px solid var(--magenta);
+    background: rgba(255, 77, 210, 0.05);
+    font-size: 0.88rem;
+    color: var(--fg-dim);
+}
+.notice strong { color: var(--fg); }
+footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(92, 242, 255, 0.1);
+    font-size: 0.8rem;
+    color: var(--fg-dim);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+footer a { color: var(--fg-dim); text-decoration: none; }
+footer a:hover { color: var(--cyan); }
+</style>
+</head>
+<body>
+<main>
+    <header>
+        <div class="tag">Closed Alpha · By Invitation</div>
+        <h1>Pulsewave</h1>
+        <p class="tagline">A 90-second arena shooter that hits like a kick drum.</p>
+        <p class="tagline" style="font-size: 0.9rem; opacity: 0.7;">Music-reactive geometry. Every shape is a class. Every match ends with the drop.</p>
+    </header>
+
+    <div class="download">
+        <a id="primary-btn" class="btn-primary" href="#">DETECTING PLATFORM…</a>
+        <div class="alts">
+            <span>Or download for:</span>
+            <a id="dl-mac" href="https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.2/Pulsewave-Launcher-0.1.2-mac.zip">macOS</a>·
+            <a id="dl-win" href="https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.2/Pulsewave-Launcher-0.1.2-win.zip">Windows</a>·
+            <a id="dl-linux" href="https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.2/Pulsewave-Launcher-0.1.2-linux.zip">Linux</a>
+        </div>
+    </div>
+
+    <div class="steps">
+        <div class="step">
+            <div class="step-num">01</div>
+            <div class="step-text">Download and run the launcher.</div>
+        </div>
+        <div class="step">
+            <div class="step-num">02</div>
+            <div class="step-text">Sign in with your Steam account in the browser.</div>
+        </div>
+        <div class="step">
+            <div class="step-num">03</div>
+            <div class="step-text">Launcher pulls the latest build automatically.</div>
+        </div>
+        <div class="step">
+            <div class="step-num">04</div>
+            <div class="step-text">Hit play. Builds drop weekly.</div>
+        </div>
+    </div>
+
+    <div class="notice">
+        <strong>macOS:</strong> First run, right-click the app → <em>Open</em> to get past Gatekeeper (the launcher isn't signed yet during alpha). <br>
+        <strong>Windows:</strong> SmartScreen may flag the unsigned exe — click <em>More info</em> → <em>Run anyway</em>.<br>
+        <strong>Linux:</strong> Make the file executable: <code>chmod +x Pulsewave-Launcher.x86_64</code> &nbsp;then double-click or run from terminal.
+    </div>
+</main>
+
+<footer>
+    Pulsewave · Grindare Studio Limited · 2026 ·
+    <a href="mailto:patrykmajecki30@gmail.com">Contact</a>
+</footer>
+
+<script>
+(function () {
+    var ua = navigator.userAgent.toLowerCase();
+    var p = navigator.platform.toLowerCase();
+
+    var BASE = "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.2/";
+    var btn = document.getElementById("primary-btn");
+
+    var isMac   = /mac|iphone|ipad|ipod/.test(p) || /mac os/.test(ua);
+    var isWin   = /win/.test(p) || /windows/.test(ua);
+    var isLinux = /linux/.test(p) && !/android/.test(ua);
+
+    if (isMac) {
+        btn.href = BASE + "Pulsewave-Launcher-0.1.2-mac.zip";
+        btn.textContent = "DOWNLOAD FOR MACOS";
+    } else if (isWin) {
+        btn.href = BASE + "Pulsewave-Launcher-0.1.2-win.zip";
+        btn.textContent = "DOWNLOAD FOR WINDOWS";
+    } else if (isLinux) {
+        btn.href = BASE + "Pulsewave-Launcher-0.1.2-linux.zip";
+        btn.textContent = "DOWNLOAD FOR LINUX";
+    } else {
+        // Mobile / unknown — point at GitHub release page so they can pick.
+        btn.href = "https://github.com/Desirekk/pulsewave-releases/releases/latest";
+        btn.textContent = "VIEW ALL DOWNLOADS";
+    }
+})();
+</script>
+</body>
+</html>
