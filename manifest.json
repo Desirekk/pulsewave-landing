@@ -1,10 +1,10 @@
 {
-  "version": "0.1.19",
-  "notes": "Fullscreen background now fills the whole screen (was hardcoded to 1920x1080 → black gutter on ultrawide). Profile avatar is now the actual in-game ship — chevron triangle, energy ring, glow halo, floor pedestal. time_alive field exists now, so all menu animations actually move (sidebar pulse, currency glyphs, top-bar wave, ship aim sweep).",
+  "version": "0.2.0",
+  "notes": "Major content drop: SKILL TREE. 5 archetype branches × 8 nodes — Vanguard (tank), Skirmisher (dash), Carrier (drones), Spectre (crit), Prism (beam). 1 SP per match + 3 per win. Allocate in the new SKILL TREE menu tab; respec 25 SURGE flat. Visual mutators stack — ship grows halos, satellites, layered chevrons, hex casing, spike decals. Hitbox locked regardless of visuals. Also: second-match double-bot leak fixed (player+bot were never queue_freed during _clear_world).",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.19/Pulsewave-0.1.19-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.19/Pulsewave-0.1.19-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.19/Pulsewave-0.1.19-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.0/Pulsewave-0.2.0-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.0/Pulsewave-0.2.0-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.0/Pulsewave-0.2.0-linux.zip"
   },
   "launcher_version": "0.1.7",
   "launcher_notes": "Hardened self-update flow on Windows. Manifest now served from pulsewavegame.com with 30s cache.",
