@@ -1,10 +1,10 @@
 {
-  "version": "0.2.5",
-  "notes": "TUNNEL mode added. Side-scrolling tunnel — fly rightward at locked velocity, dodge wall-gaps + spike rows + drifting mines + narrow gates while trading fire with the bot. ARENA / TUNNEL picker on the PLAY page. Bonus: kill XP now counts on forfeit (only win bonus is gated), ESC during results overlay credits normally like CONTINUE, XP rates buffed (22 per kill, 90 win bonus, 400 match cap), + XP tile shown on the results screen.",
+  "version": "0.2.6",
+  "notes": "Tunnel polish: respawn at the camera (no more 7000-px-behind), tunnel 44% taller (920 px), forward 280 px/s + camera lookahead 320, denser obstacles, 3 new kinds (diagonal_beam, moving_mine, bullet_curtain). XP spread per difficulty widened (EASY 0.5x → BRUTAL 3.5x).",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.5/Pulsewave-0.2.5-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.5/Pulsewave-0.2.5-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.5/Pulsewave-0.2.5-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.6/Pulsewave-0.2.6-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.6/Pulsewave-0.2.6-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.6/Pulsewave-0.2.6-linux.zip"
   },
   "launcher_version": "0.1.10",
   "launcher_notes": "Always-visible safety-net footer link to pulsewavegame.com so users have a one-click escape hatch if self-update ever breaks. Reliable Windows self-update (copy+del, Defender-friendly) carried forward from v0.1.9 with verbose log at %TEMP%\\pulsewave_launcher_update.log.",
