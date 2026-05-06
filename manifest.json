@@ -6,11 +6,11 @@
     "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-0.1.6-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-0.1.6-linux.zip"
   },
-  "launcher_version": "0.1.5",
-  "launcher_notes": "Self-update support. From now on the launcher updates itself automatically when a newer build is published. News + classes panels fixed. Steam ID display formatting fixed.",
+  "launcher_version": "0.1.6",
+  "launcher_notes": "Manifest now served from pulsewavegame.com (30s cache) instead of GitHub raw (5-min cache), so future updates appear in the launcher within seconds.",
   "launcher_builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.5/Pulsewave-Launcher-0.1.5-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.5/Pulsewave-Launcher-0.1.5.exe",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.5/Pulsewave-Launcher-0.1.5.x86_64"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-Launcher-0.1.6-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-Launcher-0.1.6.exe",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-Launcher-0.1.6.x86_64"
   }
 }
