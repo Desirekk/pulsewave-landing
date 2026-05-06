@@ -1,10 +1,10 @@
 {
-  "version": "0.1.13",
-  "notes": "Click-anywhere crash fixed (deferred page rebuild). Songs no longer loop — match length = song length, ends with VICTORY/DEFEAT results overlay. ACCOUNT page renamed PROFILE with big animated character showcase, currency chips, level/XP bar.",
+  "version": "0.1.14",
+  "notes": "Post-match click crash fixed (signal handlers null-guarded). Match timer progress bar added to HUD — current time / countdown / quarter ticks. HOME page now opens with a big profile snippet card: avatar, nickname, level, XP, PULSE, SURGE, kills/wins/matches.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.13/Pulsewave-0.1.13-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.13/Pulsewave-0.1.13-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.13/Pulsewave-0.1.13-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.14/Pulsewave-0.1.14-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.14/Pulsewave-0.1.14-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.14/Pulsewave-0.1.14-linux.zip"
   },
   "launcher_version": "0.1.7",
   "launcher_notes": "Hardened self-update flow on Windows. Manifest now served from pulsewavegame.com with 30s cache.",
