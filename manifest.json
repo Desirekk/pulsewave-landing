@@ -1,10 +1,10 @@
 {
-  "version": "0.1.15",
-  "notes": "Profile snippet on HOME rebuilt with native widgets (was invisible on Windows due to inline draw script). Post-match click crash hardened further — Conductor disconnects finished signal on stop_song so no stale callback fires after returning to menu.",
+  "version": "0.1.16",
+  "notes": "ESC mid-match now counts as DEFEAT — no win bonus, no daily progress, no results overlay (you opted out, no rewards). Post-match click crash hardened with same-frame state flip + deferred overlay free. Mouse cursor switches to a neon cyan crosshair while a match is live (the OS cursor was washed out on the dark grid).",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.15/Pulsewave-0.1.15-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.15/Pulsewave-0.1.15-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.15/Pulsewave-0.1.15-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.16/Pulsewave-0.1.16-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.16/Pulsewave-0.1.16-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.16/Pulsewave-0.1.16-linux.zip"
   },
   "launcher_version": "0.1.7",
   "launcher_notes": "Hardened self-update flow on Windows. Manifest now served from pulsewavegame.com with 30s cache.",
