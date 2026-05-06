@@ -1,10 +1,10 @@
 {
-  "version": "0.2.1",
-  "notes": "Bottom nav HOME tab fixed (collapsed to ~12px on 5-tab layout). XP-based leveling replaces SP-per-match: kills give XP, wins give a difficulty-scaled bonus, per-match cap blocks runaway grinding, each level grants 1 SP. SKILLS page shows HOW TO EARN SP banner with live level + XP bar + unspent SP.",
+  "version": "0.2.2",
+  "notes": "Skill tree expanded to 91 nodes in a POE2-style radial web. Center root, 5 sector spokes, each with 9 travels + 8 notables + 1 keystone. New keystones: FORTRESS, BERSERKER, SWARMLORD, RESONANCE CASCADE, SHADOW STRIKE. Drag to pan, scroll to zoom, hover for tooltip. Allocation requires path-from-root via connections (POE-style).",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.1/Pulsewave-0.2.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.1/Pulsewave-0.2.1-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.1/Pulsewave-0.2.1-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.2/Pulsewave-0.2.2-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.2/Pulsewave-0.2.2-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.2/Pulsewave-0.2.2-linux.zip"
   },
   "launcher_version": "0.1.7",
   "launcher_notes": "Hardened self-update flow on Windows. Manifest now served from pulsewavegame.com with 30s cache.",
