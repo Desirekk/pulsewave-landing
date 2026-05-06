@@ -1,10 +1,10 @@
 {
-  "version": "0.1.14",
-  "notes": "Post-match click crash fixed (signal handlers null-guarded). Match timer progress bar added to HUD — current time / countdown / quarter ticks. HOME page now opens with a big profile snippet card: avatar, nickname, level, XP, PULSE, SURGE, kills/wins/matches.",
+  "version": "0.1.15",
+  "notes": "Profile snippet on HOME rebuilt with native widgets (was invisible on Windows due to inline draw script). Post-match click crash hardened further — Conductor disconnects finished signal on stop_song so no stale callback fires after returning to menu.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.14/Pulsewave-0.1.14-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.14/Pulsewave-0.1.14-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.14/Pulsewave-0.1.14-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.15/Pulsewave-0.1.15-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.15/Pulsewave-0.1.15-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.15/Pulsewave-0.1.15-linux.zip"
   },
   "launcher_version": "0.1.7",
   "launcher_notes": "Hardened self-update flow on Windows. Manifest now served from pulsewavegame.com with 30s cache.",
