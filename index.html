@@ -193,9 +193,9 @@ footer a:hover { color: var(--cyan); }
         <a id="primary-btn" class="btn-primary" href="#">DETECTING PLATFORM…</a>
         <div class="alts">
             <span>Or download for:</span>
-            <a id="dl-mac" href="https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.5/Pulsewave-Launcher-0.1.5-mac.zip">macOS</a>·
-            <a id="dl-win" href="https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.5/Pulsewave-Launcher-0.1.5.exe">Windows</a>·
-            <a id="dl-linux" href="https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.5/Pulsewave-Launcher-0.1.5.x86_64">Linux</a>
+            <a id="dl-mac" href="https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-Launcher-0.1.6-mac.zip">macOS</a>·
+            <a id="dl-win" href="https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-Launcher-0.1.6.exe">Windows</a>·
+            <a id="dl-linux" href="https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-Launcher-0.1.6.x86_64">Linux</a>
         </div>
     </div>
 
@@ -221,7 +221,7 @@ footer a:hover { color: var(--cyan); }
     <div class="notice">
         <strong>macOS:</strong> Unzip, then right-click the app → <em>Open</em> to get past Gatekeeper (the launcher isn't signed yet during alpha).<br>
         <strong>Windows:</strong> Single .exe — just run it. SmartScreen may flag the unsigned exe → click <em>More info</em> → <em>Run anyway</em>.<br>
-        <strong>Linux:</strong> Single binary — make it executable first: <code>chmod +x Pulsewave-Launcher-0.1.5.x86_64</code>, then double-click or run from terminal.
+        <strong>Linux:</strong> Single binary — make it executable first: <code>chmod +x Pulsewave-Launcher-0.1.6.x86_64</code>, then double-click or run from terminal.
     </div>
 </main>
 
@@ -235,7 +235,7 @@ footer a:hover { color: var(--cyan); }
     var ua = navigator.userAgent.toLowerCase();
     var p = navigator.platform.toLowerCase();
 
-    var BASE = "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.5/";
+    var BASE = "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/";
     var btn = document.getElementById("primary-btn");
 
     var isMac   = /mac|iphone|ipad|ipod/.test(p) || /mac os/.test(ua);
@@ -243,13 +243,13 @@ footer a:hover { color: var(--cyan); }
     var isLinux = /linux/.test(p) && !/android/.test(ua);
 
     if (isMac) {
-        btn.href = BASE + "Pulsewave-Launcher-0.1.5-mac.zip";
+        btn.href = BASE + "Pulsewave-Launcher-0.1.6-mac.zip";
         btn.textContent = "DOWNLOAD FOR MACOS";
     } else if (isWin) {
-        btn.href = BASE + "Pulsewave-Launcher-0.1.5.exe";
+        btn.href = BASE + "Pulsewave-Launcher-0.1.6.exe";
         btn.textContent = "DOWNLOAD FOR WINDOWS";
     } else if (isLinux) {
-        btn.href = BASE + "Pulsewave-Launcher-0.1.5.x86_64";
+        btn.href = BASE + "Pulsewave-Launcher-0.1.6.x86_64";
         btn.textContent = "DOWNLOAD FOR LINUX";
     } else {
         // Mobile / unknown — point at GitHub release page so they can pick.
