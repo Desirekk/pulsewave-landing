@@ -1,13 +1,13 @@
 {
-  "version": "0.1.6",
-  "notes": "Hotfix: clicking SETTINGS or ACCOUNT crashed the game (modal panel lookup used wrong API). All other v0.1.5 features intact: main menu, volume/fullscreen/bloom toggle, local nickname, ESC returns to menu, drifting class shapes in menu background.",
+  "version": "0.1.7",
+  "notes": "Hub-style menu redesign: profile sidebar on the left (avatar, level, XP, Pulse, Surge), bottom navigation tabs (HOME · PLAY · SETTINGS · ACCOUNT), animated character showcase on HOME with shooting + dashing demo, ambient music loop on the menu, inline pages instead of modals.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-0.1.6-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-0.1.6-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.6/Pulsewave-0.1.6-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-0.1.7-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-0.1.7-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-0.1.7-linux.zip"
   },
   "launcher_version": "0.1.7",
-  "launcher_notes": "Fixes the v0.1.5 → v0.1.6 self-update crash on Windows. Defensive checks around file writes, absolute cmd.exe path, retry-loop until file lock is released before swap.",
+  "launcher_notes": "Hardened self-update flow on Windows (defensive file checks, absolute cmd.exe path, retry-loop until file unlocked). Manifest now served from pulsewavegame.com with 30s cache.",
   "launcher_builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-Launcher-0.1.7-mac.zip",
     "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-Launcher-0.1.7.exe",
