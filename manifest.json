@@ -1,16 +1,16 @@
 {
-  "version": "0.2.2",
-  "notes": "Skill tree expanded to 91 nodes in a POE2-style radial web. Center root, 5 sector spokes, each with 9 travels + 8 notables + 1 keystone. New keystones: FORTRESS, BERSERKER, SWARMLORD, RESONANCE CASCADE, SHADOW STRIKE. Drag to pan, scroll to zoom, hover for tooltip. Allocation requires path-from-root via connections (POE-style).",
+  "version": "0.2.3",
+  "notes": "Grindare Studio intro replaces the Godot boot logo (geometric neon, 'WHERE GRIND NEVER ENDS' tagline, click-to-skip). Profile sidebar avatar now uses the same chevron ship as the skill tree + in-match player so all three match. Launcher 0.1.8 shows LAUNCHING / GAME STARTING status before quitting so first-press doesn't look like a freeze.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.2/Pulsewave-0.2.2-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.2/Pulsewave-0.2.2-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.2/Pulsewave-0.2.2-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.3/Pulsewave-0.2.3-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.3/Pulsewave-0.2.3-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.2.3/Pulsewave-0.2.3-linux.zip"
   },
-  "launcher_version": "0.1.7",
-  "launcher_notes": "Hardened self-update flow on Windows. Manifest now served from pulsewavegame.com with 30s cache.",
+  "launcher_version": "0.1.8",
+  "launcher_notes": "Shows LAUNCHING / GAME STARTING status before quitting so first-press doesn't look like a 1-3s freeze on Windows cold-start.",
   "launcher_builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-Launcher-0.1.7-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-Launcher-0.1.7.exe",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.7/Pulsewave-Launcher-0.1.7.x86_64"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.8/Pulsewave-Launcher-0.1.8-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.8/Pulsewave-Launcher-0.1.8.exe",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.8/Pulsewave-Launcher-0.1.8.x86_64"
   }
 }
