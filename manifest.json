@@ -1,10 +1,10 @@
 {
-  "version": "0.1.10",
-  "notes": "8 new Suno tracks live: Halcyon Grid + Slow Bloom (chill), Vector + Geometry (combat), Inferno + Drift (pressure), Velocity (flow), Apex (chaos). Conductor now picks a random track per match keyed to the difficulty tier. EASY→chill, NORMAL→combat, HARD→pressure, BRUTAL→chaos. v0.1.11 will rebuild the PLAY page as 5 vibe-cards.",
+  "version": "0.1.11",
+  "notes": "Hotfix: ESC → STAY in the quit-confirm modal crashed the game (custom-script Control freed mid-event-handling). Replaced with native Button + deferred queue_free + process_mode disable on the modal root.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.10/Pulsewave-0.1.10-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.10/Pulsewave-0.1.10-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.10/Pulsewave-0.1.10-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.11/Pulsewave-0.1.11-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.11/Pulsewave-0.1.11-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.11/Pulsewave-0.1.11-linux.zip"
   },
   "launcher_version": "0.1.7",
   "launcher_notes": "Hardened self-update flow on Windows. Manifest now served from pulsewavegame.com with 30s cache.",
