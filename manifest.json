@@ -1,10 +1,10 @@
 {
-  "version": "0.4.6",
-  "notes": "Calmer floor + difficulty-scaled visual chaos. Floor waveform: rows 11→6, amp 36→24, scroll slower, less eye-strain. Every arena visual now scales with difficulty: Easy (0.5×) is clean — 4 rows, no bass shockwaves, half phrase lasers, pulse rings every 4 bars. Normal (1.0×) baseline. Hard (1.4×) +50% density. Brutal (1.8×) full chaos — 10 rows, fast scroll, max trap density, bigger shockwaves. Pick your difficulty to pick your visual intensity.",
+  "version": "0.4.7",
+  "notes": "STATS + QUESTS pages, CAPTURE orb time, match-timer freeze. Two new menu buttons in the bottom nav: STATS (lifetime tracking + recent 10 matches), QUESTS (daily challenge + Steam achievements coming-soon card). HOME stripped to just the showcase. CAPTURE results tile now shows ORB TIME (mm:ss) instead of DEATHS so you see how long you held the pulse. Match timer no longer keeps counting through the results overlay fade-out. Sidebar no longer duplicates the version+alpha line (top-left brand chip already has it).",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.6/Pulsewave-0.4.6-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.6/Pulsewave-0.4.6-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.6/Pulsewave-0.4.6-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.7/Pulsewave-0.4.7-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.7/Pulsewave-0.4.7-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.7/Pulsewave-0.4.7-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
