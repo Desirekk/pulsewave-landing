@@ -271,7 +271,8 @@ footer a:hover { color: var(--cyan); }
         if (lb.macos) dlMac.href = lb.macos;
         if (lb.windows) dlWin.href = lb.windows;
         if (lb.linux) dlLinux.href = lb.linux;
-        if (verEl && m.launcher_version) verEl.textContent = "v" + m.launcher_version;
+        var displayVer = m.launcher_display_version || m.launcher_version;
+        if (verEl && displayVer) verEl.textContent = "v" + displayVer;
         if (isMac && lb.macos) {
             btn.href = lb.macos;
             btn.textContent = "DOWNLOAD FOR MACOS";
