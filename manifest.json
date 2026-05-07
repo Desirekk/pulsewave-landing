@@ -1,10 +1,10 @@
 {
-  "version": "0.4.4",
-  "notes": "Tighter music sync + spectrum floor + match-end fade. Floor waves act as a spectrum analyzer — top rows ride bass+kick, mid rows ride RMS+snare, bottom rows ride hat+snare; amplitude grows with loudness, scrolls faster on faster tracks, lights brighter when each band is active. Pulse decays tightened so beats don't smear at high BPM. Audio offset shifted to -55ms so visuals lead the audio pipeline lag — events now land on the same frame as the kick. Music fades out 1.2s when match ends instead of getting chopped mid-bar.",
+  "version": "0.4.5",
+  "notes": "Deep music scan + dramatic floor. Analyzer adds bass_hits (sub-30Hz onsets), tempo_curve (local BPM every 4s), and micro_silences (50-400ms RMS dips before drops). Floor amplitude doubled — base 18→36 px, peak 95 px, scrolls faster on louder sections, 11 rows. Walls swap every 4 downbeats (was 8) so geometry visibly shifts every ~7s. Bass hits punch a centered shockwave + shake. Micro silences dim the arena for the inhale. Pulse decay tightened (kick 5.5→12, hat 11→14, snare 3→4.5) so high-BPM tracks don't smear. All 16 tracks re-analyzed.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.4/Pulsewave-0.4.4-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.4/Pulsewave-0.4.4-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.4/Pulsewave-0.4.4-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.5/Pulsewave-0.4.5-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.5/Pulsewave-0.4.5-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.5/Pulsewave-0.4.5-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
