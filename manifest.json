@@ -1,16 +1,18 @@
 {
-  "version": "0.3.0",
-  "notes": "TUNNEL removed; replaced with three competitive modes: CAPTURE THE PULSE (hold orb 1pt/sec, drops on damage, first to 30 wins), PAINT WAR (each kill paints a splotch on the floor, more area at song end wins), SHRINKING ZONE (battle-royale ring drifts + shrinks, 7 dps outside, kills decide). 4 modes total on PLAY (ARENA / CAPTURE / PAINT / ZONE). Per-mode HUD score and win condition.",
+  "version": "0.3.1",
+  "notes": "Audio split into a one-time asset pack — game updates are now ~30 MB (Win) / 30 MB (Linux) / 66 MB (Mac) instead of 96 MB every time. ZONE mode removed. CAPTURE: bot races for the orb, drop-on-damage drops at arena center (not hit position), first to 30 ends the match. LV/XP now show correctly in HOME top bar + sidebar. PULSE/SURGE in their own CURRENCIES section with hover tooltips.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.0/Pulsewave-0.3.0-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.0/Pulsewave-0.3.0-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.0/Pulsewave-0.3.0-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.1/Pulsewave-0.3.1-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.1/Pulsewave-0.3.1-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.1/Pulsewave-0.3.1-linux.zip"
   },
-  "launcher_version": "0.1.10",
-  "launcher_notes": "Always-visible safety-net footer link to pulsewavegame.com so users have a one-click escape hatch if self-update ever breaks. Reliable Windows self-update (copy+del, Defender-friendly) carried forward from v0.1.9 with verbose log at %TEMP%\\pulsewave_launcher_update.log.",
+  "assets_version": "1.0",
+  "assets_url": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.1/Pulsewave-Assets-1.0.zip",
+  "launcher_version": "0.1.11",
+  "launcher_notes": "Asset pack support — audio downloads once (65 MB), small ~30 MB game patches thereafter. Defensive cleanup of stale tmp files on every startup so failed earlier updates don't leak.",
   "launcher_builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.10/Pulsewave-Launcher-0.1.10-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.10/Pulsewave-Launcher-0.1.10.exe",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.10/Pulsewave-Launcher-0.1.10.x86_64"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.11/Pulsewave-Launcher-0.1.11-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.11/Pulsewave-Launcher-0.1.11.exe",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.11/Pulsewave-Launcher-0.1.11.x86_64"
   }
 }
