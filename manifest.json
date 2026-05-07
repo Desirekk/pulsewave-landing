@@ -1,10 +1,10 @@
 {
-  "version": "0.4.5",
-  "notes": "Deep music scan + dramatic floor. Analyzer adds bass_hits (sub-30Hz onsets), tempo_curve (local BPM every 4s), and micro_silences (50-400ms RMS dips before drops). Floor amplitude doubled — base 18→36 px, peak 95 px, scrolls faster on louder sections, 11 rows. Walls swap every 4 downbeats (was 8) so geometry visibly shifts every ~7s. Bass hits punch a centered shockwave + shake. Micro silences dim the arena for the inhale. Pulse decay tightened (kick 5.5→12, hat 11→14, snare 3→4.5) so high-BPM tracks don't smear. All 16 tracks re-analyzed.",
+  "version": "0.4.6",
+  "notes": "Calmer floor + difficulty-scaled visual chaos. Floor waveform: rows 11→6, amp 36→24, scroll slower, less eye-strain. Every arena visual now scales with difficulty: Easy (0.5×) is clean — 4 rows, no bass shockwaves, half phrase lasers, pulse rings every 4 bars. Normal (1.0×) baseline. Hard (1.4×) +50% density. Brutal (1.8×) full chaos — 10 rows, fast scroll, max trap density, bigger shockwaves. Pick your difficulty to pick your visual intensity.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.5/Pulsewave-0.4.5-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.5/Pulsewave-0.4.5-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.5/Pulsewave-0.4.5-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.6/Pulsewave-0.4.6-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.6/Pulsewave-0.4.6-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.6/Pulsewave-0.4.6-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
