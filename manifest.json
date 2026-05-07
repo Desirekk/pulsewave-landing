@@ -1,18 +1,16 @@
 {
-  "version": "0.3.1",
-  "notes": "Audio split into a one-time asset pack — game updates are now ~30 MB (Win) / 30 MB (Linux) / 66 MB (Mac) instead of 96 MB every time. ZONE mode removed. CAPTURE: bot races for the orb, drop-on-damage drops at arena center (not hit position), first to 30 ends the match. LV/XP now show correctly in HOME top bar + sidebar. PULSE/SURGE in their own CURRENCIES section with hover tooltips.",
+  "version": "0.3.2",
+  "notes": "Audio bundled back into the main game .pck — fixes the silent-game regression from v0.3.1. Asset pack architecture abandoned: updates are larger (~90 MB) but reliable. No more manual workarounds, no more 'where did my music go'. Same game features as 0.3.1 — three modes (ARENA / CAPTURE THE PULSE / PAINT WAR), bot races for the orb in CAPTURE, first-to-30 ends the match, LV/XP shown in top bar + sidebar, PULSE/SURGE in CURRENCIES section with tooltips.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.1/Pulsewave-0.3.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.1/Pulsewave-0.3.1-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.1/Pulsewave-0.3.1-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.2/Pulsewave-0.3.2-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.2/Pulsewave-0.3.2-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.2/Pulsewave-0.3.2-linux.zip"
   },
-  "assets_version": "1.0",
-  "assets_url": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.1/Pulsewave-Assets-1.0.zip",
-  "launcher_version": "0.1.11",
-  "launcher_notes": "Asset pack support — audio downloads once (65 MB), small ~30 MB game patches thereafter. Defensive cleanup of stale tmp files on every startup so failed earlier updates don't leak.",
+  "launcher_version": "0.1.12",
+  "launcher_notes": "Rename-first self-update — fixes the infinite-update loop on Windows (Defender was blocking the old del+copy flow, and the bat retry counter never incremented). Failed swaps now auto-restore from backup. CLASSES roster panel removed from left side.",
   "launcher_builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.11/Pulsewave-Launcher-0.1.11-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.11/Pulsewave-Launcher-0.1.11.exe",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.11/Pulsewave-Launcher-0.1.11.x86_64"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/launcher-v0.1.12/Pulsewave-Launcher-0.1.12-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/launcher-v0.1.12/Pulsewave-Launcher-0.1.12.exe",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/launcher-v0.1.12/Pulsewave-Launcher-0.1.12.x86_64"
   }
 }
