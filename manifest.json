@@ -1,10 +1,10 @@
 {
-  "version": "0.5.4",
-  "notes": "Boss Rush escalation. FIXED: boss bullets vanished at half-range — lifetime extended from 1.6s to 5-6s so shots fly to the arena walls. NEW per-layer attack unlocks (all difficulties): L1 outer broken → HOMING MISSILES (3-6 tracking projectiles per volley, every 5.5s Easy / 1.8s Brutal), L2 middle broken → AOE BOMBS (lobbed explosives, 200px radius, 1-3 per volley), core phase → ROTATING LASER SWEEP (continuous beam, 80 DPS on contact). Stacks with the v0.5.3 patterns — by core phase EVERYTHING fires at once. Even Easy now requires real dodging from layer 1 onward — no more turtling in a corner.",
+  "version": "0.5.5",
+  "notes": "Boss Key persistence fix. Bug: fresh installs got 0 keys instead of the 10 starter grant because the sentinel was checked against the wrong default. Fixed: var defaults to -1 (sentinel for 'never persisted yet'), starter grant fires once on first launch and saves immediately, subsequent launches read the real saved value. 10 starter keys, then must buy more in SHOP at 50 PULSE each (or earn from Boss Rush victories: S=+3, A=+2, B=+1). All stats currently saved LOCALLY — server-side stat sync is on the roadmap before public launch.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.4/Pulsewave-0.5.4-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.4/Pulsewave-0.5.4-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.4/Pulsewave-0.5.4-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.5/Pulsewave-0.5.5-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.5/Pulsewave-0.5.5-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.5/Pulsewave-0.5.5-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
