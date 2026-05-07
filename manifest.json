@@ -1,10 +1,10 @@
 {
-  "version": "0.5.2",
-  "notes": "Boss Rush v3. CRITICAL FIXES: touch damage no longer 1-shot kill (added 0.6s i-frame after touch tick — was 36 dps × 60fps), bullets no longer tunnel through non-active segments (must aim at the active wall), minions no longer leak into next match. REMOVED: confusing rhythm/sync system (Perfect/Good/Miss + Rhythm Shield gone). NEW: time-based rank (S < 1:30, A < 2:10, B < 2:50, C < 3:40, D slower). NEW: SHOP page with Boss Keys (50 Pulse each, 1 per attempt), 10 starter keys, S-rank pays 200 Pulse + 3 keys back. NEW: continuous boss bullet patterns escalating per difficulty — aimed spray + radial burst + spiral (Hard/Brutal). Boss got wing-like spike-plate appendages + tracking eye in core phase. Minions ROAM the whole map now (not orbiting), burst-fire at player. Arena bigger (2800×1700). Touch damage base raised 14→22.",
+  "version": "0.5.3",
+  "notes": "Boss Rush v4. CHANGED: death = match end (no respawn). Attack cadences cranked across all difficulties — Normal aimed spray every 1.6s (was 3.0s), radial burst every 3.0s (was 6.0s), spiral active on all difficulties (was Hard+). Volleys bigger: 4-10 bullets per spray, 14-29 per radial ring (random rotation). NEW: 0.45s pre-attack telegraphs — fan of red beams before aimed spray, collapsing pulsing ring before radial burst, charging cross-hatch in center. Screen flash + shake on every volley. Boss bullets are 2-2.4× bigger and color-coded per pattern (red/amber/magenta).",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.2/Pulsewave-0.5.2-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.2/Pulsewave-0.5.2-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.2/Pulsewave-0.5.2-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.3/Pulsewave-0.5.3-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.3/Pulsewave-0.5.3-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.3/Pulsewave-0.5.3-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
