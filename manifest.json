@@ -1,10 +1,10 @@
 {
-  "version": "0.4.8",
-  "notes": "Practice subpage, hub redesign, news banner. PLAY now has 3 sub-tabs: PRACTICE (pick mode + diff vs bots, NO rewards — pure training, deaths/kills/wins don't bank), SINGLE PLAYER (soon), MULTIPLAYER (soon). HOME shows a 'welcome to closed alpha' news banner with a Discord invite button. Hub bottom nav slimmed to 4 (HOME/PLAY/SKILLS/SETTINGS); STATS + QUESTS moved to sidebar. Sidebar dropped K-D/wins block, only currency cards remain (PULSE/SURGE with icons). Music carousel cards now show embedded MP3 cover art on top.",
+  "version": "0.4.9",
+  "notes": "UI polish round. PLAY: MP/SP soon-pages stripped to 'Coming soon.', BACK button is now chunky and obvious, Practice dropped the placeholder MP card, clicking PLAY in nav while in Practice now resets to mode-pick hub. PULSE icon fixed (was invisible — self-intersecting polygon). STATS rewritten with 6 lifetime tiles (added LEVEL / WIN RATE / STREAK) and proper match cards (verdict strip, mode + difficulty chips, K/D block, relative time) in a scrollable list. QUESTS rewritten with DAILY / ACHIEVEMENTS pill tabs — Daily card has reward chip + gradient progress bar; Achievements grid previews 6 locked categories. Sidebar profile redesigned: cut chevron corner, animated scanlines, perspective rays + scan beam on showcase, rotating orbit ring around avatar, chevron rank badge, gradient XP fill, LIVE pulsing pill.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.8/Pulsewave-0.4.8-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.8/Pulsewave-0.4.8-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.8/Pulsewave-0.4.8-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.9/Pulsewave-0.4.9-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.9/Pulsewave-0.4.9-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.4.9/Pulsewave-0.4.9-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
