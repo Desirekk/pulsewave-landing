@@ -1,10 +1,10 @@
 {
-  "version": "0.7.1",
-  "notes": "Boss Rush UI hotfix. Global leaderboard panel now actually renders the top 10 (was silently failing on a missing helper). THE CORE description no longer shows the removed sync-system mechanics — uses time-rank rules (S < 1:30 / A < 2:15 / B < 3:00). Card text no longer overflows on the boss-rush selector. Boss roster subtitles trimmed to fit. Boss key regrant bug fixed: a -1 sentinel was re-granting 10 starter keys on some updates; replaced with a dedicated 'starter grant done' flag. Existing players auto-migrated — nobody gets free keys on this update.",
+  "version": "0.7.2",
+  "notes": "Four new ARENA tracks added to the casual PvP music pool: Geometry of War, Get Down Rhythm, Neon Cowbell, Wave Pulse Chaos. Each is pre-analyzed for beat / drop / phrase timing so reactive visuals lock onto them automatically.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.1/Pulsewave-0.7.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.1/Pulsewave-0.7.1-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.1/Pulsewave-0.7.1-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.2/Pulsewave-0.7.2-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.2/Pulsewave-0.7.2-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.2/Pulsewave-0.7.2-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
