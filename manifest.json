@@ -1,10 +1,10 @@
 {
-  "version": "0.6.2",
-  "notes": "Hotfix: minion leak from Boss Rush into next Practice match. Previous defensive cleanup iterated the boss_minions array; if a minion was spawned but not appended (race), or the array was cleared before queue_free fired, it leaked. Now scans ALL direct Game children for BossMinion instances and queue_frees them \u2014 both at teardown and at next match start. Brute-force fix.",
+  "version": "0.6.3",
+  "notes": "Boss Rush selector \u2014 new FIRST-CLEAR BONUS panel above the leaderboard. Live-updates per difficulty: 3 reward chips with icons (XP star, PULSE bolt, KEYS), shows AVAILABLE / CLAIMED status. Claimed chips are dimmed + struck through. Boss roster subtitles refreshed with richer flavour text. Right column on Boss Rush page split into rewards panel (top 130px) + leaderboard (below). Audio investigation pending \u2014 user will identify which track has the half-loop bug.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.2/Pulsewave-0.6.2-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.2/Pulsewave-0.6.2-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.2/Pulsewave-0.6.2-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.3/Pulsewave-0.6.3-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.3/Pulsewave-0.6.3-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.3/Pulsewave-0.6.3-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
