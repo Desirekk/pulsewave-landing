@@ -1,10 +1,10 @@
 {
-  "version": "0.5.5",
-  "notes": "Boss Key persistence fix. Bug: fresh installs got 0 keys instead of the 10 starter grant because the sentinel was checked against the wrong default. Fixed: var defaults to -1 (sentinel for 'never persisted yet'), starter grant fires once on first launch and saves immediately, subsequent launches read the real saved value. 10 starter keys, then must buy more in SHOP at 50 PULSE each (or earn from Boss Rush victories: S=+3, A=+2, B=+1). All stats currently saved LOCALLY — server-side stat sync is on the roadmap before public launch.",
+  "version": "0.6.0",
+  "notes": "Boss roster + leaderboards. Current boss officially named CIRCLE BOSS. Two SOON placeholders visible: PRISM BOSS (triangular plates) + HIVE BOSS (pure swarmer hell). Boss Rush selector now shows roster cards at the top — click to select. Below: 2-column layout. Left = boss difficulty + start. Right = TOP 10 leaderboard for the selected boss × difficulty, updates live when you change diff. Times recorded to MILLISECOND precision (M:SS.mmm format), gold/silver/bronze rank colors for top 3, relative timestamps. Persisted locally per (boss × difficulty). Server-side cross-player leaderboards will land before public Steam launch.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.5/Pulsewave-0.5.5-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.5/Pulsewave-0.5.5-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.5.5/Pulsewave-0.5.5-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.0/Pulsewave-0.6.0-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.0/Pulsewave-0.6.0-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.0/Pulsewave-0.6.0-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
