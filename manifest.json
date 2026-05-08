@@ -1,10 +1,10 @@
 {
-  "version": "0.6.3",
-  "notes": "Boss Rush selector \u2014 new FIRST-CLEAR BONUS panel above the leaderboard. Live-updates per difficulty: 3 reward chips with icons (XP star, PULSE bolt, KEYS), shows AVAILABLE / CLAIMED status. Claimed chips are dimmed + struck through. Boss roster subtitles refreshed with richer flavour text. Right column on Boss Rush page split into rewards panel (top 130px) + leaderboard (below). Audio investigation pending \u2014 user will identify which track has the half-loop bug.",
+  "version": "0.7.0",
+  "notes": "Global boss leaderboards live. Backend (Hetzner Go + Postgres) hosts boss_leaderboards table at api.pulsewavegame.com. Game submits time_ms + nickname on every kill, fetches top 10 per (boss \u00d7 difficulty) on Boss Rush page entry. Panel header shows GLOBAL/LOCAL badge. Columns: rank, nickname, time (1ms precision), relative date. Your row highlighted by nickname match. Falls back to local cache if offline. Set your nickname in Settings \u2014 it shows on the public board.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.3/Pulsewave-0.6.3-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.3/Pulsewave-0.6.3-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.3/Pulsewave-0.6.3-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.0/Pulsewave-0.7.0-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.0/Pulsewave-0.7.0-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.0/Pulsewave-0.7.0-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
