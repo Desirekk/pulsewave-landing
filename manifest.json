@@ -1,10 +1,10 @@
 {
-  "version": "0.6.1",
-  "notes": "Snake Boss added as 4th SOON placeholder (serpent body, head-only weak point, venom trails). First-clear rewards: clearing a (boss \u00d7 difficulty) combo for the first time grants bonus XP + Pulse + keys (Easy +200/80/1 \u2192 Brutal +1200/300/4). Granted once per combo, persisted locally. Results overlay shows FIRST CLEAR \u00b7 BONUS REWARD chip when applicable. Global cross-player leaderboards coming in v0.7.0.",
+  "version": "0.6.2",
+  "notes": "Hotfix: minion leak from Boss Rush into next Practice match. Previous defensive cleanup iterated the boss_minions array; if a minion was spawned but not appended (race), or the array was cleared before queue_free fired, it leaked. Now scans ALL direct Game children for BossMinion instances and queue_frees them \u2014 both at teardown and at next match start. Brute-force fix.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.1/Pulsewave-0.6.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.1/Pulsewave-0.6.1-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.1/Pulsewave-0.6.1-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.2/Pulsewave-0.6.2-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.2/Pulsewave-0.6.2-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.6.2/Pulsewave-0.6.2-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
