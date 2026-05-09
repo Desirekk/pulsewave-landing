@@ -1,10 +1,10 @@
 {
-  "version": "0.7.2",
-  "notes": "Four new ARENA tracks added to the casual PvP music pool: Geometry of War, Get Down Rhythm, Neon Cowbell, Wave Pulse Chaos. Each is pre-analyzed for beat / drop / phrase timing so reactive visuals lock onto them automatically.",
+  "version": "0.7.4",
+  "notes": "Photosensitive epilepsy warning now shown before the intro. Acknowledged with any key after a short minimum read window. v0.7.3 internally bundled the GodotSteam SDK (Steam build pipeline + auto-pull Steam persona for nicknames) and shipped Steam-side; v0.7.4 adds the warning everyone needs to see.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.2/Pulsewave-0.7.2-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.2/Pulsewave-0.7.2-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.2/Pulsewave-0.7.2-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.4/Pulsewave-0.7.4-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.4/Pulsewave-0.7.4-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.4/Pulsewave-0.7.4-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
