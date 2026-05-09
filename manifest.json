@@ -1,10 +1,10 @@
 {
-  "version": "0.7.4",
-  "notes": "Photosensitive epilepsy warning now shown before the intro. Acknowledged with any key after a short minimum read window. v0.7.3 internally bundled the GodotSteam SDK (Steam build pipeline + auto-pull Steam persona for nicknames) and shipped Steam-side; v0.7.4 adds the warning everyone needs to see.",
+  "version": "0.7.5",
+  "notes": "Hotfix dla błędu 'Entry Point Not Found: SteamAPI_SteamApps_v008'. Poprzedni build (v0.7.4) wysyłał steam_api64.dll z Steamworks SDK 1.62, a baked-in GodotSteam expectuje 1.63 — stąd crash przy starcie. v0.7.5 wozi DLL z paczki GodotSteam v4.17, wersje teraz zgodne. Plus epilepsy warning wprowadzony w v0.7.4 zostaje.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.4/Pulsewave-0.7.4-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.4/Pulsewave-0.7.4-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.4/Pulsewave-0.7.4-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.5/Pulsewave-0.7.5-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.5/Pulsewave-0.7.5-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.7.5/Pulsewave-0.7.5-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
