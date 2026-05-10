@@ -1,10 +1,10 @@
 {
-  "version": "0.9.1",
-  "notes": "v0.9.1 — layout flip + ghost buttons. Nawigacja (HOME / PLAY / SKILLS / SETTINGS) zjechala z dolu na lewa strone jako vertical strip. Profil panel przesuniety z lewej na prawa strone. STATS / QUESTS / SHOP guziki w sidebarze przepisane od zera w ghost-button stylu — corner brackets, accent line po lewej, chromatic split na hover, arrow > po prawej, bez filled tla w idle.",
+  "version": "0.10.0",
+  "notes": "v0.10.0 — Cockpit hub. Lewa nawigacja zwezona do 96px-rail z ikonami i 3 sekcjami (PLAY / META / CONFIG). STATS / QUESTS / SHOP przeniesione z prawego paska do rail-a — kazdy z wlasna ikona. Prawy panel profilu zastapiony kompaktowym pill-em w prawym gornym rogu (~440x66): avatar + nick + LV + XP bar + chipy PULSE/SURGE w jednym wierszu, klikniecie otwiera ACCOUNT. Sekcyjna konstrukcja rail-a skaluje sie do 12+ pozycji — gotowa na nowe guziki menu.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.9.1/Pulsewave-0.9.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.9.1/Pulsewave-0.9.1-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.9.1/Pulsewave-0.9.1-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.10.0/Pulsewave-0.10.0-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.10.0/Pulsewave-0.10.0-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.10.0/Pulsewave-0.10.0-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
