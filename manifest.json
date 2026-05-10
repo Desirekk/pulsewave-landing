@@ -1,10 +1,10 @@
 {
-  "version": "0.11.0",
-  "notes": "v0.11.0 — TEST mode. Nowa zakladka TEST w nav rail (sekcja CONFIG). 2 kafle: DOODLE SKETCHBOOK i POP ART COMIC. Klikasz kafel - startuje practice match (no rewards) z wybranym stylem. Po koncu match-u modal Which style felt better z 2 buttonami: VOTE DOODLE / VOTE POP ART (+ SKIP). Vote zapisywany do user settings (style_votes). Studio zbierze z save'ow testerow. DOODLE = krayonowe statki z wobbly ink outline, pencil-mark trail, hatched shading. POP ART = bold black outline + halftone dots + comic shine + striped HP bar. Gameplay bez zmian, tylko warstwa renderowania - apples-to-apples test.",
+  "version": "0.11.1",
+  "notes": "v0.11.1 — TEST mode FULL visual rework. v0.11.0 zmienialo tylko shipy i bullety (zglosil to user). Teraz przerobione CALOSC: arena, podloga, sciany, particles, shockwave, ripple. DOODLE = cream paper z linijkami zeszytowymi + red margin + wobbly ink boundary + ink stain wash + corner stars + crayon walls z hatched shading + pencil-dash particles. POP ART = blue halftone-dot floor + comic speed lines + thick black border (kick-pulse) + bass-driven energy rings + corner POW! sticker (snare-pulse) + halftone-dotted walls z diagonal shine + jagged comic-burst shockwaves. Muzyka i beat hooks bez zmian; testerzy widza prawdziwy stylowy match.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.0/Pulsewave-0.11.0-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.0/Pulsewave-0.11.0-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.0/Pulsewave-0.11.0-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
