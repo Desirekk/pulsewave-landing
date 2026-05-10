@@ -1,10 +1,10 @@
 {
-  "version": "0.10.1",
-  "notes": "v0.10.1 — hotfix Windows. Poprzedni v0.10.0 win build mial race-corrupted PCK (rownolegly export Win+Linux nadpisywal sobie tymczasowy project.binary). v0.10.1 zbudowany sekwencyjnie — embedded PCK trailer prawidlowy. Bez zmian funkcjonalnych; nadal Cockpit hub: 96px icon rail z 3 sekcjami i kompaktowy profile pill w prawym gornym rogu.",
+  "version": "0.11.0",
+  "notes": "v0.11.0 — TEST mode. Nowa zakladka TEST w nav rail (sekcja CONFIG). 2 kafle: DOODLE SKETCHBOOK i POP ART COMIC. Klikasz kafel - startuje practice match (no rewards) z wybranym stylem. Po koncu match-u modal Which style felt better z 2 buttonami: VOTE DOODLE / VOTE POP ART (+ SKIP). Vote zapisywany do user settings (style_votes). Studio zbierze z save'ow testerow. DOODLE = krayonowe statki z wobbly ink outline, pencil-mark trail, hatched shading. POP ART = bold black outline + halftone dots + comic shine + striped HP bar. Gameplay bez zmian, tylko warstwa renderowania - apples-to-apples test.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.10.1/Pulsewave-0.10.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.10.1/Pulsewave-0.10.1-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.10.1/Pulsewave-0.10.1-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.0/Pulsewave-0.11.0-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.0/Pulsewave-0.11.0-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.0/Pulsewave-0.11.0-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
