@@ -1,9 +1,9 @@
 {
-  "version": "0.12.5",
-  "notes": "v0.12.5 — Discord PNG transparency hotfix. v0.12.3/v0.12.4 shipped a discord.png that had a white background (qlmanage rendered the SVG over a white canvas). Regenerated the PNG directly via PIL so the corners are alpha=0 and the Clyde mark sits centered. Otherwise identical to v0.12.4 (Glass Panel left rail + real FFT spectrum + new currency icons). Windows only.",
+  "version": "0.12.6",
+  "notes": "v0.12.6 — top bar rebuilt as the Command Deck layout (3 modules joined inside one magenta-bordered frame: Identity Pod | Stats Center | Currency Module, with vertical cyan separators that fade at the ends). No pink banner. Stats are now centered numeric blocks (K/D · WIN% · MATCHES · BEST). Currency module on the right has PULSE stacked over SURGE with an amber/cyan gradient backing + amber left edge. Bar height 88 → 100 so stacked currencies fit. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.5/Pulsewave-0.12.5-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.6/Pulsewave-0.12.6-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
