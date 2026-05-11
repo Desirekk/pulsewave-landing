@@ -1,10 +1,10 @@
 {
-  "version": "0.12.0",
-  "notes": "v0.12.0 — HUD overhaul. Top-center profile bar with avatar + identity + 4 stat tiles (K/D, WIN%, MATCHES, BEST) + currency chips (PULSE bolt, SURGE gem). HOME page redesigned: hero strip with DROP IN quick-match + 2x3 card grid (SHIP / NOW PLAYING with live BPM+EQ / DAILY / STATS / NEWS / DISCORD). TEST mode POP ART perf fix — baked dot tile (no more 5000 circles/frame); DOODLE grain baked too. SKILLS locked with placeholder card (class rebuild tomorrow). Cursor max scale 2.0× → 4.0×.",
+  "version": "0.12.1",
+  "notes": "v0.12.1 — hotfix: steam_api64.dll bundled with Windows build (v0.12.0 zip shipped without it, game refused to start). Same game otherwise: HUD overhaul, top-center profile bar with avatar + 4 stat tiles (K/D, WIN%, MATCHES, BEST) + currency chips (PULSE bolt, SURGE gem), HOME redesign with hero strip + 2x3 card grid (SHIP/NOW PLAYING/DAILY/STATS/NEWS/DISCORD), POP ART perf fix (baked tile, no more 5000 circles/frame), SKILLS locked placeholder, cursor max scale 4.0×. Windows only — mac/linux at Steam release.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.0/Pulsewave-0.12.0-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.0/Pulsewave-0.12.0-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.0/Pulsewave-0.12.0-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.1/Pulsewave-0.12.1-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
