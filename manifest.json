@@ -1,9 +1,9 @@
 {
-  "version": "0.12.2",
-  "notes": "v0.12.2 — profile bar polish (no more covering PULSEWAVE logo, currency chips fit inside the bar, side-by-side instead of stacked), NOW PLAYING bars now driven by real conductor audio (kick/snare/hat/rms — actual beat-reactive EQ), Discord glyph rebuilt as real Clyde shape, TEST section removed from nav rail, segment-label bug fixed (was showing literal Callable string), nav rail active buttons get corner brackets + halo. Windows only.",
+  "version": "0.12.3",
+  "notes": "v0.12.3 — NOW PLAYING bars driven by REAL master-bus AudioEffectSpectrumAnalyzer (continuous FFT, 30Hz-14kHz log-spaced, 22 bands, dB-normalized, asymmetric smoothing). Discord glyph replaced with the actual Clyde mark loaded from res://images/discord.png. PULSE icon redesigned: hexagonal coin base with proper facet shading + white-hot lightning bolt with drop shadow. SURGE icon redesigned: diamond-cut gem with 6 facets (crown girdle + 4-facet pavilion) + animated sparkle highlight. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.2/Pulsewave-0.12.2-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.3/Pulsewave-0.12.3-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
