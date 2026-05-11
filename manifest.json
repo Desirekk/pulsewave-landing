@@ -1,9 +1,9 @@
 {
-  "version": "0.14.1",
-  "notes": "v0.14.1 — TUTORIAL becomes a major feature: REPLAY now opens an interactive isolated sandbox per lesson (own arena, ship spawns, objective bar, end screen). Interactive lessons (movement WASD+dash, combat 3 dummies, rhythm on-beat shots, boss DPS to 0) and info slideshows (basics/modes/classes/skills/economy/quests) auto-mark complete + replay-able. PROFILE popup polish: canonical P1 hex / S3 star icons on wallet tiles (no more title overlap), simplified nav (SETTINGS · CHANGE CLASS · CHANGE NICKNAME) with first-free / 50-SURGE nickname-change dialog. CLASS locks: BASTION/LANCE/CHORUS marked COMING SOON on class tabs and onboarding wizard — only SHARD selectable. Windows only.",
+  "version": "0.14.2",
+  "notes": "v0.14.2 — Baked PNG currency icons (high-detail neon hex coin for PULSE, premium gold sparkle star for SURGE) replace the old procedural draws everywhere — top bar, profile wallet, quest rewards, first-clear panel, match card. Both icons cropped + normalized to 256×256 with matching padding so they read at equal weight side-by-side. TUTORIAL — every active lesson now shows a big step-by-step coach panel under the arena: 'STEP X / Y' chip, clear title, one-line instruction, and live progress hint (e.g. 'Still to press: A, D' or 'Targets destroyed: 2 / 3'). Per-lesson scripts for movement, combat, rhythm, boss, plus info-slide pacing. Arena resized so the coach panel always fits cleanly. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.1/Pulsewave-0.14.1-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.2/Pulsewave-0.14.2-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
