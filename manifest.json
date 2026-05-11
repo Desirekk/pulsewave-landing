@@ -1,9 +1,9 @@
 {
-  "version": "0.15.0",
-  "notes": "v0.15.0 — SHIP MODULES system. Replaces the skill tree with a modular ship-builder: 67 SHARD modules across 6 slots (CORE / WEAPON / SHIELD / ENGINE / WINGS / FRAME), 5 rarity tiers (Common→Legendary), per-class loadouts with class switcher. Match-end drops at 25% chance with weighted rarity (60% common / 30% uncommon / 9% rare / 1% epic). New stat systems wired into combat: multishot, accuracy, shield max charges, passive shield + HP regen, evasion, bullet reflect, damage-to-energy. Default loadout granted on first install so the ship works minute 1. Existing skill tree allocations stack on top additively. BASTION/LANCE/CHORUS modules ship in v0.15.4+. Windows only.",
+  "version": "0.15.1",
+  "notes": "v0.15.1 — Active Skills + Cosmetics + BOSS KEYS shop. 3 active-skill slots per class trigger with keys 1/2/3 during matches (OVERCLOCK / AEGIS BURST / DAMAGE SURGE / SPEED SURGE / HEAL PULSE / EMP PULSE / SHARD STORM / BLINK) with HUD widget showing CDs. Per-class cosmetic skin selection — projectile / trail / shield colors cycle in MODULES page (3 starter skins each, unlocked by default). Legendary modules redesigned for 1v1 + multi: HIGH NOON CORE → TWIN PULSE (always +1 projectile + 6% dmg), ECHO CORE → CHAIN CRIT (crits hit 2nd enemy at 60%). BOSS KEYS shop tab fully ported with 4 bundles (1/5/10/25 keys, bulk discount up to −28%) + 2 timed specials (50-key PULSE / 15-key SURGE). Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.0/Pulsewave-0.15.0-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.1/Pulsewave-0.15.1-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
