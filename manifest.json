@@ -1,9 +1,9 @@
 {
-  "version": "0.13.1",
-  "notes": "v0.13.1 — hero card backing rewritten (diagonal cyan→navy grid, accent only 24% mixed in, scanlines lightened to 2.2% alpha) so the PLAY hub no longer looks washed in teal. PRACTICE sub-page rebuilt from scratch as a proper page (no overlay): cinematic panel + VBox stack with MODE row + DIFFICULTY row + auto-wrapped description + big START MATCH at the bottom — all widgets visible and readable now. Windows only.",
+  "version": "0.13.2",
+  "notes": "v0.13.2 — BOSS RUSH rebuilt in Stage Select layout: 4 large boss tiles across the top (selected gets gold border + outer glow + accent sheen), brief panel below with 3 columns (stage info / first-clear rewards / top 10 leaderboard + START FIGHT). PRACTICE rebuilt in the same Stage Select language: 3 mode tiles (ARENA / CAPTURE / PAINT) with procedurally drawn glyphs, brief panel below with DIFFICULTY row + description + START MATCH. Both pages share a consistent stage-select aesthetic. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.1/Pulsewave-0.13.1-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.2/Pulsewave-0.13.2-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
