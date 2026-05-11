@@ -1,9 +1,9 @@
 {
-  "version": "0.13.5",
-  "notes": "v0.13.5 — HARD/BRUTAL stutter fix (trimmed bullet trail 8→5, glow loops 3→2, hit burst 10→6, death burst 40→22 — particle count was the bottleneck) + PLAY cards smaller (row height-capped at 360px, hero stretch 2.0→1.5) + card backgrounds redesigned (no more 12×10 tile banding — now navy + radial accent glow + thin top edge) + SETTINGS row background rewritten (smooth radial cyan glow, no more 8-segment block edges). Windows only.",
+  "version": "0.13.6",
+  "notes": "v0.13.6 — QUESTS rebuilt as Categories Tab layout (mockup #2 picked). Left column = 4 category tabs (DAILY / WEEKLY / SEASONAL / ACHIEVEMENTS) with procedural icons + count badge + hover state. Right column = cinematic detail panel that swaps content. DAILY keeps the real challenge card, WEEKLY and SEASONAL show Coming Soon placeholders (ship with Season 1), ACHIEVEMENTS keeps the 6-card preview. Old 2-pill tab row removed. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.5/Pulsewave-0.13.5-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.6/Pulsewave-0.13.6-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
