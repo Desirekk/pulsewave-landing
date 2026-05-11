@@ -1,9 +1,9 @@
 {
-  "version": "0.12.3",
-  "notes": "v0.12.3 — NOW PLAYING bars driven by REAL master-bus AudioEffectSpectrumAnalyzer (continuous FFT, 30Hz-14kHz log-spaced, 22 bands, dB-normalized, asymmetric smoothing). Discord glyph replaced with the actual Clyde mark loaded from res://images/discord.png. PULSE icon redesigned: hexagonal coin base with proper facet shading + white-hot lightning bolt with drop shadow. SURGE icon redesigned: diamond-cut gem with 6 facets (crown girdle + 4-facet pavilion) + animated sparkle highlight. Windows only.",
+  "version": "0.12.4",
+  "notes": "v0.12.4 — left nav rebuilt as GLASS PANEL (220px wide, semi-translucent vertical gradient, horizontal rows with icon left + label right). Active row gets cyan→magenta diagonal gradient + animated diagonal shine clipped to the row (no overflow) + cyan border + magenta→cyan vertical stripe + right caret. Section dividers now left-aligned label with thin rule. Content area shifted to start at x=260 to clear the wider rail. Profile bar starts at the same x. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.3/Pulsewave-0.12.3-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.4/Pulsewave-0.12.4-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
