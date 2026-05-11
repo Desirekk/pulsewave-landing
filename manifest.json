@@ -1,9 +1,9 @@
 {
-  "version": "0.13.3",
-  "notes": "v0.13.3 — SETTINGS page rebuilt as Categories Tab layout (the mockup picked): left column with 4 category tabs (AUDIO / DISPLAY / CONTROLS / ACCOUNT), each with a procedural icon; right column with cinematic detail panel showing the active category. Audio = volume + beat-offset sliders. Display = fullscreen + bloom toggles + crosshair size + live preview. Controls = keybind reference. Account = nickname edit + Steam status. Windows only.",
+  "version": "0.13.4",
+  "notes": "v0.13.4 — UI bug fixes: BACK button in PLAY sub-pages now clickable (centred title was eating clicks); BOSS RUSH difficulty buttons fit cleanly (3-col → 1.4-stretch + VBox right column); first-clear rewards show a green check chip instead of strikethrough; SETTINGS row gets bell gradient + cyan stripe + corner brackets instead of flat dimming; crosshair preview now scales up to 4.00× to match the slider. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.3/Pulsewave-0.13.3-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.4/Pulsewave-0.13.4-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
