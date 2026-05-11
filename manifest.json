@@ -1,9 +1,9 @@
 {
-  "version": "0.14.4",
-  "notes": "v0.14.4 — Baked PNG textures for BOSS KEY (amber-copper hex keycard) and XP (lime hex shard with white chevrons), 256×256 cropped to match PULSE/SURGE. Wired everywhere keys/XP appear: profile dropdown wallet tile, match-result tiles ('+ PULSE / + XP / + KEYS' now show canonical icon next to label), first-clear rewards panel, profile sidebar. STATS — boss matches used to show PULSE twice (once as a stat cell, once as reward chip); dropped the duplicate text cell so the icon chip on the right is the single source of truth and the remaining stat cells (TIME / RANK / DIFF) auto-resize. Windows only.",
+  "version": "0.14.5",
+  "notes": "v0.14.5 — Four SHARD ship skins: PRISM (default, free), CIPHER (free, second loadout), VOID (10,000 PULSE shop), NEXUS (10,000 PULSE shop). New SHIP SKINS strip on the CLASS page — 4 tiles in a row with preview thumb, description, and status chip (ACTIVE / EQUIP / 10,000 PULSE). Click owned skin to equip, click locked skin with enough PULSE to buy and auto-equip. Premium skins also surface in the SHOP below the boss-key card. Active skin + unlock list persist across restarts; free PRISM + CIPHER are force-unlocked on every load even from older saves. Cosmetic only — no gameplay impact. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.4/Pulsewave-0.14.4-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.5/Pulsewave-0.14.5-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
