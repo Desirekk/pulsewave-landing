@@ -1,9 +1,9 @@
 {
-  "version": "0.12.8",
-  "notes": "v0.12.8 — HOTFIX: top profile bar disappeared in v0.12.6/0.12.7. The runtime panel script had `var cur_x := w - cur_w` which the GDScript walrus operator couldn't infer a type for (w was untyped), so the entire panel script failed to compile silently — Control existed but had no _draw method, hence the missing bar. Fixed by using explicit `var cur_x: float = float(w) - cur_w`. Same UI as v0.12.7. Windows only.",
+  "version": "0.12.9",
+  "notes": "v0.12.9 — bare currency icons (no halos, same size for PULSE and SURGE), more sensitive NOW PLAYING bars (45dB window, gamma compression, faster rise smoothing — quieter passages move the bars now), real Discord logo replaces procedural Clyde + caption reduced to just 'DISCORD SERVER'. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.8/Pulsewave-0.12.8-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.9/Pulsewave-0.12.9-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
