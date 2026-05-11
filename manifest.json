@@ -1,9 +1,9 @@
 {
-  "version": "0.14.7",
-  "notes": "v0.14.7 — hotfix to v0.14.6 skin wiring. HOME 'YOUR SHIP' card and CLASS detail panel + left-rail SHARD class tab now actually show the equipped skin texture. v0.14.6 patched the wrong heredocs (the featured ship card and avatar variants weren't being called by the live HOME card / class header). Now patches the right ones — _make_home_card_script._draw_ship_avatar, _make_class_detail_script (class header glyph), _make_class_tab_script (left-rail SHARD tab). Windows only.",
+  "version": "0.14.8",
+  "notes": "v0.14.8 — SHOP rebuilt to Categories Tabs (mockup #2 port): left rail with 4 tabs (SHIP SKINS / BOSS KEYS / BOOSTERS / COSMETICS — last 2 Coming Soon), right detail panel that swaps per tab. SHIP SKINS view split into UNLOCKED (PRISM, CIPHER) + PREMIUM (VOID, NEXUS) sections in a 2-column grid. Click owned = equip, click locked with enough PULSE = buy + auto-equip. shop_tab persists across page loads. Wallet line on top (PULSE · SURGE · KEYS). Class-coloured glow: every ship/avatar draw now bleeds a soft halo tinted by the active class accent (SHARD cyan + the three locked classes' colors waiting for their kits). Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.7/Pulsewave-0.14.7-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.8/Pulsewave-0.14.8-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
