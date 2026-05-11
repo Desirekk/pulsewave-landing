@@ -1,9 +1,9 @@
 {
-  "version": "0.13.8",
-  "notes": "v0.13.8 — STATS feed now shows ALL matches (Arena/Capture/Paint were never logged because they only run via Practice mode — match_log moved outside the ranked-rewards gate, practice runs get pulse=0 + practice:true flag). PLAY card backgrounds: removed every semi-transparent layer — pure dark navy + thin top accent line, banding completely gone. PLAY card title overlap with badge fixed (title positions below badge with safe gap, size 48→36 hero / 22→18 side). Windows only.",
+  "version": "0.13.9",
+  "notes": "v0.13.9 — playtime display fix. v0.13.8 fixed the accumulation (practice now counts) but the STATS tile still showed '—' for anything under a minute. Now shows seconds (42s), minutes (5m 12s), or hours (Xh Ym). Zero playtime shows '0m' instead of '—'. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.8/Pulsewave-0.13.8-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.9/Pulsewave-0.13.9-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
