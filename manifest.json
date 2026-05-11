@@ -1,9 +1,9 @@
 {
-  "version": "0.14.10",
-  "notes": "v0.14.10 — replaced entire SHARD ship-skin family with fresh art. ASH (default, free, steel-grey arrowhead with cyan spine). AMP (free second loadout, vibrant electric cyan with starfield interior). SOLSTICE (10,000 PULSE shop, gold-and-teal split-spine exhibition chassis). PHANTOM (200 SURGE premium, translucent ghost-crystal hull). Old PRISM/CIPHER/VOID/NEXUS IDs auto-migrated to the new family on load — existing saves keep their unlock list and active selection pointed at the matching new texture. Windows only.",
+  "version": "0.15.0",
+  "notes": "v0.15.0 — SHIP MODULES system. Replaces the skill tree with a modular ship-builder: 67 SHARD modules across 6 slots (CORE / WEAPON / SHIELD / ENGINE / WINGS / FRAME), 5 rarity tiers (Common→Legendary), per-class loadouts with class switcher. Match-end drops at 25% chance with weighted rarity (60% common / 30% uncommon / 9% rare / 1% epic). New stat systems wired into combat: multishot, accuracy, shield max charges, passive shield + HP regen, evasion, bullet reflect, damage-to-energy. Default loadout granted on first install so the ship works minute 1. Existing skill tree allocations stack on top additively. BASTION/LANCE/CHORUS modules ship in v0.15.4+. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.10/Pulsewave-0.14.10-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.0/Pulsewave-0.15.0-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
