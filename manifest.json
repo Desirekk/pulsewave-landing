@@ -1,9 +1,9 @@
 {
-  "version": "0.14.6",
-  "notes": "v0.14.6 — Equipped SHARD skin now actually renders everywhere the ship/avatar shows up: top profile bar avatar, PROFILE dropdown card, HOME featured ship card (with chromatic ghost layers), character showcase snippet, and the in-game player ship in player.gd. Texture rotates with aim during gameplay; pulse-breathing scale and invuln blink preserved. Skill visual layers (halo, body underlay, energy ring, HP bar, trail, buff rings) still draw on top of the texture so dash/phase mods read correctly. Equip from CLASS page → visible everywhere next frame. Windows only.",
+  "version": "0.14.7",
+  "notes": "v0.14.7 — hotfix to v0.14.6 skin wiring. HOME 'YOUR SHIP' card and CLASS detail panel + left-rail SHARD class tab now actually show the equipped skin texture. v0.14.6 patched the wrong heredocs (the featured ship card and avatar variants weren't being called by the live HOME card / class header). Now patches the right ones — _make_home_card_script._draw_ship_avatar, _make_class_detail_script (class header glyph), _make_class_tab_script (left-rail SHARD tab). Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.6/Pulsewave-0.14.6-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.7/Pulsewave-0.14.7-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
