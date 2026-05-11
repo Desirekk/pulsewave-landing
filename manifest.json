@@ -1,9 +1,9 @@
 {
-  "version": "0.15.2",
-  "notes": "v0.15.2 — NEON GEOMETRIC modules UI + drag-drop. Module loadout redesigned: ship texture in the middle of a schematic backdrop (grid + radial pulse + corner brackets), 6 slot cards anchored around it (WINGS/CORE/WEAPON top row, SHIELD/FRAME/ENGINE bottom row). Drag a library entry to a slot to equip; hover lights up the matching slot in cyan pulse so you see where it lands. Double-click to one-shot equip. NEON GEOMETRIC icon family — 6 procedural base shapes tinted by rarity color, no texture assets. Bot-difficulty mid-match hotkeys (1/2/3/4) removed — those keys are now exclusively active skills. Windows only.",
+  "version": "0.15.3",
+  "notes": "v0.15.3 — MODULES UI polish. Click a slot to open a popup picker (only owned modules that fit + UNEQUIP option). Right-click or X corner to instant-unequip. Drag from slot back to the library = unequip. Rarity overflow fixed (3-letter COM/UNC/RAR/EPC/LEG tags, all text width-clipped). Library is now a compact 2-column grid (no more elongated single rows). Pretty filter chips with NEON slot icons + count badges. Cosmetics row now has visual preview tiles above each cycle button — ship texture, projectile chevron, trail particle fade, shield ring all rendered in the active skin color. Active skills temporarily placeholder (HUD + key triggers disabled, system returns in v0.15.4). Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.2/Pulsewave-0.15.2-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.3/Pulsewave-0.15.3-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
