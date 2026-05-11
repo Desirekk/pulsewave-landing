@@ -1,9 +1,9 @@
 {
-  "version": "0.14.2",
-  "notes": "v0.14.2 — Baked PNG currency icons (high-detail neon hex coin for PULSE, premium gold sparkle star for SURGE) replace the old procedural draws everywhere — top bar, profile wallet, quest rewards, first-clear panel, match card. Both icons cropped + normalized to 256×256 with matching padding so they read at equal weight side-by-side. TUTORIAL — every active lesson now shows a big step-by-step coach panel under the arena: 'STEP X / Y' chip, clear title, one-line instruction, and live progress hint (e.g. 'Still to press: A, D' or 'Targets destroyed: 2 / 3'). Per-lesson scripts for movement, combat, rhythm, boss, plus info-slide pacing. Arena resized so the coach panel always fits cleanly. Windows only.",
+  "version": "0.14.3",
+  "notes": "v0.14.3 — Hotfix: the wide top profile bar that v0.14.2 broke (invisible but still clickable, because the new texture-based currency draw referenced fields that don't exist inside its heredoc) now repaints correctly via Game.instance.pulse_tex / surge_tex. Tutorial cleanup: removed the Beat Sync / rhythm lesson — the system isn't shipped (sync/rhythm shield was removed in v0.5.2) so the lesson had nothing real to teach. TUTORIAL_TOPICS now has 9 lessons (was 10), remaining lesson numbers renumbered (LESSON 04 = MODES … LESSON 09 = QUESTS). All rhythm branches in the sandbox state machine, objective text, step coach and beat-strip draw removed. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.2/Pulsewave-0.14.2-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.3/Pulsewave-0.14.3-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
