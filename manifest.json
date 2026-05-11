@@ -1,9 +1,9 @@
 {
-  "version": "0.13.7",
-  "notes": "v0.13.7 — STATS rebuilt as Match Replay Cards (6 KPI tiles + filter pills + wide hero cards per match), playtime is now tracked + shown. Panel backgrounds redesigned (no more visible banding, decor_only panels skip accent glow so SETTINGS/QUESTS aren't dyed cyan/green). Currency icon in first-clear rewards now uses canonical P1 hex coin like everywhere else. NOW PLAYING '?' removed when track has no labelled segments. Match log cap 10 → 30, per-match data extended with duration/pulse/rank. Windows only.",
+  "version": "0.13.8",
+  "notes": "v0.13.8 — STATS feed now shows ALL matches (Arena/Capture/Paint were never logged because they only run via Practice mode — match_log moved outside the ranked-rewards gate, practice runs get pulse=0 + practice:true flag). PLAY card backgrounds: removed every semi-transparent layer — pure dark navy + thin top accent line, banding completely gone. PLAY card title overlap with badge fixed (title positions below badge with safe gap, size 48→36 hero / 22→18 side). Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.7/Pulsewave-0.13.7-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.8/Pulsewave-0.13.8-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
