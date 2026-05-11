@@ -1,9 +1,9 @@
 {
-  "version": "0.12.4",
-  "notes": "v0.12.4 — left nav rebuilt as GLASS PANEL (220px wide, semi-translucent vertical gradient, horizontal rows with icon left + label right). Active row gets cyan→magenta diagonal gradient + animated diagonal shine clipped to the row (no overflow) + cyan border + magenta→cyan vertical stripe + right caret. Section dividers now left-aligned label with thin rule. Content area shifted to start at x=260 to clear the wider rail. Profile bar starts at the same x. Windows only.",
+  "version": "0.12.5",
+  "notes": "v0.12.5 — Discord PNG transparency hotfix. v0.12.3/v0.12.4 shipped a discord.png that had a white background (qlmanage rendered the SVG over a white canvas). Regenerated the PNG directly via PIL so the corners are alpha=0 and the Clyde mark sits centered. Otherwise identical to v0.12.4 (Glass Panel left rail + real FFT spectrum + new currency icons). Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.4/Pulsewave-0.12.4-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.5/Pulsewave-0.12.5-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
