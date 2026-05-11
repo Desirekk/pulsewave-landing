@@ -1,9 +1,9 @@
 {
-  "version": "0.14.9",
-  "notes": "v0.14.9 — NEXUS re-priced to 200 SURGE (premium currency) instead of 10,000 PULSE. VOID stays at 10,000 PULSE. Skin definitions carry a currency field now; _buy_skin deducts from the right wallet. Price chips render the canonical currency icon (PULSE hex coin or SURGE sparkle star) before the number, old plain '... PULSE' suffix gone. SURGE prices use amber chip color, PULSE stays cyan, insufficient funds turns red. Windows only.",
+  "version": "0.14.10",
+  "notes": "v0.14.10 — replaced entire SHARD ship-skin family with fresh art. ASH (default, free, steel-grey arrowhead with cyan spine). AMP (free second loadout, vibrant electric cyan with starfield interior). SOLSTICE (10,000 PULSE shop, gold-and-teal split-spine exhibition chassis). PHANTOM (200 SURGE premium, translucent ghost-crystal hull). Old PRISM/CIPHER/VOID/NEXUS IDs auto-migrated to the new family on load — existing saves keep their unlock list and active selection pointed at the matching new texture. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.9/Pulsewave-0.14.9-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.10/Pulsewave-0.14.10-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
