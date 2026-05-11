@@ -1,9 +1,9 @@
 {
-  "version": "0.13.9",
-  "notes": "v0.13.9 — playtime display fix. v0.13.8 fixed the accumulation (practice now counts) but the STATS tile still showed '—' for anything under a minute. Now shows seconds (42s), minutes (5m 12s), or hours (Xh Ym). Zero playtime shows '0m' instead of '—'. Windows only.",
+  "version": "0.14.0",
+  "notes": "v0.14.0 — 4 picked mockups ported to Godot. CLASS (Categories Tab) — 4 class tabs (SHARD/BASTION/LANCE/CHORUS) + cinematic detail with stats bars + signature chip + SELECT/SKILL TREE actions. PROFILE popup (Dropdown) — click top bar opens cinematic card with avatar/nick/class chip/XP bar/wallet/nav links. ONBOARDING (Nickname + Class wizard) — mandatory first-time wizard, callsign input + 2×2 starter class grid (LANCE/CHORUS locked at LV 10), confirm gate. TUTORIAL (Categories Wiki) — new LEARN section, 10 topic tabs + cinematic detail with body/keys/tip/facts/checkpoints, REPLAY + MARK COMPLETE actions. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.9/Pulsewave-0.13.9-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.0/Pulsewave-0.14.0-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
