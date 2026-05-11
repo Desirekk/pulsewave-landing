@@ -1,9 +1,9 @@
 {
-  "version": "0.12.9",
-  "notes": "v0.12.9 — bare currency icons (no halos, same size for PULSE and SURGE), more sensitive NOW PLAYING bars (45dB window, gamma compression, faster rise smoothing — quieter passages move the bars now), real Discord logo replaces procedural Clyde + caption reduced to just 'DISCORD SERVER'. Windows only.",
+  "version": "0.13.0",
+  "notes": "v0.13.0 — PLAY hub rebuilt as Hero Stack: huge featured PRACTICE panel (2/3 width, cinematic diagonal gradient, corner brackets, big title, scanline overlay, ▶ ENTER PRACTICE chip) with BOSS RUSH stacked over MULTIPLAYER on the right column. HBox+VBox split so the side panels stay equal-height. PRACTICE sub-page (mode + difficulty + start) restyled with the same hero backing so it reads as a continuation of the PLAY aesthetic. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.9/Pulsewave-0.12.9-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.0/Pulsewave-0.13.0-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
