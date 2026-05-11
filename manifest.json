@@ -1,9 +1,9 @@
 {
-  "version": "0.14.8",
-  "notes": "v0.14.8 — SHOP rebuilt to Categories Tabs (mockup #2 port): left rail with 4 tabs (SHIP SKINS / BOSS KEYS / BOOSTERS / COSMETICS — last 2 Coming Soon), right detail panel that swaps per tab. SHIP SKINS view split into UNLOCKED (PRISM, CIPHER) + PREMIUM (VOID, NEXUS) sections in a 2-column grid. Click owned = equip, click locked with enough PULSE = buy + auto-equip. shop_tab persists across page loads. Wallet line on top (PULSE · SURGE · KEYS). Class-coloured glow: every ship/avatar draw now bleeds a soft halo tinted by the active class accent (SHARD cyan + the three locked classes' colors waiting for their kits). Windows only.",
+  "version": "0.14.9",
+  "notes": "v0.14.9 — NEXUS re-priced to 200 SURGE (premium currency) instead of 10,000 PULSE. VOID stays at 10,000 PULSE. Skin definitions carry a currency field now; _buy_skin deducts from the right wallet. Price chips render the canonical currency icon (PULSE hex coin or SURGE sparkle star) before the number, old plain '... PULSE' suffix gone. SURGE prices use amber chip color, PULSE stays cyan, insufficient funds turns red. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.8/Pulsewave-0.14.8-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.14.9/Pulsewave-0.14.9-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
