@@ -1,9 +1,9 @@
 {
-  "version": "0.12.7",
-  "notes": "v0.12.7 — canonical currency icons. PULSE is now P1 HEX COIN (cyan hexagonal coin with white lightning bolt inside) and SURGE is now S3 SPARKLE STAR (gold 4-point star with inner white highlight). These are the only icons used across the whole UI — replaced bolt outlines in top-bar Command Deck currency module, wallet/shop chip glyph, daily-quest reward chip, and profile hero PULSE pill. Consistent palette and lighting on every screen. Windows only.",
+  "version": "0.12.8",
+  "notes": "v0.12.8 — HOTFIX: top profile bar disappeared in v0.12.6/0.12.7. The runtime panel script had `var cur_x := w - cur_w` which the GDScript walrus operator couldn't infer a type for (w was untyped), so the entire panel script failed to compile silently — Control existed but had no _draw method, hence the missing bar. Fixed by using explicit `var cur_x: float = float(w) - cur_w`. Same UI as v0.12.7. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.7/Pulsewave-0.12.7-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.12.8/Pulsewave-0.12.8-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
