@@ -1,9 +1,9 @@
 {
-  "version": "0.13.4",
-  "notes": "v0.13.4 — UI bug fixes: BACK button in PLAY sub-pages now clickable (centred title was eating clicks); BOSS RUSH difficulty buttons fit cleanly (3-col → 1.4-stretch + VBox right column); first-clear rewards show a green check chip instead of strikethrough; SETTINGS row gets bell gradient + cyan stripe + corner brackets instead of flat dimming; crosshair preview now scales up to 4.00× to match the slider. Windows only.",
+  "version": "0.13.5",
+  "notes": "v0.13.5 — HARD/BRUTAL stutter fix (trimmed bullet trail 8→5, glow loops 3→2, hit burst 10→6, death burst 40→22 — particle count was the bottleneck) + PLAY cards smaller (row height-capped at 360px, hero stretch 2.0→1.5) + card backgrounds redesigned (no more 12×10 tile banding — now navy + radial accent glow + thin top edge) + SETTINGS row background rewritten (smooth radial cyan glow, no more 8-segment block edges). Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.4/Pulsewave-0.13.4-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.13.5/Pulsewave-0.13.5-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
