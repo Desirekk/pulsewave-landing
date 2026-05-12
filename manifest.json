@@ -1,9 +1,9 @@
 {
-  "version": "0.15.7",
-  "notes": "v0.15.7 — Ship sprite overhaul: 16 new chassis (4 variants per class). Gray + purple of every class are FREE on install; white = PULSE (10,000 each), black-red = SURGE (200 each). Old SHARD ash/amp/solstice/phantom IDs migrate transparently. Slot card redesign: tiny magenta CORNER PIP in the top-right of each slot for unequip (replaces the big red X). Click body opens the side-dock picker; click pip unequips. Compare popup: clicking a library module opens a NEW vs EQUIPPED side-by-side panel with stats + EQUIP / KEEP CURRENT buttons. Cosmetics preview: bullets now fly 720 px/s (3x orbit speed) so they actually pull ahead instead of trailing beside the ship; preview also pulls the texture for the VIEWING class so BASTION/LANCE/CHORUS show their own sprites. Windows only.",
+  "version": "0.15.8",
+  "notes": "v0.15.8 \u2014 Per-class skin storage (active_skin_per_class). MODULES blueprint ship reflects the VIEWING class. Ship is 20% bigger in-game + 2x in the cosmetics preview. Removed the halo bubble around the ship. Cosmetics preview clips its contents so bullets stop at the panel edge. Skin selection removed from CLASS tab \u2014 picked entirely in the dedicated COSMETICS page. PULSE skins are no longer called 'premium' (PREMIUM = SURGE-only). Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.7/Pulsewave-0.15.7-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.8/Pulsewave-0.15.8-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
