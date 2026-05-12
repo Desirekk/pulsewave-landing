@@ -1,9 +1,9 @@
 {
-  "version": "0.16.21",
-  "notes": "v0.16.21 — Alpha test convenience: every tester (new install AND existing saves) now boots with 999 Boss Rush keys. Floor is topped up every launch — if you're below 999 you come back to 999 next time you start the game. Lets testers grind boss runs and per-class clears without farming. Will be removed for v1.0. Windows only.",
+  "version": "0.16.22",
+  "notes": "v0.16.22 — BASTION's full module catalog goes live (39 modules across CORE / WEAPON / SHIELD / ENGINE / WINGS / FRAME tuned around its tank identity). Every tester's module inventory is WIPED so the new pool can be re-looted from scratch. Boss kills now drop modules every clear (not just first-clear) with rarity tied to difficulty:  EASY  40% common / 10% uncommon,  MEDIUM  40% uncommon / 10% rare,  HARD  40% rare / 10% epic,  BRUTAL  40% epic / 10% legendary. New MODULE DROPS info card on the boss screen shows the floor and ceiling rarity for the difficulty you've picked. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.21/Pulsewave-0.16.21-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.22/Pulsewave-0.16.22-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
