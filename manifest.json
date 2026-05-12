@@ -1,9 +1,9 @@
 {
-  "version": "0.16.5",
-  "notes": "v0.16.5 \u2014 GRINDARE attribution chip is now logo-first: logo is centered and dominates the chip, the redundant 'GRINDARE STUDIO' caption is removed (it's already on the logo), only a tiny 'MADE BY \u00b7' tag remains in the top-left corner. DAILY MISSION card rebuilt as a clean 2-zone layout (animated seal on the left, name / desc / reward chip / progress bar stacked on the right) \u2014 no more yellow ticket overlapping the green star. The mission seal got a glow-up: rotating hex ring, counter-rotating triangle, pulsing core circle with crosshair lines and a 4-point spark. PLAY hub now puts PRACTICE + BOSS RUSH as equal-size hero buttons; MULTIPLAYER moves to the COMING NEXT row alongside CAMPAIGN / RANKED / STREAMER MODE / FUN ROOM (5 cards total, all English names). CLASS tab + class tile lock indicators replaced their broken \ud83d\udd12 emoji with a procedural lock glyph on an amber-tinted pill \u2014 actually visible now. Windows only.",
+  "version": "0.16.6",
+  "notes": "v0.16.6 \u2014 Module art is live. 30 unique textures (6 slots \u00d7 5 rarities: CORE / WEAPON / SHIELD / ENGINE / WINGS / FRAME \u00d7 common / uncommon / rare / epic / legendary), generated and source-cleaned with alpha-bbox trimming so every icon sits centered on transparent background. The new art shows up everywhere a module is rendered: equipped slot cards in MODULES, hex library tiles, side-dock picker rows, compare popup. Empty slots and filter chips keep the procedural neon outline. GRINDARE logo on HOME used to sit inside a 1280\u00d7731 canvas with most of it being transparent padding (the actual logo was only 385\u00d7397 in the middle) \u2014 trimmed to its real bounding box, so the same chip now displays the logo ~3x bigger automatically. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.5/Pulsewave-0.16.5-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.6/Pulsewave-0.16.6-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
