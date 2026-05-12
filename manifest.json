@@ -1,9 +1,9 @@
 {
-  "version": "0.16.35",
-  "notes": "v0.16.35 — Phase 8/9: BOSS finale + reward screen. BOSS node now launches a real duel against the rift's picked boss at the difficulty-mapped tier (BRUTAL rift = BRUTAL boss). Per-node rift bonuses stack on top of normal in-match XP/PULSE, scaled by rift difficulty (×1.0 / ×1.4 / ×1.9 / ×2.5). Boss clear adds +250 XP / +200 PULSE base × multiplier on top. BRUTAL clears drop +5 SURGE. New RIFT COMPLETE screen lists boss + difficulty, XP / PULSE / SURGE chips, every module secured, and a RETURN button. Windows only.",
+  "version": "0.16.36",
+  "notes": "v0.16.36 — Phase 9/9: RIFTS polish + balance. MINI-BOSS now fights one tier BELOW the finale so the climax actually feels like a climax. New dedicated RIFT FAILED summary screen (mirror of RIFT COMPLETE) — shows stops cleared, which node killed you, modules you keep, RETURN button. XP / PULSE / SURGE reward chips count up from 0 with ease-out cubic. Procedural confetti / spark burst plays behind the hero label on a successful clear. RIFTS mode is feature-complete. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.35/Pulsewave-0.16.35-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.36/Pulsewave-0.16.36-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
