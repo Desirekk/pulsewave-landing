@@ -1,9 +1,9 @@
 {
-  "version": "0.15.8",
-  "notes": "v0.15.8 \u2014 Per-class skin storage (active_skin_per_class). MODULES blueprint ship reflects the VIEWING class. Ship is 20% bigger in-game + 2x in the cosmetics preview. Removed the halo bubble around the ship. Cosmetics preview clips its contents so bullets stop at the panel edge. Skin selection removed from CLASS tab \u2014 picked entirely in the dedicated COSMETICS page. PULSE skins are no longer called 'premium' (PREMIUM = SURGE-only). Windows only.",
+  "version": "0.15.9",
+  "notes": "v0.15.9 \u2014 COSMETICS page rebuilt as Split Focus. LEFT: live preview + 4-chip loadout summary (SHIP/PROJECTILE/TRAIL/SHIELD names for the active class). RIGHT: 4 tabs + scrollable pretty skin buttons (64px art swatch, name, flavor line, status pill, price). PREMIUM SURGE skins get a gold ribbon; PULSE skins say PULSE SHOP, never 'premium'. Hover lifts the border to cyan. Sort: equipped \u2192 owned \u2192 locked, premium pinned last. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.8/Pulsewave-0.15.8-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/download/v0.15.9/Pulsewave-0.15.9-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
