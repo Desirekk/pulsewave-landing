@@ -1,9 +1,9 @@
 {
-  "version": "0.16.19",
-  "notes": "v0.16.19 — BASTION rechargeable barrier rework. Shield is now a damage pool (80 shield HP) that always sits in front of HP — damage hits the barrier first. Space = REFILL: presses top the bar back up to 100% and consume one of 2 refill charges. Each consumed refill takes 12s to cool down. Shield HP only refills via Space — passively the barrier just soaks until empty. HUD gauge updated with shield HP bar + numeric value + 2 refill pips + clear status states ([SPACE] REFILL · 1/2, [SPACE] FULL · 2/2, RECHARGING X.Xs). Persistent thin barrier ring around the ship while shield is up; brief cyan burst on refill press; the old 1s invuln deploy bubble is gone. Windows only.",
+  "version": "0.16.20",
+  "notes": "v0.16.20 — Hero card + PROFILE LV truly per-class. Two remaining UI spots still showed account level next to ship art: the HOME hero card and the PROFILE 'LEVEL + XP bar' panel under the class chip. Both now read the active class's per-class pool (class_level / class_xp). Switch from SHARD LV12 to BASTION LV1 and the LV on the ship card flips to 1. Account-wide level still lives on the top bar score chip and the profile umbrella XP bar (the cross-class total). Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.19/Pulsewave-0.16.19-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.20/Pulsewave-0.16.20-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
