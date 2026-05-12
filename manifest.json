@@ -1,9 +1,9 @@
 {
-  "version": "0.15.9",
-  "notes": "v0.15.9 \u2014 COSMETICS page rebuilt as Split Focus. LEFT: live preview + 4-chip loadout summary (SHIP/PROJECTILE/TRAIL/SHIELD names for the active class). RIGHT: 4 tabs + scrollable pretty skin buttons (64px art swatch, name, flavor line, status pill, price). PREMIUM SURGE skins get a gold ribbon; PULSE skins say PULSE SHOP, never 'premium'. Hover lifts the border to cyan. Sort: equipped \u2192 owned \u2192 locked, premium pinned last. Windows only.",
+  "version": "0.16.0",
+  "notes": "v0.16.0 \u2014 CLASS page uses real ship textures for all 4 classes (tab + hero). OPEN SKILL TREE replaced by MODULES + COSMETICS buttons. MODULES slot click opens a centered UNEQUIP / CANCEL confirm (side-dock picker removed). COSMETICS SHIP tab now uses real ship textures in skin buttons; prices show PULSE / SURGE currency icons. Clicking a locked skin jumps to SHOP with the right class pre-selected. SHOP ship skins split into per-class subcategory + OWNED / PULSE SHOP / PREMIUM (SURGE only) sections. BOSS KEYS section now ships the real orange keycard art. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.9/Pulsewave-0.15.9-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.0/Pulsewave-0.16.0-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
