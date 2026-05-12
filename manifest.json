@@ -1,9 +1,9 @@
 {
-  "version": "0.16.26",
-  "notes": "v0.16.26 — RIFT foundation (Phase 1/9). First building block for the upcoming RIFT campaign: persistent ENERGY pool (cap 100) that gates rift opens. Energy regens 1 point every 6 minutes INCLUDING offline — close the game, come back tomorrow, you're topped up for the time between. New ENERGY row in the top profile bar with current value, lime diamond icon, and a '+1 in M:SS' countdown to the next tick (shows FULL when capped). Cost to open a rift will be 10 energy. Rest of rift system (node map, 3 paths, mini-modes, boss finale) lands across phases 2-9. Windows only.",
+  "version": "0.16.27",
+  "notes": "v0.16.27 — RIFTS Phase 2/9. New RIFTS page in the left nav rail. 4 difficulty cards (EASY/NORMAL/HARD/BRUTAL) — click one to spend 10 energy and open a rift. 3 procedurally generated paths with weighted node types: combat / elite / mini-boss / heal / module / hazard / slipstream / strafe / final boss. Pick a path, see the run map with current node pulsing and completed nodes ticked. Carry-HP bar tracks across stops. Rift state fully persistent — survives game restarts, ABANDON button for voluntary forfeit. ENTER NODE button currently advances pointer only; actual gameplay hooks land in Phases 3-7. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.26/Pulsewave-0.16.26-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.27/Pulsewave-0.16.27-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
