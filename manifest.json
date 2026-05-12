@@ -1,9 +1,9 @@
 {
-  "version": "0.16.3",
-  "notes": "v0.16.3 \u2014 HOME / SHOP / PLAY polish. GRINDARE STUDIO chip is bigger with a fitted caption (no overflow), DAILY MISSION card has a star icon + gold REWARD chip + larger progress bar, SEASON panel now reads COMING SOON instead of the fake TIER 7 placeholder. SHOP key bundles render stacked key icons (1 / 3 / 4 / 5 keys fanned with a bright '\u00d7 N' multiplier chip) instead of a plain text label. PLAY hub gains a second row of 4 PLANNED placeholder cards: KAMPANIA, RANKINGI, STREAMER MODE, FUN ROOM \u2014 each routes to its own coming-soon page. Windows only.",
+  "version": "0.16.4",
+  "notes": "v0.16.4 \u2014 GRINDARE chip is now clickable (opens grindarestudio.com) with a 2x bigger logo flush-left, gold hover wash + scanlines, and a VISIT hint on hover. DAILY MISSION card is fully redesigned: animated mission seal (rotating octagon ring + dotted inner ring + pulsing 5-point star), ticket-style REWARD strip with diagonal cut corner + perforation dots, segmented progress bar with tick marks at 25/50/75 and a bright moving cap. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.3/Pulsewave-0.16.3-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.4/Pulsewave-0.16.4-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
