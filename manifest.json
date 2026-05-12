@@ -1,9 +1,9 @@
 {
-  "version": "0.16.1",
-  "notes": "v0.16.1 \u2014 All 16 ship sprites re-processed with an alpha-weighted CENTROID re-center step instead of bbox-center (fixes BASTION / other classes drifting off-centre in MODULES blueprint + COSMETICS preview when the source PNG had asymmetric halo padding). Also removed the always-visible energy ring around the in-game ship. Windows only.",
+  "version": "0.16.2",
+  "notes": "v0.16.2 \u2014 HOME page redesign (News-Focused A). Hero strip with active-class ship texture (clickable \u2192 CLASS tab), GRINDARE STUDIO attribution chip + logo, animated cyan grid backdrop. Two-column body: PATCH NOTES feed on the left (driven by the in-game PATCH_NOTES const, color-coded by kind), DAILY / SEASON / ROADMAP / RECENT MATCHES stack on the right. Removed the QUICK MATCH button and the old 6-card grid. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.1/Pulsewave-0.16.1-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.2/Pulsewave-0.16.2-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
