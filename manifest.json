@@ -1,9 +1,9 @@
 {
-  "version": "0.16.29",
-  "notes": "v0.16.29 — Hotfix: RIFT path cards were collapsing vertically — every step crammed into a thin strip at top of each card, footer overlapping header. Cause: HBoxContainer anchored TOP_WIDE had zero vertical height so cards' SIZE_EXPAND_FILL had nothing to expand into. Row now anchored FULL_RECT with proper top/bottom offsets, min card height 520. Step row height now scales to fill the card (min 32px so the boss disc never clips). EASY (4 nodes) gets tall comfortable steps, BRUTAL (11 nodes) packs tight but readable. Windows only.",
+  "version": "0.16.30",
+  "notes": "v0.16.30 — Phase 3/9 of the RIFT system. ENTER NODE button is no longer a stub. COMBAT launches a scaled arena match (win = rift advances, lose = rift fails). ELITE bumps the bot difficulty one tier. HEAL is instant: +30% HP carry, or +5% max if already full. MODULE CACHE is instant: guaranteed module drop using the per-difficulty rarity table, 25% chance to roll the higher rarity instead of the floor. MINI-BOSS / HAZARD / SLIPSTREAM / STRAFE / BOSS still stub-advance for Phases 4-8. Path map shows the last node's result as a flash banner; rift-fail banner stays visible on the picker so you see why the run ended. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.29/Pulsewave-0.16.29-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.30/Pulsewave-0.16.30-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
