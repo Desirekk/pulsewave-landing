@@ -1,9 +1,9 @@
 {
-  "version": "0.16.2",
-  "notes": "v0.16.2 \u2014 HOME page redesign (News-Focused A). Hero strip with active-class ship texture (clickable \u2192 CLASS tab), GRINDARE STUDIO attribution chip + logo, animated cyan grid backdrop. Two-column body: PATCH NOTES feed on the left (driven by the in-game PATCH_NOTES const, color-coded by kind), DAILY / SEASON / ROADMAP / RECENT MATCHES stack on the right. Removed the QUICK MATCH button and the old 6-card grid. Windows only.",
+  "version": "0.16.3",
+  "notes": "v0.16.3 \u2014 HOME / SHOP / PLAY polish. GRINDARE STUDIO chip is bigger with a fitted caption (no overflow), DAILY MISSION card has a star icon + gold REWARD chip + larger progress bar, SEASON panel now reads COMING SOON instead of the fake TIER 7 placeholder. SHOP key bundles render stacked key icons (1 / 3 / 4 / 5 keys fanned with a bright '\u00d7 N' multiplier chip) instead of a plain text label. PLAY hub gains a second row of 4 PLANNED placeholder cards: KAMPANIA, RANKINGI, STREAMER MODE, FUN ROOM \u2014 each routes to its own coming-soon page. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.2/Pulsewave-0.16.2-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.3/Pulsewave-0.16.3-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
