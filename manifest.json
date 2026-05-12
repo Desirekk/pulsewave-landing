@@ -1,9 +1,9 @@
 {
-  "version": "0.16.31",
-  "notes": "v0.16.31 — 3 LIVES per rift; defeat costs one life and leaves you on the same node to retry, lives run out = rift fails. All difficulties now have exactly 6 stops + boss (was 3/5/7/10) — difficulty only changes boss tier and rewards now. HEAL nodes restore +1 life (cap 3; +25 PULSE consolation if already maxed). Visible heart pips on the run map header AND in a new top-left RIFT chip in the in-match HUD with difficulty + stop X/Y. Phase 4: MINI-BOSS node launches a real boss-rush encounter using the rift's boss at rift difficulty, no minion spawn (solo duel), boss key cost bypassed (energy paid the entry). Windows only.",
+  "version": "0.16.32",
+  "notes": "v0.16.32 — Phase 5/9: HAZARD node. New MatchMode.HAZARD — pure-dodge survival, no bot, 30s timer, bullet volleys raining from the arena edges. 3 patterns rotate: ARC (cone from a random edge aimed at you), RING (8-ish bullets from a circle around you flying inward), CHASE (lead shots aimed where you'll be in 0.4s). Cadence + shot count + bullet speed scale with rift difficulty — BRUTAL hazard is genuinely brutal, EASY is teachable. Death = -1 life (retry), survive 30s = node clear, rift advances. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.31/Pulsewave-0.16.31-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.32/Pulsewave-0.16.32-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
