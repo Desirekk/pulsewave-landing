@@ -1,9 +1,9 @@
 {
-  "version": "0.16.16",
-  "notes": "v0.16.16 — BASTION shield = Space + ready indicator. BASTION's Space key now actively deploys the shield burst — 1 second of full invulnerability + chunky bubble aura with rotating energy strobes. A pulsing outer ring + [SPACE] prompt sit above the ship whenever a shield charge is available so you always know when the shield is armed. Each press consumes 1 charge from the existing pool (cap 3, recharges every 8s). 0.45s press-debounce so a held Space doesn't drain every charge in one frame. Windows only.",
+  "version": "0.16.17",
+  "notes": "v0.16.17 — Class-filter tabs source LOCAL data. Bug fix: BASTION / LANCE / CHORUS tabs on the boss leaderboard were empty even when you had cleared the boss with that class. The panel was reading GLOBAL rankings, and the backend doesn't carry the class tag yet — every global row defaulted to SHARD via the legacy fallback and got filtered out of the per-class tabs. Fix: per-class filter tabs now source from LOCAL data (boss_leaderboards) which has the proper class+skin tags from v0.16.13. Source chip flips to LOCAL so you can tell. The ALL tab continues to show GLOBAL when available. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.16/Pulsewave-0.16.16-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.17/Pulsewave-0.16.17-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
