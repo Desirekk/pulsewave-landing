@@ -1,9 +1,9 @@
 {
-  "version": "0.16.11",
-  "notes": "v0.16.11 — BASTION/LANCE/CHORUS hull detail pass + CHORUS trefoil redesign. BASTION hex tank gained inner armor platform, central command turret, forward sensor canopy, 6 integrated armor wedges, forward weapon ports. LANCE sniper gained 8-vert hull, spine ridge, nose cockpit, 4 outrigger fins, bigger engine block, nose charge port. CHORUS redesigned as a 3-armed trefoil sound platform (was a disc — too similar to BASTION). Speaker horns at each arm tip, central hub with raised rings + dome. All 16 PNGs re-rendered + animated atlas updated. Windows only.",
+  "version": "0.16.12",
+  "notes": "v0.16.12 — COSMETICS live animations + LANCE delta-wing redesign + ZENITH FX beef. Three visual fixes: (1) COSMETICS skin tiles + composite preview now animate (cockpit pulse, premium ring/orb orbit) — the per-frame queue_redraw was a no-op. (2) LANCE redesigned as a delta-wing fighter (was 'lollipop sticks') with proper swept wings, prominent cockpit canopy, twin rear engines, tail fin. (3) ZENITH (chorus_surge) premium FX gained an outer crown halo + 3 orbital resonance orbs around the trefoil — now clearly distinct from ARIA. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.11/Pulsewave-0.16.11-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.12/Pulsewave-0.16.12-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
