@@ -1,9 +1,9 @@
 {
-  "version": "0.16.33",
-  "notes": "v0.16.33 — Phase 6/9: SLIPSTREAM node. New MatchMode.SLIPSTREAM — pseudo-3D tunnel runner. Your ship locks to the rim of a circular tunnel; rings of obstacles rush in from the vanishing point and you rotate left/right with A/D or arrows to thread through the gap in each one. 3 hits = node failed (-1 life); survive 30s = node cleared. Difficulty scales cadence, gap width, ring speed, and how hard the gap chases your position — BRUTAL barely lets you read the ring before it arrives. Windows only.",
+  "version": "0.16.34",
+  "notes": "v0.16.34 — Phase 7/9: STRAFE RUN node. New MatchMode.STRAFE — side-scroll dodge node for rifts. Ship locked to a band on the left; hazards fly in from the right edge. 3 rotating hazards: WALL with a single gap (line yourself up to thread it), BULLET VOLLEY (3-6 staggered shots), and LASER row (telegraphs as a pulsing band, then fires a full-width beam — clear the row before it goes hot). WASD or arrows to dodge. 3 hits = node failed; survive 30s = node cleared. Difficulty scales cadence, hazard speed, gap width, bullet count, and laser dwell. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.33/Pulsewave-0.16.33-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.34/Pulsewave-0.16.34-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
