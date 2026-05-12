@@ -1,9 +1,9 @@
 {
-  "version": "0.16.9",
-  "notes": "v0.16.9 — All 4 classes redesigned with 16 new procedurally-rendered ships. Every class now has 4 distinct skin tiers matching the SHARD style: SHARD (PROTO/GLACIER/INFERNO/AUREATE — cyan triangle), BASTION (BULWARK/SENTINEL/CITADEL/COLOSSUS — gold hexagonal tank), LANCE (SPIRE/ECLIPSE/VECTOR/APEX — magenta rhombus sniper), CHORUS (HARMONY/ECHO/ARIA/ZENITH — lime concentric-rings support). Each class has its own per-tier modules (armor spikes, barrel extensions, antenna spires, etc.) and per-class premium FX (orbital shield wedges, tracking probes, soundwave rings). All 16 PNGs replaced. Skin names updated everywhere. Windows only.",
+  "version": "0.16.10",
+  "notes": "v0.16.10 — Animated ship previews everywhere. All 16 ship skins now render LIVE in 3D wherever they appear: shop tiles, COSMETICS picker, hero ship card on HOME, class select profile pill, account avatar, loadout slot. Cockpits pulse, engine ports flicker, AUREATE halo ring rotates with 3 drones orbiting, BASTION COLOSSUS shield wedges sweep around the hex, LANCE APEX probes track around the chassis, CHORUS ZENITH soundwave rings ripple. Even locked / shop-preview tiles animate at full quality. Single shared SubViewport renders the whole atlas — UI cost is one 3D pass per frame regardless of tile count. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.9/Pulsewave-0.16.9-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.10/Pulsewave-0.16.10-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
