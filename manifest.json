@@ -1,9 +1,9 @@
 {
-  "version": "0.16.30",
-  "notes": "v0.16.30 — Phase 3/9 of the RIFT system. ENTER NODE button is no longer a stub. COMBAT launches a scaled arena match (win = rift advances, lose = rift fails). ELITE bumps the bot difficulty one tier. HEAL is instant: +30% HP carry, or +5% max if already full. MODULE CACHE is instant: guaranteed module drop using the per-difficulty rarity table, 25% chance to roll the higher rarity instead of the floor. MINI-BOSS / HAZARD / SLIPSTREAM / STRAFE / BOSS still stub-advance for Phases 4-8. Path map shows the last node's result as a flash banner; rift-fail banner stays visible on the picker so you see why the run ended. Windows only.",
+  "version": "0.16.31",
+  "notes": "v0.16.31 — 3 LIVES per rift; defeat costs one life and leaves you on the same node to retry, lives run out = rift fails. All difficulties now have exactly 6 stops + boss (was 3/5/7/10) — difficulty only changes boss tier and rewards now. HEAL nodes restore +1 life (cap 3; +25 PULSE consolation if already maxed). Visible heart pips on the run map header AND in a new top-left RIFT chip in the in-match HUD with difficulty + stop X/Y. Phase 4: MINI-BOSS node launches a real boss-rush encounter using the rift's boss at rift difficulty, no minion spawn (solo duel), boss key cost bypassed (energy paid the entry). Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.30/Pulsewave-0.16.30-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.31/Pulsewave-0.16.31-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
