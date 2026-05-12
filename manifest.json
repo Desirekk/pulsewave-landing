@@ -1,9 +1,9 @@
 {
-  "version": "0.16.18",
-  "notes": "v0.16.18 — BASTION shield gauge HUD widget. New bottom-center HUD widget while flying BASTION: 'SHIELD' label + 3 diamond pips (filled = available charge, hollow = used) + a clear status line that cycles between '[SPACE]  2/3' when armed, '[ACTIVE]  0.6s' during a burst, and 'RECHARGING  4.7s' when on cooldown. Colour states: gold when armed, dim grey when waiting, cyan when burst is running. Removed the confusing in-world pulsing ring + floating [SPACE] prompt around the ship (players couldn't tell whether the ring meant 'shield up' or 'shield available'). Ship now keeps just the notched charge ring + the deploy bubble during the active burst. Windows only.",
+  "version": "0.16.19",
+  "notes": "v0.16.19 — BASTION rechargeable barrier rework. Shield is now a damage pool (80 shield HP) that always sits in front of HP — damage hits the barrier first. Space = REFILL: presses top the bar back up to 100% and consume one of 2 refill charges. Each consumed refill takes 12s to cool down. Shield HP only refills via Space — passively the barrier just soaks until empty. HUD gauge updated with shield HP bar + numeric value + 2 refill pips + clear status states ([SPACE] REFILL · 1/2, [SPACE] FULL · 2/2, RECHARGING X.Xs). Persistent thin barrier ring around the ship while shield is up; brief cyan burst on refill press; the old 1s invuln deploy bubble is gone. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.18/Pulsewave-0.16.18-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.19/Pulsewave-0.16.19-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
