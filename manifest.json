@@ -1,9 +1,9 @@
 {
-  "version": "0.15.4",
-  "notes": "v0.15.4 — MODULES screen redesign. Library tiles are now HEX badges in a 4-column grid with rarity shown as a glowing dot (text never overflows). Slot picker is a SIDE DOCK that slides in from the right while the ship blueprint stays visible behind it. COSMETICS rebuilt as 4 tabs (SHIP / PROJECTILE / TRAIL / SHIELD) with a live composite preview that uses the real in-game render — ship texture, projectiles streaming up with the active shape + color, fading trail circles in active_trail_color(), and a pulsing shield ring in active_shield_color(). Click any skin in the right-hand list and the preview updates instantly. Bug fixes: rarity badges never overflow, slot X-button has a bigger hit area and swallows clicks before drag, library single-click equips, filter-chip count badges sit inside the chip. Windows only.",
+  "version": "0.15.5",
+  "notes": "v0.15.5 — UNEQUIP NOW WORKS. X-button and the UNEQUIP / LEAVE EMPTY option in the side dock actually clear the slot (previously _equip_module rejected empty module IDs, so the click was a silent no-op). Empty slots stay empty across saves now too (used to auto-refill with the starter module on the next load). COSMETICS moved to its own nav page (sidebar entry between MODULES and TUTORIAL) so the MODULES screen has full breathing room. The live composite preview now uses the EXACT in-game render code — ship trail = combatant.gd::draw_trail() (fading circles at alpha 0.35), bullets = bullet.gd::_draw() (trail samples + 2 halo rings + white core + colored inner, no polygon chevrons), shield = pulsing arc ring. Ship drifts in a slow figure-8 so the trail actually shows. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.4/Pulsewave-0.15.4-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.5/Pulsewave-0.15.5-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
