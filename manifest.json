@@ -1,9 +1,9 @@
 {
-  "version": "0.16.32",
-  "notes": "v0.16.32 — Phase 5/9: HAZARD node. New MatchMode.HAZARD — pure-dodge survival, no bot, 30s timer, bullet volleys raining from the arena edges. 3 patterns rotate: ARC (cone from a random edge aimed at you), RING (8-ish bullets from a circle around you flying inward), CHASE (lead shots aimed where you'll be in 0.4s). Cadence + shot count + bullet speed scale with rift difficulty — BRUTAL hazard is genuinely brutal, EASY is teachable. Death = -1 life (retry), survive 30s = node clear, rift advances. Windows only.",
+  "version": "0.16.33",
+  "notes": "v0.16.33 — Phase 6/9: SLIPSTREAM node. New MatchMode.SLIPSTREAM — pseudo-3D tunnel runner. Your ship locks to the rim of a circular tunnel; rings of obstacles rush in from the vanishing point and you rotate left/right with A/D or arrows to thread through the gap in each one. 3 hits = node failed (-1 life); survive 30s = node cleared. Difficulty scales cadence, gap width, ring speed, and how hard the gap chases your position — BRUTAL barely lets you read the ring before it arrives. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.32/Pulsewave-0.16.32-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.33/Pulsewave-0.16.33-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
