@@ -1,9 +1,9 @@
 {
-  "version": "0.16.7",
-  "notes": "v0.16.7 \u2014 Module art polish pass. All 30 module PNGs re-processed with alpha threshold 110 to kill the AI-rendered orange glow halo (visible as an orange border on the STANDARD DRIVE etc.). Texture-size multiplier dropped from 2.10x to 1.05x so icons no longer overflow slot card panels. Compare popup now shows the new texture instead of the small procedural circle. Library hex tiles now show the texture for ALL modules (locked ones dimmed to 40% alpha) so the whole catalog reads as art, not generic outlines. MODULES \u2192 SHIP CLASS picker buttons gained ship texture icons (active class's active skin per class). HOME daily mission card now sources its objective text + PULSE reward from DAILY_TEMPLATES (was hardcoded '+200 PULSE \u00b7 +1 BOSS KEY' regardless of which mission was active) \u2014 matches what QUESTS shows. Windows only.",
+  "version": "0.16.8",
+  "notes": "v0.16.8 — SHARD skin art rebaked. All four SHARD skins (PROTO / GLACIER / INFERNO / AUREATE) re-rendered from the procedural mesh used in the flyable demo. Real 3D geometry: cockpit dome, engine pods, wing tip caps. Per-skin modules — GLACIER gets stabilizer wing fins, INFERNO gets side cannons + weapon pylons, AUREATE gets the full kit + tail fin. AUREATE premium FX baked in: 3 orbital drones around the chassis (the SURGE-tier wow factor). Sized so the ship body fills ~60% of the 512px sprite — reads cleanly at the in-game 112px draw rect. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.7/Pulsewave-0.16.7-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.8/Pulsewave-0.16.8-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
