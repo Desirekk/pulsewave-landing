@@ -1,9 +1,9 @@
 {
-  "version": "0.16.23",
-  "notes": "v0.16.23 — Fix: the first-clear XP/Pulse/keys bonus was paying out on every boss kill instead of only the first one per (boss × difficulty). The mark + save now commits the instant the results overlay appears; a one-shot flag carries the decision through to the bank, then resets, so re-entries find both the mark AND the flag already consumed. New MODULE DROPPED banner on the boss results screen — shows the rarity-colored module you found, or NO MODULE THIS RUN if the roll missed. Hard-guarded to one drop per match. Windows only.",
+  "version": "0.16.24",
+  "notes": "v0.16.24 — Bug fix: every CLASS tab was reading account stat_level for the active class and hardcoding LV 1 for the rest, making the level appear to swap on class change. Tab LV chip now reads class_level_for(tile's own class key) so every tab shows its real per-class level all the time. Legacy backfill: first v0.16.24 launch seeds the active class's per-class pool from account totals so chips stop showing LV 1 next to a maxed account. Module library hex tiles now show the stat bonus right under the module name (e.g. '+12% Damage, +20 HP'). Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.23/Pulsewave-0.16.23-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.24/Pulsewave-0.16.24-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
