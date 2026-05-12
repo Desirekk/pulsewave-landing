@@ -1,9 +1,9 @@
 {
-  "version": "0.16.24",
-  "notes": "v0.16.24 — Bug fix: every CLASS tab was reading account stat_level for the active class and hardcoding LV 1 for the rest, making the level appear to swap on class change. Tab LV chip now reads class_level_for(tile's own class key) so every tab shows its real per-class level all the time. Legacy backfill: first v0.16.24 launch seeds the active class's per-class pool from account totals so chips stop showing LV 1 next to a maxed account. Module library hex tiles now show the stat bonus right under the module name (e.g. '+12% Damage, +20 HP'). Windows only.",
+  "version": "0.16.25",
+  "notes": "v0.16.25 — Module library hover tooltip. Long module descriptions were getting clipped on the hex tile; bonus text moved off the tile entirely. Hover any module hex now and a cyberdeck-styled tooltip pops up with rarity strip, name, slot/rarity tags, and the full word-wrapped description. Locked modules show a 'ROLL THIS FROM A BOSS CLEAR' hint in the tooltip. Tile is back to its compact 96×124 size — just hex + name + rarity dot. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.24/Pulsewave-0.16.24-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.25/Pulsewave-0.16.25-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
