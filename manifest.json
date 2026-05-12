@@ -1,9 +1,9 @@
 {
-  "version": "0.16.27",
-  "notes": "v0.16.27 — RIFTS Phase 2/9. New RIFTS page in the left nav rail. 4 difficulty cards (EASY/NORMAL/HARD/BRUTAL) — click one to spend 10 energy and open a rift. 3 procedurally generated paths with weighted node types: combat / elite / mini-boss / heal / module / hazard / slipstream / strafe / final boss. Pick a path, see the run map with current node pulsing and completed nodes ticked. Carry-HP bar tracks across stops. Rift state fully persistent — survives game restarts, ABANDON button for voluntary forfeit. ENTER NODE button currently advances pointer only; actual gameplay hooks land in Phases 3-7. Windows only.",
+  "version": "0.16.28",
+  "notes": "v0.16.28 — RIFT path select redesigned as Card Stack (option C from mockups). 3 large vertical cards side-by-side, each lists its full numbered route + auto-generated STYLE tag (COMBAT-HEAVY / HIGH RISK / MODULE-RICH / MINI-MODE MIX / BALANCED). Each step shows index, rarity-coloured glyph, name, and a one-line tag. NEW: clicking a difficulty card no longer opens immediately — a PICK YOUR SHIP screen appears with all 4 class tiles (locked ones show UNLOCKS AT LV X). Energy is only spent after you confirm the ship; CANCEL drops back to picker. Ship is LOCKED for the rift duration — CLASS page refuses to switch active_class while a rift is active. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.27/Pulsewave-0.16.27-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.28/Pulsewave-0.16.28-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
