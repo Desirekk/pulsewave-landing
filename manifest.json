@@ -1,9 +1,9 @@
 {
-  "version": "0.16.13",
-  "notes": "v0.16.13 — BASTION class playable + tank mechanics + leaderboard class tags. BASTION is now selectable and has its identity wired: NO dash, -35% speed, -25% fire rate, +60% HP, +10% damage per hit, 3 charged shield segments at spawn (cap 3, 8s recharge). New CLASS_BASE_STATS layer applied on top of skill tree + modules so class identity always wins — LANCE (glassy, slow charge shots, +45% damage) and CHORUS (medium HP, fast fire rate, low damage) also get their canon profiles. Boss Rush leaderboard rows now display the class + skin name that achieved each clear in class colour. Windows only.",
+  "version": "0.16.14",
+  "notes": "v0.16.14 — Per-class XP/level/SP. Each ship class now has its own XP, level, and skill-point pool — SHARD's grind doesn't level BASTION any more. Account level (the umbrella that accumulates from every match) stays on the top bar + profile XP bar. Switching class now flips the displayed CLASS LV to that class's own number — pilot BASTION for the first time and you start at LV1 even if your SHARD is LV20. Saved under stats.class_xp / class_level / class_sp; existing saves keep their account level and start fresh per-class. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.13/Pulsewave-0.16.13-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.14/Pulsewave-0.16.14-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
