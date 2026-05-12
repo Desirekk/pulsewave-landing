@@ -1,9 +1,9 @@
 {
-  "version": "0.16.15",
-  "notes": "v0.16.15 — Boss Rush leaderboard class filter tabs. New row above the rankings: ALL / SHARD / BASTION / LANCE / CHORUS. Click a class tab and the list filters to only clears achieved with that class — see who beat a boss fastest with BASTION specifically. Legacy clears (no class tag, pre-v0.16.13) now default to SHARD so they appear in the SHARD tab and show their colored pill in the row. Each row shows a class+skin pill in the class colour next to the nick. Filter selection persists across difficulty + boss swaps. Windows only.",
+  "version": "0.16.16",
+  "notes": "v0.16.16 — BASTION shield = Space + ready indicator. BASTION's Space key now actively deploys the shield burst — 1 second of full invulnerability + chunky bubble aura with rotating energy strobes. A pulsing outer ring + [SPACE] prompt sit above the ship whenever a shield charge is available so you always know when the shield is armed. Each press consumes 1 charge from the existing pool (cap 3, recharges every 8s). 0.45s press-debounce so a held Space doesn't drain every charge in one frame. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.15/Pulsewave-0.16.15-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.16/Pulsewave-0.16.16-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
