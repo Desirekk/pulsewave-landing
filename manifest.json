@@ -1,9 +1,9 @@
 {
-  "version": "0.16.14",
-  "notes": "v0.16.14 — Per-class XP/level/SP. Each ship class now has its own XP, level, and skill-point pool — SHARD's grind doesn't level BASTION any more. Account level (the umbrella that accumulates from every match) stays on the top bar + profile XP bar. Switching class now flips the displayed CLASS LV to that class's own number — pilot BASTION for the first time and you start at LV1 even if your SHARD is LV20. Saved under stats.class_xp / class_level / class_sp; existing saves keep their account level and start fresh per-class. Windows only.",
+  "version": "0.16.15",
+  "notes": "v0.16.15 — Boss Rush leaderboard class filter tabs. New row above the rankings: ALL / SHARD / BASTION / LANCE / CHORUS. Click a class tab and the list filters to only clears achieved with that class — see who beat a boss fastest with BASTION specifically. Legacy clears (no class tag, pre-v0.16.13) now default to SHARD so they appear in the SHARD tab and show their colored pill in the row. Each row shows a class+skin pill in the class colour next to the nick. Filter selection persists across difficulty + boss swaps. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.14/Pulsewave-0.16.14-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.15/Pulsewave-0.16.15-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
