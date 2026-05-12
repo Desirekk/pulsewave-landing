@@ -1,9 +1,9 @@
 {
-  "version": "0.16.22",
-  "notes": "v0.16.22 — BASTION's full module catalog goes live (39 modules across CORE / WEAPON / SHIELD / ENGINE / WINGS / FRAME tuned around its tank identity). Every tester's module inventory is WIPED so the new pool can be re-looted from scratch. Boss kills now drop modules every clear (not just first-clear) with rarity tied to difficulty:  EASY  40% common / 10% uncommon,  MEDIUM  40% uncommon / 10% rare,  HARD  40% rare / 10% epic,  BRUTAL  40% epic / 10% legendary. New MODULE DROPS info card on the boss screen shows the floor and ceiling rarity for the difficulty you've picked. Windows only.",
+  "version": "0.16.23",
+  "notes": "v0.16.23 — Fix: the first-clear XP/Pulse/keys bonus was paying out on every boss kill instead of only the first one per (boss × difficulty). The mark + save now commits the instant the results overlay appears; a one-shot flag carries the decision through to the bank, then resets, so re-entries find both the mark AND the flag already consumed. New MODULE DROPPED banner on the boss results screen — shows the rarity-colored module you found, or NO MODULE THIS RUN if the roll missed. Hard-guarded to one drop per match. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.22/Pulsewave-0.16.22-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.23/Pulsewave-0.16.23-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
