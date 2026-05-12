@@ -1,9 +1,9 @@
 {
-  "version": "0.15.5",
-  "notes": "v0.15.5 — UNEQUIP NOW WORKS. X-button and the UNEQUIP / LEAVE EMPTY option in the side dock actually clear the slot (previously _equip_module rejected empty module IDs, so the click was a silent no-op). Empty slots stay empty across saves now too (used to auto-refill with the starter module on the next load). COSMETICS moved to its own nav page (sidebar entry between MODULES and TUTORIAL) so the MODULES screen has full breathing room. The live composite preview now uses the EXACT in-game render code — ship trail = combatant.gd::draw_trail() (fading circles at alpha 0.35), bullets = bullet.gd::_draw() (trail samples + 2 halo rings + white core + colored inner, no polygon chevrons), shield = pulsing arc ring. Ship drifts in a slow figure-8 so the trail actually shows. Windows only.",
+  "version": "0.15.6",
+  "notes": "v0.15.6 — COSMETICS nav fixed (clicks no longer dump you back to MODULES). Per-class ship rendering in the live preview: BASTION = hex, LANCE = rhombus, CHORUS = rings, SHARD = real texture. Ship moves in a slow orbit and rotates to face its velocity so the trail visibly sits behind it (instead of stacking under as a single blob). LIBRARY hides locked modules by default — new SHOW ALL toggle in the LIBRARY header flips to browse mode. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.5/Pulsewave-0.15.5-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.6/Pulsewave-0.15.6-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
