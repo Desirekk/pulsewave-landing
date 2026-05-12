@@ -1,9 +1,9 @@
 {
-  "version": "0.16.28",
-  "notes": "v0.16.28 — RIFT path select redesigned as Card Stack (option C from mockups). 3 large vertical cards side-by-side, each lists its full numbered route + auto-generated STYLE tag (COMBAT-HEAVY / HIGH RISK / MODULE-RICH / MINI-MODE MIX / BALANCED). Each step shows index, rarity-coloured glyph, name, and a one-line tag. NEW: clicking a difficulty card no longer opens immediately — a PICK YOUR SHIP screen appears with all 4 class tiles (locked ones show UNLOCKS AT LV X). Energy is only spent after you confirm the ship; CANCEL drops back to picker. Ship is LOCKED for the rift duration — CLASS page refuses to switch active_class while a rift is active. Windows only.",
+  "version": "0.16.29",
+  "notes": "v0.16.29 — Hotfix: RIFT path cards were collapsing vertically — every step crammed into a thin strip at top of each card, footer overlapping header. Cause: HBoxContainer anchored TOP_WIDE had zero vertical height so cards' SIZE_EXPAND_FILL had nothing to expand into. Row now anchored FULL_RECT with proper top/bottom offsets, min card height 520. Step row height now scales to fill the card (min 32px so the boss disc never clips). EASY (4 nodes) gets tall comfortable steps, BRUTAL (11 nodes) packs tight but readable. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.28/Pulsewave-0.16.28-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.29/Pulsewave-0.16.29-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
