@@ -1,9 +1,9 @@
 {
-  "version": "0.16.4",
-  "notes": "v0.16.4 \u2014 GRINDARE chip is now clickable (opens grindarestudio.com) with a 2x bigger logo flush-left, gold hover wash + scanlines, and a VISIT hint on hover. DAILY MISSION card is fully redesigned: animated mission seal (rotating octagon ring + dotted inner ring + pulsing 5-point star), ticket-style REWARD strip with diagonal cut corner + perforation dots, segmented progress bar with tick marks at 25/50/75 and a bright moving cap. Windows only.",
+  "version": "0.16.5",
+  "notes": "v0.16.5 \u2014 GRINDARE attribution chip is now logo-first: logo is centered and dominates the chip, the redundant 'GRINDARE STUDIO' caption is removed (it's already on the logo), only a tiny 'MADE BY \u00b7' tag remains in the top-left corner. DAILY MISSION card rebuilt as a clean 2-zone layout (animated seal on the left, name / desc / reward chip / progress bar stacked on the right) \u2014 no more yellow ticket overlapping the green star. The mission seal got a glow-up: rotating hex ring, counter-rotating triangle, pulsing core circle with crosshair lines and a 4-point spark. PLAY hub now puts PRACTICE + BOSS RUSH as equal-size hero buttons; MULTIPLAYER moves to the COMING NEXT row alongside CAMPAIGN / RANKED / STREAMER MODE / FUN ROOM (5 cards total, all English names). CLASS tab + class tile lock indicators replaced their broken \ud83d\udd12 emoji with a procedural lock glyph on an amber-tinted pill \u2014 actually visible now. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.4/Pulsewave-0.16.4-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.5/Pulsewave-0.16.5-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
