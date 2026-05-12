@@ -1,9 +1,9 @@
 {
-  "version": "0.16.12",
-  "notes": "v0.16.12 — COSMETICS live animations + LANCE delta-wing redesign + ZENITH FX beef. Three visual fixes: (1) COSMETICS skin tiles + composite preview now animate (cockpit pulse, premium ring/orb orbit) — the per-frame queue_redraw was a no-op. (2) LANCE redesigned as a delta-wing fighter (was 'lollipop sticks') with proper swept wings, prominent cockpit canopy, twin rear engines, tail fin. (3) ZENITH (chorus_surge) premium FX gained an outer crown halo + 3 orbital resonance orbs around the trefoil — now clearly distinct from ARIA. Windows only.",
+  "version": "0.16.13",
+  "notes": "v0.16.13 — BASTION class playable + tank mechanics + leaderboard class tags. BASTION is now selectable and has its identity wired: NO dash, -35% speed, -25% fire rate, +60% HP, +10% damage per hit, 3 charged shield segments at spawn (cap 3, 8s recharge). New CLASS_BASE_STATS layer applied on top of skill tree + modules so class identity always wins — LANCE (glassy, slow charge shots, +45% damage) and CHORUS (medium HP, fast fire rate, low damage) also get their canon profiles. Boss Rush leaderboard rows now display the class + skin name that achieved each clear in class colour. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.12/Pulsewave-0.16.12-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.13/Pulsewave-0.16.13-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
