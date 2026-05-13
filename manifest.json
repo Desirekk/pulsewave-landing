@@ -1,9 +1,9 @@
 {
-  "version": "0.16.45",
-  "notes": "v0.16.45 — BOSS RUSH: ATTACK PATTERNS removed entirely from the right column (user feedback) + boss hero animation now uses the IDENTICAL canonical function as the row thumbnails — multi-coloured rings + halo pulsing core for CIRCLE, cyan prisms + beams for PRISM, magenta/orange swarm for HIVE, lime sine-snake for SNAKE. Same body, same colours, same motion — the hero is literally a scaled-up mini thumb. Windows only.",
+  "version": "0.16.46",
+  "notes": "v0.16.46 — BOSS RUSH: leaderboard TOP 10 (was 7) + class-filter tabs (ALL / SHARD / BASTION / LANCE / CHORUS) above the rows. Per-row class chip next to time. Hover any row → tooltip popup floats next to the row showing the runner's SHIP (animated skin atlas) + class name + role + equipped-module loadout snapshot (CORE / WEAPON / MOBILITY / UTILITY) with rarity-coloured diamonds. FIRST CLEAR banner now renders icons INLINE — XP / PULSE / KEY icons immediately before each value. record_boss_time snapshots equipped_modules at clear time so the tooltip can show what the player was running. Old pre-v0.16.46 clears show 'No loadout recorded.' Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.45/Pulsewave-0.16.45-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.46/Pulsewave-0.16.46-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
