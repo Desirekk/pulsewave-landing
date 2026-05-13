@@ -1,9 +1,9 @@
 {
-  "version": "0.16.49",
-  "notes": "v0.16.49 — PRACTICE: correct mode descriptions + readable CAPTURE preview. Match length is now explicitly = length of the picked track across all modes. ARENA: most kills when the track ends wins. CAPTURE: hold the orb to bank time, get hit while holding → orb drops to centre, first to 60 seconds of total hold wins. PAINT: kills splash paint at the death spot, most floor covered when the track ends wins. CAPTURE preview animation now reads cleanly — holder grabs the orb, orb flashes brighter, the shooter waits a 2.5s grace window before opening fire, then bullets fly ~1–2s before hitting; a hold-time bar above the holder shows progress toward the 60s win condition. Windows only.",
+  "version": "0.16.50",
+  "notes": "v0.16.50 — TOP PROFILE BAR rebuilt as the SEGMENTED HOLO mockup (variant 3): single seamless neon strip with vertical neon separators, cyan top edge, magenta bottom edge, scanlines. Sections: PROFILE (avatar + nick on top + LVL & XP caption + XP bar UNDER nick), PULSE, SURGE, ENERGY (new), KEYS, COG. All currency icons redrawn procedurally inline — no more PNG textures in the bar: PULSE = concentric hex coin with inner spokes, SURGE = 8-point sparkle star with particle dots, ENERGY = lightning bolt with electric-arc halo (visually distinct from PULSE hex coin), KEYS = octagonal head + shaft with notches + keyhole, COG = rotating 8-tooth gear. Bar still drives live energy regen and shows live PULSE / SURGE / ENERGY / KEYS / XP / LVL from Game state. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.49/Pulsewave-0.16.49-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.50/Pulsewave-0.16.50-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
