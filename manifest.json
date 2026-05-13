@@ -1,9 +1,9 @@
 {
-  "version": "0.16.58",
-  "notes": "v0.16.58 — Top bar / RIFT polish. (1) Top bar avatar: ship preview swapped for the player's STEAM AVATAR (medium 64x64, PW fallback while loading). (2) PULSE / SURGE / ENERGY in the top bar now use baked Leonardo PNGs trimmed and uniform-sized, with idle animations (PULSE pulse, SURGE rotate + sparkle, ENERGY pulse + arcs). (3) RIFT picker rewards were under-counting (boss-only × diff mult). Now shows FULL RUN REWARDS: 250/100, 600/250, 1500/600, 3000/1200 + 10 SURGE on BRUTAL. RIFT_BRUTAL_SURGE bumped 5→10. (4) Top-right 'BOSS KEYS · PULSE' duplicate line removed. (5) 'Circle Boss 3/4' placeholder removed. Windows only.",
+  "version": "0.16.59",
+  "notes": "v0.16.59 — RIFT class-confirm = floating popup (variant 2 SIDE + RIFT MEMO). After clicking OPEN RIFT the picker stays visible (dim backdrop) and an 880×560 popup appears with: BIG FLASHING 'PICK YOUR SHIP' header (chromatic + sin alpha pulse), left column of 4 class tiles (real CLASS data with mini ship silhouettes, click to select), right column with rift memo banner (difficulty + boss tier + stops/lives + LOCK warning + energy cost), big animated SkinAtlas ship preview (real per-class equipped skin), 2×3 EQUIPPED MODULES grid (real loadout via _class_loadout, hex icons + names + descs), and CANCEL · EDIT MODULES · OPEN RIFT buttons. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.58/Pulsewave-0.16.58-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.59/Pulsewave-0.16.59-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
