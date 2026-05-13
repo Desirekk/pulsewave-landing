@@ -1,9 +1,9 @@
 {
-  "version": "0.16.52",
-  "notes": "v0.16.52 — BOSS RUSH leaderboard now tracks one best time per (player × boss × difficulty × CLASS) instead of one row across all classes. Your 30s SHARD clear and your 1:20 BASTION clear are separate rows. ALL tab shows the best per player across classes (window function picks each player's lowest time, no matter the class). Class tabs (SHARD / BASTION / LANCE / CHORUS) only show clears done with that class — so your 1:20 BASTION clear is rank #2 under BASTION even when your 30s SHARD clear wins ALL. Class filter pushed to the server (?class= query param). Each tab has its own cache that refreshes independently after a clear. Requires backend deploy of migration 004 (alters PK to include class). Legacy class='' rows remain visible only under ALL. Windows only.",
+  "version": "0.16.53",
+  "notes": "v0.16.53 — first-time onboarding now FORCES a real callsign. The text field starts EMPTY (no \"Pulsewave Tester\" pre-fill anywhere). CONFIRM stays visually disabled until input is 3–16 chars (letters / numbers / underscore). Steam users get an explicit USE STEAM NICKNAME button — no silent auto-fill. Old saves still carrying the placeholder are re-routed through the wizard. Settings nickname row no longer falls back to a placeholder when cleared (reverts to your locked-in name instead). Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.52/Pulsewave-0.16.52-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.53/Pulsewave-0.16.53-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
