@@ -1,9 +1,9 @@
 {
-  "version": "0.16.47",
-  "notes": "v0.16.47 — PLAY HUB mosaic now has a unique animated mini-scene per kind, all using live SkinAtlas ships (chromatic glow, atlas-rendered cockpits). PRACTICE: SHARD orbits left, cycles 3 moving targets, shoots accent bullets, targets flash on hit. BOSS RUSH: gold/orange/pink ring stack + pulsing core + orbiting ship. MULTIPLAYER: SHARD vs LANCE duel — bullets, HP bars, hit-flash, explosions, auto-reset. CAMPAIGN: SHARD/BASTION/CHORUS V-formation flies right across chapter beads (passed beads light up) — fixes ships flying tail-first. RANKED: 3-tier podium with class ships bobbing. STREAMER: CRT TV holds the player ship + 2 enemy bots (BASTION + LANCE) shooting at it; side `# stream-chat` scrolls fake player nicks + viewer count + LIVE pulse. FUN ROOM: 4 class ships spinning + confetti. Locked tiles still play their full animated scene (desaturated) under the LOCKED stamp. Windows only.",
+  "version": "0.16.48",
+  "notes": "v0.16.48 — PRACTICE: SIDE PICKER layout. Left rail with 3 mode rows (compact animated preview + name + sub + desc), right detail card with the selected mode's full animated arena + RULES bullet list + a brief footer holding the difficulty chips and START MATCH button. ARENA preview: 2 ships orbit a hex arena, fire at each other, HP bars, KO triggers explosion + reset. CAPTURE preview: BASTION rushes for the gold orb at centre, picks it up, orbits with it; LANCE circles the perimeter and shoots at the holder — a hit drops the orb back to centre. PAINT preview: matches the in-game behaviour — killing the opponent leaves a paint SPLASH at the death location coloured by the killer; splashes accumulate and fade over ~12s, with a kill counter at the top. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.47/Pulsewave-0.16.47-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.48/Pulsewave-0.16.48-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
