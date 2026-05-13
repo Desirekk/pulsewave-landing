@@ -1,9 +1,9 @@
 {
-  "version": "0.16.55",
-  "notes": "v0.16.55 — RIFT card animation in the PLAY hub is now NODE WEB (variant 4): a procedural rift run-map with 5 hex nodes connected by a dashed path. A SHARD ship hops node-to-node along the route, arcing slightly upward; each node it lands on lights up bright green and the path segment behind it fills in solid. Reads like the actual rift run flow — much clearer than the portal vortex placeholder. Windows only.",
+  "version": "0.16.56",
+  "notes": "v0.16.56 — Two big fixes. (1) BOSS RUSH leaderboard hover tooltip was hard-coded to ['core','weapon','mobility','utility'] but the real slot keys are core/weapon/shield/engine/wings/frame — that's why only 1-2 modules ever appeared. Now iterates all 6 slots, plus the tooltip is bigger (440x440) with a hex-tile icon (rarity-coloured) + module name + actual module description per slot. Empty slots show as EMPTY in dim grey. (2) After picking RIFT in the PLAY mosaic you were still landing on the old narrow 220x188 difficulty cards. Replaced with CARDS DECK: tall 256x520 cards with animated vortex preview + concrete boss rewards (XP/PULSE/SURGE × diff mult) + procedural icons + POSSIBLE MODULES rarity floor/ceiling with %, MODULE CACHE node ~12%/stop note + chance disclaimer. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.55/Pulsewave-0.16.55-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.56/Pulsewave-0.16.56-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
