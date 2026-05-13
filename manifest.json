@@ -1,9 +1,9 @@
 {
-  "version": "0.16.37",
-  "notes": "v0.16.37 — STRAFE / SLIPSTREAM render + cleanup fix. STRAFE was showing a black screen because the view was drawing at world coords outside the camera. Both modes now use a dedicated CanvasLayer so they fill the viewport in screen space. Fixed: side-scroll panel persisting onto the RIFTS menu after ESC or 3-hit loss (ship-flying-right strip under the difficulty cards, game bg in HUD) — CanvasLayer wrappers now get freed when the match tears down. Player ship in STRAFE + SLIPSTREAM now uses your active CLASS shape + color (SHARD triangle / BASTION hex / LANCE rhombus / CHORUS rings) instead of the generic cyan triangle. Windows only.",
+  "version": "0.16.38",
+  "notes": "v0.16.38 — PEAK = most kills in a single calendar day + now-playing track HUD. Profile + STATS PEAK chip is now 'PEAK / DAY' and tracks the all-time best day's total kills (rolls over at local midnight). Practice doesn't count. New now-playing label in the top-right music HUD during a match — shows current track name (e.g. ♪  AUDIO 5) below the BPM / sync line. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.37/Pulsewave-0.16.37-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.38/Pulsewave-0.16.38-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
