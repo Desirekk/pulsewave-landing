@@ -1,9 +1,9 @@
 {
-  "version": "0.16.57",
-  "notes": "v0.16.57 — Top bar / nav cleanup pass. (1) Top bar COG (settings) removed — duplicate of nav entry. 5 segments redistributed. (2) Top bar KEYS icon now uses the SHOP key art (boss_key.png) instead of the hand-drawn octagon. (3) Top bar avatar: yellow rotating ring + thin class arc removed (read as 'yellow outline' on BASTION). Soft glow halo kept. (4) Avatar SHIP preview bumped ~2× (r 22→36, multiplier r*2→r*2.6). (5) Left nav: RIFTS entry removed — RIFT lives in PLAY mosaic now. (6) CLASS page: SELECT / 'PLAY AS X' button removed. Pre-match ship picker popup ships separately. Windows only.",
+  "version": "0.16.58",
+  "notes": "v0.16.58 — Top bar / RIFT polish. (1) Top bar avatar: ship preview swapped for the player's STEAM AVATAR (medium 64x64, PW fallback while loading). (2) PULSE / SURGE / ENERGY in the top bar now use baked Leonardo PNGs trimmed and uniform-sized, with idle animations (PULSE pulse, SURGE rotate + sparkle, ENERGY pulse + arcs). (3) RIFT picker rewards were under-counting (boss-only × diff mult). Now shows FULL RUN REWARDS: 250/100, 600/250, 1500/600, 3000/1200 + 10 SURGE on BRUTAL. RIFT_BRUTAL_SURGE bumped 5→10. (4) Top-right 'BOSS KEYS · PULSE' duplicate line removed. (5) 'Circle Boss 3/4' placeholder removed. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.57/Pulsewave-0.16.57-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.58/Pulsewave-0.16.58-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
