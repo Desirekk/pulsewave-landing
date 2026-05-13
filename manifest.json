@@ -1,9 +1,9 @@
 {
-  "version": "0.16.56",
-  "notes": "v0.16.56 — Two big fixes. (1) BOSS RUSH leaderboard hover tooltip was hard-coded to ['core','weapon','mobility','utility'] but the real slot keys are core/weapon/shield/engine/wings/frame — that's why only 1-2 modules ever appeared. Now iterates all 6 slots, plus the tooltip is bigger (440x440) with a hex-tile icon (rarity-coloured) + module name + actual module description per slot. Empty slots show as EMPTY in dim grey. (2) After picking RIFT in the PLAY mosaic you were still landing on the old narrow 220x188 difficulty cards. Replaced with CARDS DECK: tall 256x520 cards with animated vortex preview + concrete boss rewards (XP/PULSE/SURGE × diff mult) + procedural icons + POSSIBLE MODULES rarity floor/ceiling with %, MODULE CACHE node ~12%/stop note + chance disclaimer. Windows only.",
+  "version": "0.16.57",
+  "notes": "v0.16.57 — Top bar / nav cleanup pass. (1) Top bar COG (settings) removed — duplicate of nav entry. 5 segments redistributed. (2) Top bar KEYS icon now uses the SHOP key art (boss_key.png) instead of the hand-drawn octagon. (3) Top bar avatar: yellow rotating ring + thin class arc removed (read as 'yellow outline' on BASTION). Soft glow halo kept. (4) Avatar SHIP preview bumped ~2× (r 22→36, multiplier r*2→r*2.6). (5) Left nav: RIFTS entry removed — RIFT lives in PLAY mosaic now. (6) CLASS page: SELECT / 'PLAY AS X' button removed. Pre-match ship picker popup ships separately. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.56/Pulsewave-0.16.56-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.57/Pulsewave-0.16.57-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
