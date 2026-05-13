@@ -1,9 +1,9 @@
 {
-  "version": "0.16.59",
-  "notes": "v0.16.59 — RIFT class-confirm = floating popup (variant 2 SIDE + RIFT MEMO). After clicking OPEN RIFT the picker stays visible (dim backdrop) and an 880×560 popup appears with: BIG FLASHING 'PICK YOUR SHIP' header (chromatic + sin alpha pulse), left column of 4 class tiles (real CLASS data with mini ship silhouettes, click to select), right column with rift memo banner (difficulty + boss tier + stops/lives + LOCK warning + energy cost), big animated SkinAtlas ship preview (real per-class equipped skin), 2×3 EQUIPPED MODULES grid (real loadout via _class_loadout, hex icons + names + descs), and CANCEL · EDIT MODULES · OPEN RIFT buttons. Windows only.",
+  "version": "0.16.60",
+  "notes": "v0.16.60 hotfix — boot black-screen after the Grindare splash (regression introduced in v0.16.58). game.gd already had pulse_tex / surge_tex preloaded for the P1 / S3 draws; my v0.16.58 commit added a duplicate set of preloads, which is a parse error in GDScript. Godot dropped the script and main.tscn rendered with no logic. Removed the duplicate decls; the existing pulse.png / surge.png on disk are the new Leonardo art so the topbar still shows the new icons. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.59/Pulsewave-0.16.59-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.60/Pulsewave-0.16.60-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
