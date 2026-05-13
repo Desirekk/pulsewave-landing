@@ -1,9 +1,9 @@
 {
-  "version": "0.16.54",
-  "notes": "v0.16.54 — Three things. (1) PLAY hub: CAMPAIGN tile replaced by RIFT — click jumps straight to the RIFTS page (energy gate + picker + run map). Card uses a placeholder portal-vortex animation; final pick will be swapped in once you choose from test_rift_card.tscn in the editor. (2) BOSS RUSH PLAY tile: ship now flies NOSE-FIRST around the boss (was tail-first) and actively shoots at the core. Bullets break on the outer shield with a tiny spark splash. (3) Leaderboard hover tooltip: pre-tracking clears (old rows with empty modules) no longer show 'No loadout recorded' forever — when the row is yours, it falls back to your CURRENT loadout for that class with a 'LIVE LOADOUT · pre-tracking clear' hint. Windows only.",
+  "version": "0.16.55",
+  "notes": "v0.16.55 — RIFT card animation in the PLAY hub is now NODE WEB (variant 4): a procedural rift run-map with 5 hex nodes connected by a dashed path. A SHARD ship hops node-to-node along the route, arcing slightly upward; each node it lands on lights up bright green and the path segment behind it fills in solid. Reads like the actual rift run flow — much clearer than the portal vortex placeholder. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.54/Pulsewave-0.16.54-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.55/Pulsewave-0.16.55-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
