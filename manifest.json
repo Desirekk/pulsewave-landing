@@ -1,9 +1,9 @@
 {
-  "version": "0.16.38",
-  "notes": "v0.16.38 — PEAK = most kills in a single calendar day + now-playing track HUD. Profile + STATS PEAK chip is now 'PEAK / DAY' and tracks the all-time best day's total kills (rolls over at local midnight). Practice doesn't count. New now-playing label in the top-right music HUD during a match — shows current track name (e.g. ♪  AUDIO 5) below the BPM / sync line. Windows only.",
+  "version": "0.16.39",
+  "notes": "v0.16.39 — Fix: BOSS RUSH was ignoring the carousel's track pick and re-rolling a random boss track, so the carousel could announce STOMP ENGINE while the match actually played FINAL WAVE. Now respects the carousel's pick (which is already filtered by mode category), with a belt-and-suspenders category-validity guard so a stale pick from a different mode can't leak in. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.38/Pulsewave-0.16.38-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.39/Pulsewave-0.16.39-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
