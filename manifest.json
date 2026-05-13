@@ -1,9 +1,9 @@
 {
-  "version": "0.16.43",
-  "notes": "v0.16.43 — BOSS RUSH list+detail 1:1 match with mockup B. Boss list rows now clip_contents so the procedural CIRCLE/PRISM/HIVE/SNAKE glyphs and active-row outer-glow can't bleed outside the 280px row frame. Boss names get an 8-direction accent glow halo (CIRCLE / PRISM / HIVE / SNAKE now read as neon instead of flat). Hero scene title-wrap stripped of stage description per feedback — only badge + big chromatic-split + glowing wordmark left. Rewards strip rewritten as 3 chips with the real baked PNG icons (pulse.png / xp.png / boss_key.png — the orange shop key art, not a hand-drawn octagon); 84px tall, icon top, label + value below, claimed combos dim chips + flip indicators green. Module-drop panel rewritten as a single 36-px banner with rarity name pills (COMMON / UNCOMMON / RARE / EPIC / LEGENDARY) coloured from Game.MODULE_RARITY_COLORS so the colours match how rarities render in MODULES / inventory. Pills update live with the difficulty pick. Windows only.",
+  "version": "0.16.44",
+  "notes": "v0.16.44 — Final three BOSS RUSH mockup-B fidelity fixes. (1) DIFFICULTY pills are now a 2x2 grid (EASY/NORMAL top, HARD/BRUTAL bottom) instead of a 1x4 horizontal row. (2) LEADERBOARD rewritten flat to match the mockup: 7 rows of rank · letter grade · nickname · time, no TOP-10 chrome, no GLOBAL chip, no DATE column, no class-filter tabs. Your row keeps the cyan highlight. (3) ATTACK PATTERNS panel (renamed from TACTICS · PHASE BY PHASE): flat rows with small accent square + single-line attack description per phase, matching mockup .attacks-list. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.43/Pulsewave-0.16.43-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.44/Pulsewave-0.16.44-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
