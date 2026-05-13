@@ -1,9 +1,9 @@
 {
-  "version": "0.16.60",
-  "notes": "v0.16.60 hotfix — boot black-screen after the Grindare splash (regression introduced in v0.16.58). game.gd already had pulse_tex / surge_tex preloaded for the P1 / S3 draws; my v0.16.58 commit added a duplicate set of preloads, which is a parse error in GDScript. Godot dropped the script and main.tscn rendered with no logic. Removed the duplicate decls; the existing pulse.png / surge.png on disk are the new Leonardo art so the topbar still shows the new icons. Windows only.",
+  "version": "0.16.61",
+  "notes": "v0.16.61 — Pre-match ship picker fires on EVERY match start. (1) Practice (Arena/Capture/Paint) and Boss Rush now pop the picker popup before the track carousel — banner shows mode + difficulty context, 4 class tiles on the left now use REAL animated SkinAtlas mini-ships (each draws the class's currently-equipped skin from active_skin_per_class with wobble), right side has the big ship preview + 2×3 module grid of the picked class's actual loadout. Confirm continues to the track carousel + match start. (2) Popup button band lifted 18px off the popup bottom edge — CANCEL / EDIT MODULES / OPEN no longer overlap the popup border. (3) Banner content is now metadata-driven so the same popup serves rift / practice / boss-rush. test_module_library.tscn ships with 3 mockup variants (HEX GRID / SLOT RAILS / ROW LIST) for the library redesign — not yet wired in-game, pick the layout and I'll port it. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.60/Pulsewave-0.16.60-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.61/Pulsewave-0.16.61-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
