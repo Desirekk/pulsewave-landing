@@ -1,9 +1,9 @@
 {
-  "version": "0.16.50",
-  "notes": "v0.16.50 — TOP PROFILE BAR rebuilt as the SEGMENTED HOLO mockup (variant 3): single seamless neon strip with vertical neon separators, cyan top edge, magenta bottom edge, scanlines. Sections: PROFILE (avatar + nick on top + LVL & XP caption + XP bar UNDER nick), PULSE, SURGE, ENERGY (new), KEYS, COG. All currency icons redrawn procedurally inline — no more PNG textures in the bar: PULSE = concentric hex coin with inner spokes, SURGE = 8-point sparkle star with particle dots, ENERGY = lightning bolt with electric-arc halo (visually distinct from PULSE hex coin), KEYS = octagonal head + shaft with notches + keyhole, COG = rotating 8-tooth gear. Bar still drives live energy regen and shows live PULSE / SURGE / ENERGY / KEYS / XP / LVL from Game state. Windows only.",
+  "version": "0.16.51",
+  "notes": "v0.16.51 — BOSS RUSH leaderboard fixes + BRUTAL perf wins. Hover tooltip on a leaderboard row now shows the runner's ACTUAL ship (animated skin atlas from the run) and the FULL equipped-module loadout snapshot — not the default skin and not empty modules. Class filter (ALL / SHARD / BASTION / LANCE / CHORUS) now scopes the GLOBAL leaderboard instead of falling back to local-only — picking BASTION shows the top BASTION clears from everyone. New clears submit class/skin/modules so they're queryable per-class. Old clears (pre-v0.16.51) show under ALL only. (Server-side deploy of migration 003 + leaderboards.go must complete before the global tooltip + class filter return data for OTHER players' runs; your own local runs work immediately.) PERF: skin atlas drops MSAA_4X + FXAA on the 3D viewport during PLAYING (re-enabled on the menu) — major BRUTAL frame-time win. PERF: bullet.gd off-screen cull — bullets > half-viewport + margin away from camera centre skip _draw() entirely (9 draw_circle calls per bullet). Big BRUTAL win on dense volleys. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.50/Pulsewave-0.16.50-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.51/Pulsewave-0.16.51-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
