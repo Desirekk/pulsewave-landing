@@ -1,9 +1,9 @@
 {
-  "version": "0.16.51",
-  "notes": "v0.16.51 — BOSS RUSH leaderboard fixes + BRUTAL perf wins. Hover tooltip on a leaderboard row now shows the runner's ACTUAL ship (animated skin atlas from the run) and the FULL equipped-module loadout snapshot — not the default skin and not empty modules. Class filter (ALL / SHARD / BASTION / LANCE / CHORUS) now scopes the GLOBAL leaderboard instead of falling back to local-only — picking BASTION shows the top BASTION clears from everyone. New clears submit class/skin/modules so they're queryable per-class. Old clears (pre-v0.16.51) show under ALL only. (Server-side deploy of migration 003 + leaderboards.go must complete before the global tooltip + class filter return data for OTHER players' runs; your own local runs work immediately.) PERF: skin atlas drops MSAA_4X + FXAA on the 3D viewport during PLAYING (re-enabled on the menu) — major BRUTAL frame-time win. PERF: bullet.gd off-screen cull — bullets > half-viewport + margin away from camera centre skip _draw() entirely (9 draw_circle calls per bullet). Big BRUTAL win on dense volleys. Windows only.",
+  "version": "0.16.52",
+  "notes": "v0.16.52 — BOSS RUSH leaderboard now tracks one best time per (player × boss × difficulty × CLASS) instead of one row across all classes. Your 30s SHARD clear and your 1:20 BASTION clear are separate rows. ALL tab shows the best per player across classes (window function picks each player's lowest time, no matter the class). Class tabs (SHARD / BASTION / LANCE / CHORUS) only show clears done with that class — so your 1:20 BASTION clear is rank #2 under BASTION even when your 30s SHARD clear wins ALL. Class filter pushed to the server (?class= query param). Each tab has its own cache that refreshes independently after a clear. Requires backend deploy of migration 004 (alters PK to include class). Legacy class='' rows remain visible only under ALL. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.51/Pulsewave-0.16.51-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.52/Pulsewave-0.16.52-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
