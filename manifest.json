@@ -1,9 +1,9 @@
 {
-  "version": "0.16.48",
-  "notes": "v0.16.48 — PRACTICE: SIDE PICKER layout. Left rail with 3 mode rows (compact animated preview + name + sub + desc), right detail card with the selected mode's full animated arena + RULES bullet list + a brief footer holding the difficulty chips and START MATCH button. ARENA preview: 2 ships orbit a hex arena, fire at each other, HP bars, KO triggers explosion + reset. CAPTURE preview: BASTION rushes for the gold orb at centre, picks it up, orbits with it; LANCE circles the perimeter and shoots at the holder — a hit drops the orb back to centre. PAINT preview: matches the in-game behaviour — killing the opponent leaves a paint SPLASH at the death location coloured by the killer; splashes accumulate and fade over ~12s, with a kill counter at the top. Windows only.",
+  "version": "0.16.49",
+  "notes": "v0.16.49 — PRACTICE: correct mode descriptions + readable CAPTURE preview. Match length is now explicitly = length of the picked track across all modes. ARENA: most kills when the track ends wins. CAPTURE: hold the orb to bank time, get hit while holding → orb drops to centre, first to 60 seconds of total hold wins. PAINT: kills splash paint at the death spot, most floor covered when the track ends wins. CAPTURE preview animation now reads cleanly — holder grabs the orb, orb flashes brighter, the shooter waits a 2.5s grace window before opening fire, then bullets fly ~1–2s before hitting; a hold-time bar above the holder shows progress toward the 60s win condition. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.48/Pulsewave-0.16.48-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.49/Pulsewave-0.16.49-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
