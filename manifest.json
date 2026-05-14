@@ -1,9 +1,9 @@
 {
-  "version": "0.16.72",
-  "notes": "v0.16.72 — OVERLOAD GRID balance fix. Heat on generators is now PERMANENT (no decay) so every hit you land sticks — the 0/X overload target is actually achievable. Trade-off: hot generators fire MUCH faster to keep the encounter tense. Fire interval scales 1.2 s @ 10% heat → 0.20 s @ 100% heat (was 1.5 → 0.6 s). Firing threshold dropped from 30% to 10% heat. On HARD/BRUTAL, generators above 80% heat now fire a 3-shot fan instead of a single bullet — the final push is genuinely scary. Windows only.",
+  "version": "0.16.73",
+  "notes": "v0.16.73 — Two big fixes. (1) RIFT ENCOUNTER LIVES — every rift node mode (CORE DEFENCE / CHAIN LINKS / OVERLOAD GRID) now gives you 3 lives per encounter. Dying respawns you with full HP after a brief death pause. Spending all 3 fails the encounter, which then consumes 1 of your main rift hearts via the existing finalize flow. This also fixed a CHAIN LINKS bug where the player couldn't actually die at 0 HP — damage was bypassing the proper take_damage path. Three heart pips drawn above the centre objective show remaining encounter lives. (2) SPLITTER MINI-BOSS BUFF — main HP × 1.7 (was dying in seconds before triggering its wave thresholds). Sub-splitters now have 10 HP (was 1) and take damage from player bullets so you can actually shoot them down. Sub-splitter bullets last 4.0 s (was 1.6 s default) at 320 speed (was 240) so they actually reach the player across a normal arena. Sub fire cadence 1.4 s → 0.9 s. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.72/Pulsewave-0.16.72-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.73/Pulsewave-0.16.73-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
