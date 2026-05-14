@@ -1,9 +1,9 @@
 {
-  "version": "0.16.80",
-  "notes": "v0.16.80 — Mini-boss spawn order + force visible defensive fix. Follow-up hotfix for rift MINI-BOSS empty-arena report that persisted past v0.16.79. Spawn flow rewritten to set `global_position` AFTER `add_child` (canonical Godot 4 order — pre-parent position is treated as local and can resolve to a stale offset when a previous match's transform is still being torn down). Forced `visible = true` and `alive = true` explicitly on player and boss right after parenting so neither can carry forward a stale die() invisibility flag. `kind` for the MiniBoss is now assigned earlier so the kind-specific update loop runs from frame 1. Windows only.",
+  "version": "0.16.81",
+  "notes": "v0.16.81 — CHAIN LINKS difficulty nerf across all levels. The whole encounter was too punishing — especially COLOR MATCH where the centre indicator swapped target every 0.94 s regardless of difficulty (impossible to track on EASY). Now: COLOR MATCH target swap scales with diff (EASY 3.5 s → BRUTAL 0.9 s); pad HP reduced to 40+10·diff+6·round (was 60+20·diff+12·round); rounds-to-clear scaled EASY 3 / NORM 4 / HARD-BRUTAL 5; wrong-target dmg 4/6/8/10 (was flat 8); orbiter cadence + speed + dmg all scaled per diff. Pads die in 3-4 shots on EASY now. Mini-boss empty-arena report under investigation. Practice-mode rift trainer + left-nav PCB skin port land in v0.16.82. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.80/Pulsewave-0.16.80-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.81/Pulsewave-0.16.81-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
