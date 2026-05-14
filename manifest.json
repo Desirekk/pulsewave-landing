@@ -1,9 +1,9 @@
 {
-  "version": "0.16.86",
-  "notes": "v0.16.86 — Mini-boss empty-arena ROOT CAUSE fix. The v0.16.85 diag strip cracked it: `Combatant.new() + set_script(MiniBossScript) + add_child` never fires MiniBoss._ready, leaving the boss as an empty shell at (0,0) with z_index=0 (drawn under the arena background → arena looks blank). Switched to direct construction via the class_name global (`boss = MiniBoss.new()`) so the full derived-class init chain runs and _ready fires on add_child. Spawn order corrected — kind is assigned BEFORE add_child so the kind-specific init (queen-drone build, _kind_color, archetype dispatch) runs from the first physics tick. Diag strip + console spawn log kept one release to verify; drop in v0.16.87 if no regression. Windows only.",
+  "version": "0.16.87",
+  "notes": "v0.16.87 — Mini-boss spawn belt-and-suspenders init. Follow-up to v0.16.86. Even if some Godot 4 quirk skips MiniBoss._ready, the spawn flow now explicitly forces every Combatant field after MiniBoss.new(): alive=true, visible=true, z_index=8 (was defaulting to 0 → boss drawn UNDER the arena bg, hence empty-arena symptom), radius=46, max_hp=720, hp=max_hp, position=(0,0), color = _kind_color(), and an explicit _hive_build_drones() backstop for the queen archetype + set_physics_process(true). apply_difficulty still re-scales HP at the end. Diag strip + console log stay one more release; both drop once mini-bosses are confirmed drawing. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.86/Pulsewave-0.16.86-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.87/Pulsewave-0.16.87-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
