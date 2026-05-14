@@ -1,9 +1,9 @@
 {
-  "version": "0.16.62",
-  "notes": "v0.16.62 — MODULES library redesign: RARITY TIERS. The right-hand library panel on the MODULES page used to be a 4-column hex grid that was cramped in the narrow side panel and hid the rarity hierarchy. It's now a vertical stack of 5 tier sections (LEGENDARY → COMMON) with a rarity-colored header per section (showing owned/total) and compact full-width chips inside each tier — left rarity stripe + hex+glyph icon + name + slot tag, ×N count chip top-right for duplicates, gold EQUIPPED marker bottom-right when equipped, dim LOCKED stamp for unowned. Hover, click→compare, drag-to-equip and the rich tooltip all carry over. Left blueprint side (ship + slots) is untouched per spec. Windows only.",
+  "version": "0.16.63",
+  "notes": "v0.16.63 — CLASS page redesigned as CODEX SHEET with integrated cosmetics. (1) New 3-column layout: DOSSIER (role + statline + signature + brief) | LIVE PREVIEW (ship orbits + fires real bullets via the live SkinAtlas + active projectile/trail colours) | COSMETICS (SHIP SKIN / PROJECTILE / TRAIL tabs). (2) Every cosmetic card has an animated real preview — even locked ones — so you see exactly what each skin/projectile/trail looks like before unlocking. SHIP SKIN cards use the live skin atlas, PROJECTILE cards orbit 3 mini bullets in that style + color, TRAIL cards show a mini ship trailing the effect. (3) COSMETICS removed from sidebar nav — fully folded into CLASS. (4) Click any owned card to equip for that class, click locked SHIP SKIN to jump to the SHOP filtered to its class. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.62/Pulsewave-0.16.62-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.63/Pulsewave-0.16.63-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
