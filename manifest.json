@@ -1,9 +1,9 @@
 {
-  "version": "0.16.87",
-  "notes": "v0.16.87 — Mini-boss spawn belt-and-suspenders init. Follow-up to v0.16.86. Even if some Godot 4 quirk skips MiniBoss._ready, the spawn flow now explicitly forces every Combatant field after MiniBoss.new(): alive=true, visible=true, z_index=8 (was defaulting to 0 → boss drawn UNDER the arena bg, hence empty-arena symptom), radius=46, max_hp=720, hp=max_hp, position=(0,0), color = _kind_color(), and an explicit _hive_build_drones() backstop for the queen archetype + set_physics_process(true). apply_difficulty still re-scales HP at the end. Diag strip + console log stay one more release; both drop once mini-bosses are confirmed drawing. Windows only.",
+  "version": "0.16.88",
+  "notes": "v0.16.88 — Mini-boss crash hotfix (revert MiniBoss.new) + keep z=8 fix. v0.16.86/87 switched the spawn to MiniBoss.new() via the class_name global — that crashed the Windows build right after the music carousel (likely a class_name registration quirk in the exported PCK; headless build didn't hit it). Reverted to the proven Combatant.new() + set_script(MiniBossScript) pattern that doesn't crash, and kept all the explicit force-init. The KEY fix from the v0.16.85 diag stays: z_index = 8 so the boss isn't drawn under the arena background. Queen-drone backstop is now 'in'-guarded so a partial script chain can't crash the call. Diag strip + console log stay one more release. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.87/Pulsewave-0.16.87-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.88/Pulsewave-0.16.88-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
