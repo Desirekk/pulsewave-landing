@@ -1,9 +1,9 @@
 {
-  "version": "0.16.83",
-  "notes": "v0.16.83 — Practice rail 2-column layout fix. With the 7 trainer modes added in v0.16.82 the single-column list ran off the bottom of the screen on shorter windows. Now GridContainer 2 cols × 4 rows fits the whole list and gives the detail card on the right a tighter slot. Tile shrunk to 280×110, name font 15 (was 18), preview 100px (was 140) so longer labels like CORE DEFENCE / OVERLOAD GRID stay inside each tile. Windows only.",
+  "version": "0.16.84",
+  "notes": "v0.16.84 — Practice scene fixes + per-archetype mini-boss tiles. MINI-BOSS row is now 4 dedicated tiles (PRISM CORE / MITOSIS / RAIL SENTINEL / HIVE MOTHER) so the player picks which archetype to train against. 10 trainer modes total in a 2×5 grid. Detail card + spawn flow match on kind for BOSS_RUSH. Removed a stale guard that was forcing pending_mode=ARENA when BOSS_RUSH was active (that made the preview show the wrong scene). Scene animations rewritten — CORE DEFENCE has orbiting ship + trail + bullets + periodic core flash; CHAIN LINKS has orbiting ship shooting tracer bullets at the active pad; OVERLOAD GRID has ship flying L-R with correct heading (was backwards), bullets up at gens, gens fire down on overload; MINI-BOSS preview shows the picked kind's actual visual (rotating prism / cell / sweeping beam / drone-orbited queen). Ship heading convention fixed everywhere. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.83/Pulsewave-0.16.83-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.84/Pulsewave-0.16.84-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
