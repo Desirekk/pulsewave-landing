@@ -1,9 +1,9 @@
 {
-  "version": "0.16.82",
-  "notes": "v0.16.82 — Practice trainer for rift modes + mini-boss. Practice mode left rail now lists 4 new trainer tiles next to ARENA / CAPTURE / PAINT: CORE DEFENCE (HAZARD), CHAIN LINKS (SLIPSTREAM), OVERLOAD GRID (STRAFE) and MINI-BOSS (random of PRISM CORE / MITOSIS / RAIL SENTINEL / HIVE MOTHER). All four give zero XP / PULSE / keys / leaderboard writes — pure freeplay. Each tile draws its own animated preview (pulsing core + seekers, hex pad ring, generator + heat bars, rotating prism core + circling ship). Boss-key gate bypassed for practice mini-boss. Doubles as a clean repro path for the empty-arena report: try MINI-BOSS in practice — if it spawns fine the bug is rift-state plumbing; if blank the bug is in MiniBoss itself. Either way next ship gets a precise target. Windows only.",
+  "version": "0.16.83",
+  "notes": "v0.16.83 — Practice rail 2-column layout fix. With the 7 trainer modes added in v0.16.82 the single-column list ran off the bottom of the screen on shorter windows. Now GridContainer 2 cols × 4 rows fits the whole list and gives the detail card on the right a tighter slot. Tile shrunk to 280×110, name font 15 (was 18), preview 100px (was 140) so longer labels like CORE DEFENCE / OVERLOAD GRID stay inside each tile. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.82/Pulsewave-0.16.82-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.83/Pulsewave-0.16.83-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
