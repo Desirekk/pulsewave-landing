@@ -1,9 +1,9 @@
 {
-  "version": "0.16.85",
-  "notes": "v0.16.85 — Left-nav PCB CLEAN port + on-screen mini-boss diag. Left rail ported from the J1 lab — PCB style in cyberdeck cyan/magenta. Vertical power-trace down the left edge with flowing energy pulses, each row is a plug-in IC chip with: solder pad meeting the trace, lit connector wire, IC notch on top, blinking red activity LED in the top-left corner (out of the label zone), tinted chip body, chromatic-split label on active. MINI-BOSS DIAG: temporary top-of-screen strip that prints PLAYER + BOSS state every frame during BOSS_RUSH (alive / visible / hp / position / z-index / kind). Console also gets a spawn log. Lets us see whether entities exist on what looks like an empty arena — screenshot what the strip shows when blank and the next ship lands the real fix. Windows only.",
+  "version": "0.16.86",
+  "notes": "v0.16.86 — Mini-boss empty-arena ROOT CAUSE fix. The v0.16.85 diag strip cracked it: `Combatant.new() + set_script(MiniBossScript) + add_child` never fires MiniBoss._ready, leaving the boss as an empty shell at (0,0) with z_index=0 (drawn under the arena background → arena looks blank). Switched to direct construction via the class_name global (`boss = MiniBoss.new()`) so the full derived-class init chain runs and _ready fires on add_child. Spawn order corrected — kind is assigned BEFORE add_child so the kind-specific init (queen-drone build, _kind_color, archetype dispatch) runs from the first physics tick. Diag strip + console spawn log kept one release to verify; drop in v0.16.87 if no regression. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.85/Pulsewave-0.16.85-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.86/Pulsewave-0.16.86-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
