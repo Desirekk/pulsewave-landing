@@ -1,9 +1,9 @@
 {
-  "version": "0.16.63",
-  "notes": "v0.16.63 — CLASS page redesigned as CODEX SHEET with integrated cosmetics. (1) New 3-column layout: DOSSIER (role + statline + signature + brief) | LIVE PREVIEW (ship orbits + fires real bullets via the live SkinAtlas + active projectile/trail colours) | COSMETICS (SHIP SKIN / PROJECTILE / TRAIL tabs). (2) Every cosmetic card has an animated real preview — even locked ones — so you see exactly what each skin/projectile/trail looks like before unlocking. SHIP SKIN cards use the live skin atlas, PROJECTILE cards orbit 3 mini bullets in that style + color, TRAIL cards show a mini ship trailing the effect. (3) COSMETICS removed from sidebar nav — fully folded into CLASS. (4) Click any owned card to equip for that class, click locked SHIP SKIN to jump to the SHOP filtered to its class. Windows only.",
+  "version": "0.16.64",
+  "notes": "v0.16.64 — CLASS page bugfixes + overflow polish. (1) LIVE PREVIEW (middle panel) now reads trail and projectile color for the VIEWED class — pick a SHARD trail/projectile and you see it instantly in the centre preview. (2) ACTIVE chip on the selected class tab no longer overflows below the tab; on horizontal layouts it sits inline-left of the LV chip. (3) MODULES button bottom of LIVE PREVIEW no longer sticks out the screen frame (action row enlarged 38→60 px). (4) Ship icons in pre-match picker tiles slimmed from 56→46 px so premium-FX skins (halo rings, drones, pulses) stay inside the tile. Test mockup at test_track_carousel.tscn shows 3 proposed pre-match track carousels (VINYL DECK / COVER FLOW / PULSE GRID) — pick one and I'll port it. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.63/Pulsewave-0.16.63-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.64/Pulsewave-0.16.64-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
