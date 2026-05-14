@@ -1,9 +1,9 @@
 {
-  "version": "0.16.84",
-  "notes": "v0.16.84 — Practice scene fixes + per-archetype mini-boss tiles. MINI-BOSS row is now 4 dedicated tiles (PRISM CORE / MITOSIS / RAIL SENTINEL / HIVE MOTHER) so the player picks which archetype to train against. 10 trainer modes total in a 2×5 grid. Detail card + spawn flow match on kind for BOSS_RUSH. Removed a stale guard that was forcing pending_mode=ARENA when BOSS_RUSH was active (that made the preview show the wrong scene). Scene animations rewritten — CORE DEFENCE has orbiting ship + trail + bullets + periodic core flash; CHAIN LINKS has orbiting ship shooting tracer bullets at the active pad; OVERLOAD GRID has ship flying L-R with correct heading (was backwards), bullets up at gens, gens fire down on overload; MINI-BOSS preview shows the picked kind's actual visual (rotating prism / cell / sweeping beam / drone-orbited queen). Ship heading convention fixed everywhere. Windows only.",
+  "version": "0.16.85",
+  "notes": "v0.16.85 — Left-nav PCB CLEAN port + on-screen mini-boss diag. Left rail ported from the J1 lab — PCB style in cyberdeck cyan/magenta. Vertical power-trace down the left edge with flowing energy pulses, each row is a plug-in IC chip with: solder pad meeting the trace, lit connector wire, IC notch on top, blinking red activity LED in the top-left corner (out of the label zone), tinted chip body, chromatic-split label on active. MINI-BOSS DIAG: temporary top-of-screen strip that prints PLAYER + BOSS state every frame during BOSS_RUSH (alive / visible / hp / position / z-index / kind). Console also gets a spawn log. Lets us see whether entities exist on what looks like an empty arena — screenshot what the strip shows when blank and the next ship lands the real fix. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.84/Pulsewave-0.16.84-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.85/Pulsewave-0.16.85-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
