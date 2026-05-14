@@ -1,9 +1,9 @@
 {
-  "version": "0.16.90",
-  "notes": "v0.16.90 — ROOT CAUSE of the v0.16.78-89 empty-arena bug found and fixed. mini_boss.gd line 172 had an orphaned call to `_detach_turrets()` left over from the pre-v0.16.77 TURRET design (replaced by PRISM CORE which doesn't detach). That call produced a parse error which broke mini_boss.gd compile, cascaded to game.gd failing to load, and left every spawned MiniBoss as an empty unscripted Node — visible as empty arena. Removed the dead call. Spawn ctor back to simple `MiniBossScript.new()` — _ready now runs, kind / colors / HP / drones initialise properly. Diag strip + console spawn print removed. Windows only.",
+  "version": "0.17.0",
+  "notes": "v0.17.0 — DOGFIGHT TEST MODE. The PLAY hub's MULTIPLAYER tile is now a real entry to a 3D cockpit prototype. Mouse-look + WASD + SPACE/X vertical strafe + Q/E roll + SHIFT boost; LMB twin cannons; RMB holds a lock-on (3.2 s) for a 3-missile homing salvo (12 s cooldown). Three modes from the test menu: SOLO (vs the CIRCLE BOSS with 3 ring shields + a roaming bot), HOST (opens ENet server on port 7777), JOIN (connects to 127.0.0.1:7777) — for LAN dogfight testing. Stand-alone test scene baked into the launcher build; no other gameplay touched. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.90/Pulsewave-0.16.90-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.17.0/Pulsewave-0.17.0-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
