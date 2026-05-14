@@ -1,9 +1,9 @@
 {
-  "version": "0.16.71",
-  "notes": "v0.16.71 — Picked 3 of the lab prototypes now LIVE in the real Rift runtime. Speed normalised for every class (380 px/s) so HP-tanky builds aren't punished by these modes. (1) CORE DEFENCE (replaces HAZARD) — defend a central core for 60 s vs 4 seeker archetypes (BASIC fast triangle, TANK slow hex, SNIPER fires shots, KAMI sprint + AOE on death). Spawn cadence accelerates in the final 20 s. Core HP shown as a green ring; player death OR core death = loss. (2) CHAIN LINKS (replaces SLIPSTREAM) — 6 hex pads around centre; destroy in numeric order × 5 rounds. Wrong target = self-damage. Inactive pads fire orbiters aimed at you. Each round shuffles which pad is which order so memorisation doesn't work. (3) OVERLOAD GRID (replaces STRAFE) — 6 generators ring the arena. Shoot to add heat; hot gens fire homing seekers at you. Max heat = detonate (+1 overload, clears nearby waves) and respawn after cooldown. Target is 6 + 2 × difficulty overloads (EASY 6 → BRUTAL 12). All three scale per difficulty: BRUTAL ~2× spawn rate, ~1.8× damage, faster heat decay. Windows only.",
+  "version": "0.16.72",
+  "notes": "v0.16.72 — OVERLOAD GRID balance fix. Heat on generators is now PERMANENT (no decay) so every hit you land sticks — the 0/X overload target is actually achievable. Trade-off: hot generators fire MUCH faster to keep the encounter tense. Fire interval scales 1.2 s @ 10% heat → 0.20 s @ 100% heat (was 1.5 → 0.6 s). Firing threshold dropped from 30% to 10% heat. On HARD/BRUTAL, generators above 80% heat now fire a 3-shot fan instead of a single bullet — the final push is genuinely scary. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.71/Pulsewave-0.16.71-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.72/Pulsewave-0.16.72-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
