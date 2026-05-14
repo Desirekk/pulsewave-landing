@@ -1,9 +1,9 @@
 {
-  "version": "0.16.89",
-  "notes": "v0.16.89 — Mini-boss spawn via preloaded script ref (no class_name). v0.16.88's set_script pattern was safe from crash but left the boss as an empty shell — `kind` never propagated, so MiniBoss._draw's match-kind branch produced no output (= 'empty arena' even with z=8 fixing the layering). v0.16.86 with MiniBoss.new() crashed in the PCK because of a class_name registration quirk. v0.16.89 splits the difference: MiniBossScript.new() — direct preloaded GDScript reference, no class_name lookup needed, script chain attached at construction so var initializers + _ready fire. Defensive null-check fallback to the old pattern if new() returns null. All v0.16.87/88 force-init preserved. Diag strip stays one more release. Windows only.",
+  "version": "0.16.90",
+  "notes": "v0.16.90 — ROOT CAUSE of the v0.16.78-89 empty-arena bug found and fixed. mini_boss.gd line 172 had an orphaned call to `_detach_turrets()` left over from the pre-v0.16.77 TURRET design (replaced by PRISM CORE which doesn't detach). That call produced a parse error which broke mini_boss.gd compile, cascaded to game.gd failing to load, and left every spawned MiniBoss as an empty unscripted Node — visible as empty arena. Removed the dead call. Spawn ctor back to simple `MiniBossScript.new()` — _ready now runs, kind / colors / HP / drones initialise properly. Diag strip + console spawn print removed. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.89/Pulsewave-0.16.89-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.90/Pulsewave-0.16.90-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
