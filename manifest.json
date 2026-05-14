@@ -1,9 +1,9 @@
 {
-  "version": "0.19.0",
-  "notes": "v0.19.0 — REAL ONLINE PvP. The 3D cockpit DOGFIGHT prototype is gone; we're back to the core PulseWave arena. The MULTIPLAYER tile now opens proper matchmaking: enter the queue, server pairs you with another waiting player, same arena + same music + same beat-driven hazards on both sides. Most kills when the track ends wins. Server is in Helsinki (Hetzner); no installs, no port forwarding, no Steam needed — just click MULTIPLAYER. SOLO/PRACTICE/BOSS RUSH/RIFT untouched.",
+  "version": "0.19.1",
+  "notes": "v0.19.1 — HOTFIX. Fixes black screen after the Grindare Studio intro (v0.19.0 had two parse errors in the new PvP code: stat_nickname → settings_nickname, and aim was Vector2 not float). Adds a floating nickname above your ship (the one you picked at onboarding / in settings); opponent ship in MULTIPLAYER shows their nickname relayed by the server. The rest of v0.19.0 is unchanged: real online 1v1 matchmaking via Helsinki server, same arena + music + beats on both sides.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.19.0/Pulsewave-0.19.0-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.19.0/Pulsewave-0.19.0-win.zip",
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.19.1/Pulsewave-0.19.1-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.19.1/Pulsewave-0.19.1-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
