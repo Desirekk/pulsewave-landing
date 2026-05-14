@@ -1,9 +1,9 @@
 {
-  "version": "0.16.66",
-  "notes": "v0.16.66 — Projectile shapes in-game + Boss Rush picker fix + RIFT path mockups. (1) Bullets now render different silhouettes per projectile skin: CHEVRON round, BOLT elongated lozenge with travel-aligned tip, DIAMOND 8-point spinning star, FRAGMENT 3-dot splinter cluster. Applies in-game AND in CLASS LIVE PREVIEW. (2) Boss Rush FIGHT button was calling _start_game() directly which skipped both the pre-match ship picker and the vinyl track roulette. Now routes through the same flow as Practice/Rift. (3) test_rift_paths.tscn ships with 3 redesigned RIFT path-select mockups (BRANCH MAP / COMPARE STRIP / COMPACT CARDS) and a brand-new procedural node icon set (crosshair / skull / tri-skull crown / cross / hex chip / triangle warning / wavy ribbon / arrow ship / ringed boss). User picks one and I'll port it next pass. Windows only.",
+  "version": "0.16.67",
+  "notes": "v0.16.67 — RIFT BRANCH MAP in-game + energy cost icon + mini-boss prototypes. (1) The old 3-tall-cards rift path-select is replaced with BRANCH MAP: a START orb on the left, 3 paths fan out with new procedural node icons inside hex badges (crosshair / skull / tri-skull / cross / hex-chip / triangle / wavy ribbon / arrow ship / ringed orb). Hover brightens the whole branch, click locks it in. (2) The rift open page's energy cost line now draws the real baked energy texture next to the cost and balance, red-tinted when unaffordable. (3) test_mini_boss.tscn ships with 4 live-animated mini-boss prototypes (TURRET CORE / SPLITTER / RAIL SENTINEL / SWARM QUEEN) with an auto-piloted ship dodging each pattern so you can preview the feel. Press 1/2/3/4 to switch. Next pass: HAZARD/SLIPSTREAM/STRAFE arena mockups + MODULE-node reveal popup. Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.66/Pulsewave-0.16.66-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.67/Pulsewave-0.16.67-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
