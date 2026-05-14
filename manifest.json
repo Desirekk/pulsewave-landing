@@ -1,9 +1,9 @@
 {
-  "version": "0.16.64",
-  "notes": "v0.16.64 — CLASS page bugfixes + overflow polish. (1) LIVE PREVIEW (middle panel) now reads trail and projectile color for the VIEWED class — pick a SHARD trail/projectile and you see it instantly in the centre preview. (2) ACTIVE chip on the selected class tab no longer overflows below the tab; on horizontal layouts it sits inline-left of the LV chip. (3) MODULES button bottom of LIVE PREVIEW no longer sticks out the screen frame (action row enlarged 38→60 px). (4) Ship icons in pre-match picker tiles slimmed from 56→46 px so premium-FX skins (halo rings, drones, pulses) stay inside the tile. Test mockup at test_track_carousel.tscn shows 3 proposed pre-match track carousels (VINYL DECK / COVER FLOW / PULSE GRID) — pick one and I'll port it. Windows only.",
+  "version": "0.16.65",
+  "notes": "v0.16.65 — VINYL ROULETTE pre-match carousel + Silver Rain Glitch track pack (+10 tracks) + duration-based BOSS pool. (1) Pre-match carousel replaced with a vinyl record that spins fast, decelerates with a (1-p²) curve, and lands with the picked track's notch under a fixed gold needle. Real cover art flips onto the centre label when locked, info panel reveals title + BPM + duration + BPM-synced EQ. (2) 10 new tracks scanned & analysed: Copper Gears Steam, Eighty-Eight Keys, Neon Blade, Neon Dustwire, Neon Golden Gate, Signal in the Dark, Silent Blade, Silver Rain Glitch, Silver Rain Vein, Silverspeed Violins. (3) Track pool reorg: BOSS pool = every track ≥ 180s (13 tracks). ARENA/CAPTURE/PAINT all share one general pool of every track in the library (33 tracks). HUB stays the ambient menu music only. (4) All 34 tracks now have cover art (4 older covers were missing, got procedurally generated). Windows only.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.64/Pulsewave-0.16.64-win.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.16.65/Pulsewave-0.16.65-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
