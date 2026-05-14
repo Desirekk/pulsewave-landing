@@ -1,9 +1,9 @@
 {
-  "version": "0.19.4",
-  "notes": "v0.19.4 — PvP fixes. Opponent is now visible (you see their ship, aim, shooting); damage is routed authoritatively so kills count properly on both sides; server decides the real winner (no more both-VICTORY ties on a 1-1). Rewards on match end: VICTORY 80+kills*6 PULSE + 280+kills*25 XP, DRAW 30+kills*4 + 120+kills*15, DEFEAT 10+kills*3 + 60+kills*12.",
+  "version": "0.19.5",
+  "notes": "v0.19.5 — AUDIO-REACTIVE BG + BROADCAST PvP HUD. The previously-black area outside the arena now has drifting bokeh + a 56-band EQ ribbon along the bottom, all pulsing to the kick/bass/rms of whatever track is playing. Applied to every match mode. PvP also gets a broadcast-style HUD on top: avatar tiles + names + HP bars, central score X:Y, match timer counting down the track length, kill feed on the right, track + BPM tile on the bottom-left.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.19.4/Pulsewave-0.19.4-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.19.4/Pulsewave-0.19.4-win.zip",
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.19.5/Pulsewave-0.19.5-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.19.5/Pulsewave-0.19.5-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
