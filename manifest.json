@@ -1,9 +1,9 @@
 {
-  "version": "0.18.0",
-  "notes": "v0.18.0 — DEDICATED PvP SERVER. The DOGFIGHT mode now connects you to our Helsinki server for true online 1v1 against players anywhere. JOIN PvP button is pre-wired to 62.238.26.196; no installs, no port forwarding, no Steam needed. Boss + AI bot are removed from PvP (kept in SOLO for solo flight testing). Server runs 24/7 on Hetzner; both you and your opponent just click JOIN.",
+  "version": "0.19.0",
+  "notes": "v0.19.0 — REAL ONLINE PvP. The 3D cockpit DOGFIGHT prototype is gone; we're back to the core PulseWave arena. The MULTIPLAYER tile now opens proper matchmaking: enter the queue, server pairs you with another waiting player, same arena + same music + same beat-driven hazards on both sides. Most kills when the track ends wins. Server is in Helsinki (Hetzner); no installs, no port forwarding, no Steam needed — just click MULTIPLAYER. SOLO/PRACTICE/BOSS RUSH/RIFT untouched.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.18.0/Pulsewave-0.18.0-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.18.0/Pulsewave-0.18.0-win.zip",
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.19.0/Pulsewave-0.19.0-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.19.0/Pulsewave-0.19.0-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
