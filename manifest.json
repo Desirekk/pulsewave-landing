@@ -1,10 +1,10 @@
 {
-  "version": "0.20.1",
-  "notes": "v0.20.1 — SYNTHWAVE HUB BG. Main menu background swapped to the GRID PERSPECTIVE look you picked: deep blue → violet sky, segmented orange horizon sun, magenta vanishing-point grid rolling forward, faint distant stars. A small fighter streaks across the screen every 8–18 seconds with a glow trail and engine flare (cyan / magenta / gold randomly). Conductor pulses (rms + kick) subtly brighten the grid in time with the hub track.",
+  "version": "0.20.2",
+  "notes": "v0.20.2 — HOME REDESIGN + ANIMATED LOGO + BG BLEED. HOME tab now leads with a wide FEATURED hero banner (event highlight + Queue Multiplayer CTA) and three equal cards below — DAILY / SEASON / RECENT. The old NEWS-Focused split is dropped. Top-left PULSEWAVE wordmark is now the animated CHEVRON PULSE logo: three chevrons opening + closing on a sine pulse, gradient cyan → magenta. Hub panels (right-panel cards, nav rail, profile bar) dropped to ~72-78% opacity so the synthwave background (grid + sun + flyby ships) actually shows through the chrome edges.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.1/Pulsewave-0.20.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.1/Pulsewave-0.20.1-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.2/Pulsewave-0.20.2-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.2/Pulsewave-0.20.2-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.2/Pulsewave-0.20.2-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
