@@ -1,9 +1,9 @@
 {
-  "version": "0.19.6",
-  "notes": "v0.19.6 — Opponent ship + skin sync (you see their actual chosen ship, not a generic magenta one). Spawn fix (no more both-on-the-left). Score bug fixed (i_died was being dropped during the 3s 'matched → playing' transition). Old HUD hidden in PvP — no more overlap with the broadcast top bar / kill feed / track tile. Audio bars now actually react to the kick/bass. Arena outer 400px gray buffer removed so the audio-reactive bg sits right against the arena frame. Smooth interpolation for the opponent's ship (no more jitter).",
+  "version": "0.20.0",
+  "notes": "v0.20.0 — RIFT removed (replaced with locked CAMPAIGN placeholder). PRACTICE: removed mini-boss variants (PRISM CORE / MITOSIS / RAIL SENTINEL / HIVE MOTHER) and rift trainers (CORE DEFENCE / CHAIN LINKS / OVERLOAD GRID); just ARENA / CAPTURE / PAINT. HOME news refreshed. Boss Rush local leaderboard auto-purges entries under 25s on load (kills the bogus Voyd 0:10:680). MULTIPLAYER queue overlay no longer says 'Helsinki/Hetzner' and won't auto-close on a failed connection.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.19.6/Pulsewave-0.19.6-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.19.6/Pulsewave-0.19.6-win.zip",
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.0/Pulsewave-0.20.0-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.0/Pulsewave-0.20.0-win.zip",
     "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.11.1/Pulsewave-0.11.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
