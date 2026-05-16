@@ -1,10 +1,10 @@
 {
-  "version": "0.20.4",
-  "notes": "v0.20.4 — HOME POLISH. Top-left CHEVRON PULSE logo was running under the profile bar; shrunk to fit the gutter. Featured hero banner used to draw its own segmented sun on the right, doubling up with the synthwave background's centre sun — removed. The 3 DAILY / SEASON / RECENT cards were stretched ~290px tall and 90% empty; layout reworked to hero (180) + 3 trimmed cards (170) + a new NEWS / PATCH NOTES strip (170) below — 3 latest entries side-by-side with version + title + bullets.",
+  "version": "0.20.5",
+  "notes": "v0.20.5 — NEWS strip overhaul + banner fix. The HOME NEWS / PATCH NOTES section now shows 6 patch-note cards in a 2x3 grid instead of 3 wide cards with ~90% empty space. Text sizes bumped across the board (version 16px, title 14px, bullets 13px, badge 11px). Each card has its own native ScrollContainer for the bullets — wheel-scrolls smoothly when content overflows. Featured hero banner's CTA pill (QUEUE MULTIPLAYER) moved from bottom-left to bottom-right so it stops overlapping the 'ENDS IN ...' countdown line; banner title font dropped 26 → 22 to fit the slimmer h=180 hero.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.4/Pulsewave-0.20.4-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.4/Pulsewave-0.20.4-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.4/Pulsewave-0.20.4-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.5/Pulsewave-0.20.5-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.5/Pulsewave-0.20.5-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.5/Pulsewave-0.20.5-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
