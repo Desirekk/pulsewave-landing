@@ -1,10 +1,10 @@
 {
-  "version": "0.20.5",
-  "notes": "v0.20.5 — NEWS strip overhaul + banner fix. The HOME NEWS / PATCH NOTES section now shows 6 patch-note cards in a 2x3 grid instead of 3 wide cards with ~90% empty space. Text sizes bumped across the board (version 16px, title 14px, bullets 13px, badge 11px). Each card has its own native ScrollContainer for the bullets — wheel-scrolls smoothly when content overflows. Featured hero banner's CTA pill (QUEUE MULTIPLAYER) moved from bottom-left to bottom-right so it stops overlapping the 'ENDS IN ...' countdown line; banner title font dropped 26 → 22 to fit the slimmer h=180 hero.",
+  "version": "0.20.6",
+  "notes": "v0.20.6 — SETTINGS overhaul. BEAT OFFSET slider removed (per-client offsets would desync hits in PvP and split Boss Rush leaderboards). New 5-tab structure: AUDIO / VIDEO / GAMEPLAY / CONTROLS / ACCOUNT. AUDIO adds Music Volume + Mute When Window Loses Focus. VIDEO replaces the FULLSCREEN toggle with a Display Mode dropdown (Fullscreen / Borderless / Windowed) and adds VSync, FPS Limit (60/120/144/240/Unlimited), Show FPS Counter overlay, Screen Shake intensity. GAMEPLAY (new) holds Mouse Sensitivity (reserved for controller post-Steam), Crosshair Size + preview (moved from VIDEO), HUD Opacity / Scale, Damage Numbers / Kill Feed / Show Ping toggles. ACCOUNT gains a read-only Account ID display. Particle Density was on the plan but cut — too much of what looks like 'particles' in Pulsewave (boss telegraphs, bullet trails, AOE warnings) is gameplay-critical.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.5/Pulsewave-0.20.5-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.5/Pulsewave-0.20.5-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.5/Pulsewave-0.20.5-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.6/Pulsewave-0.20.6-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.6/Pulsewave-0.20.6-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.6/Pulsewave-0.20.6-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
