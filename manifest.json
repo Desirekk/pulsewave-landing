@@ -1,10 +1,10 @@
 {
-  "version": "0.20.7",
-  "notes": "v0.20.7 — CLEANUP PASS 1. Stripped ~620 lines of dead code that lingered after the skill-tree (POE-style radial) and TEST (DOODLE/POPART style switcher) features were scrapped. The radial canvas script, allocate/respec logic, save/load keys, and SkillTreeData detour are all gone. apply_skill_mods at spawn now uses an empty mods dict; module + class stats stack identically. No gameplay change. RIFTS code purge deferred to v0.20.8 — has tendrils into mini-boss + caravan-defense modes that need careful refactoring.",
+  "version": "0.20.8",
+  "notes": "v0.20.8 — CLEANUP PASS 2. ~3340 lines stripped (game.gd 31001 → 27720). RIFTS state machine, all 9 _build_rifts_* page builders, 14 _make_rift_* helper scripts, caravan-defense mode (HAZARD / CORE DEFENCE) + SLIPSTREAM / STRAFE sister modes, mini-boss spawn path, RIFT_* constants, ENERGY_RIFT_COST, MINI_BOSS_KINDS — all gone. _make_rift_confirm_overlay_script kept and refactored (ship picker still uses it). Save keys rift_state / rift_in_match / rift_match_node / rift_complete dropped, existing saves still load. Zero gameplay change for anything reachable from nav (Practice / Boss Rush / Multiplayer).",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.7/Pulsewave-0.20.7-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.7/Pulsewave-0.20.7-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.7/Pulsewave-0.20.7-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.8/Pulsewave-0.20.8-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.8/Pulsewave-0.20.8-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.8/Pulsewave-0.20.8-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
