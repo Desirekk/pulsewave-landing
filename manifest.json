@@ -1,10 +1,10 @@
 {
-  "version": "0.21.2",
-  "notes": "v0.21.2 — LANCE bulletproof unlock. Hard-coded SHARD / BASTION / LANCE as always-pickable across every gate (picker click handler, picker tile draw, CLASS tab heredoc, onboarding tile heredoc + outer onboarding builder, ship-picker START gate). No save state, stale meta or dict typo can re-lock the starter trio. If your installed build was stuck on v0.20.x, relaunching through the launcher pulls v0.21.2 and LANCE is selectable immediately from the ship picker, class tab and onboarding screen. No gameplay changes vs v0.21.1 — modules, OVERCHARGE math and PvP RPCs untouched.",
+  "version": "0.21.3-LANCE",
+  "notes": "v0.21.3-LANCE — verification build. Same LANCE unlock + modules + defensive overrides as v0.21.2. GAME_VERSION carries explicit -LANCE suffix so testers can confirm at a glance which build the brand chip is reading. If you still see v0.20.8 in the brand chip after this update lands, the launcher did not extract the new binary — report it.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.8/Pulsewave-0.20.8-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.8/Pulsewave-0.20.8-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.8/Pulsewave-0.20.8-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.21.3/Pulsewave-0.21.3-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.21.3/Pulsewave-0.21.3-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.21.3/Pulsewave-0.21.3-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
