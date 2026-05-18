@@ -1,10 +1,10 @@
 {
-  "version": "0.22.0",
-  "notes": "v0.22.0 — LANCE DECOY HOLO active ability on Space (drop holo, go invisible 1.5s, 10s cd). Boss Rush damage fix — beam now properly hits bosses. Boss occlusion — beam stops at boss body, no more piercing through to far-side shields even on full overcharge. PvP RPC sync for the decoy state. Modules / OVERCHARGE math / charge mechanic untouched.",
+  "version": "0.22.1",
+  "notes": "v0.22.1 — LANCE balance. Empty default loadout (modules earned through play). PvP DECOY HOLO now actually visible on opponent's screen — procedural ship body fallback under the atlas pass, z_index 12, brighter alpha so the holo always reads. MULTIPLAYER tile opens the ship picker first, then enters the queue with the picked class + skin.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.22.0/Pulsewave-0.22.0-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.22.0/Pulsewave-0.22.0-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.22.0/Pulsewave-0.22.0-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.22.1/Pulsewave-0.22.1-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.22.1/Pulsewave-0.22.1-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.22.1/Pulsewave-0.22.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
