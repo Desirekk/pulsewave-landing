@@ -1,6 +1,6 @@
 {
-  "version": "0.21.0",
-  "notes": "v0.21.0 — LANCE UNLOCKED. Third playable class with charged razor-beam mechanic. Hold LMB to charge (max 1.30s), release to fire a hitscan beam. OVERCHARGE variant: damage linearly scales 12→130, pierce count 1→6, full-charge (95%+) ignores walls. Movement throttled to 50% while charging — commit to the shot. Telegraph: dotted laser-sight along aim while charging (visible to PvP opponent). 0.65s cooldown after firing. Beam damage routes through the same pipeline as bullets (PvP-safe via PvPNet). New PvP RPCs: sc_remote_lance_charge / sc_remote_lance_beam for opponent-side telegraph + visual mirror. LANCE is unlocked at account LV 0 (no unlock gate) — was coming_soon. Base stats: 0.85x HP / 0.90x speed / 1.45x damage per shot. Lab artefact: test_lance_charge.gd kept for future tuning passes.",
+  "version": "0.21.1",
+  "notes": "v0.21.1 — LANCE module catalog + tuning hooks. 51 new LANCE modules across all 6 slots (10 CORE / 10 WEAPON / 8 SHIELD / 7 ENGINE / 8 WINGS / 8 FRAME), default loadout granted to every account. 4 new stat keys plug into the OVERCHARGE math: lance_charge_time_mult, lance_full_charge_dmg_bonus, lance_beam_pierce_bonus, lance_beam_range_mult. Legendary picks (STARLIGHT CORE, SUPERNOVA BARREL, METEOR FINS, VOID FRAME) each push LANCE into a distinct build identity. CLASS description rewritten to match the OVERCHARGE mechanic; onboarding label updated (SHARD / BASTION / LANCE unlocked at LV 0, CHORUS still coming soon).",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.8/Pulsewave-0.20.8-mac.zip",
     "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.8/Pulsewave-0.20.8-win.zip",
