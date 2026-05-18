@@ -1,10 +1,10 @@
 {
-  "version": "0.24.2",
-  "notes": "v0.24.2 — Lobby visual + mode-flow second pass. Centred ship trio back with compact module-icon row, class-signature animations (Shard dash / Bastion shield / Lance cloak / Chorus sound-waves), bullets clipped to ship card, ship+skin name labelled, Casual/Ranked toggle replaces difficulty chip for MP (Ranked SOON), Change Mode + PLAY top-nav both land on the same mosaic, practice → submode picker → back to lobby (no difficulty / start-match pages), pre-match ship picker removed (lobby owns it), panels reskinned with neon gradients (no more corner brackets), NEWS dates are real commit dates now.",
+  "version": "0.24.3",
+  "notes": "v0.24.3 — Lobby polish: ship card 3-4x smaller (single slot in trio), orbit+vanish/decoy animation, bullets clipped. PLAY mosaic restored to animated per-mode scenes (PRACTICE / MULTIPLAYER duel / BOSS RUSH), tiles capped at ~280px wide and centred. All panels reskinned via shared draw_lobby_panel_bg (gradient + accent strip + sliding shine + scanlines + hover glow). Difficulty / Casual-Ranked chips redesigned with halos + dots + footer hints. PLAY button gradient + multi-layer halo + shine band.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.2/Pulsewave-0.24.2-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.2/Pulsewave-0.24.2-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.2/Pulsewave-0.24.2-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.3/Pulsewave-0.24.3-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.3/Pulsewave-0.24.3-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.3/Pulsewave-0.24.3-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
