@@ -1,10 +1,10 @@
 {
-  "version": "0.24.5",
-  "notes": "v0.24.5 — Lobby fixes: boss picker tiles regain their per-boss animations (CIRCLE rings, PRISM beams, HIVE swarm, SNAKE serpent) via _make_boss_hero_scene_script; SOON tiles still animate under a dim wash + corner SOON chip. Boss picker row moved to the same vertical offset as PRACTICE/MULTIPLAYER/BOSS RUSH so cards don't jump. Daily Challenge prints only the real PULSE reward (no fake +500 XP / +1 SURGE). Module strip removed from under the ship card; ship + orbit + click hint use the full card. Trio gap widened 8→28 px so party + YOU read as independent panels.",
+  "version": "0.25.0",
+  "notes": "v0.25.0 — DAILY WINS · PVP. New 5-tier reward ladder pinned to the bottom of the lobby's left column. Win ranked PvP matches to unlock 25 PULSE → 120 XP → 1 BOSS KEY → 25 PULSE → 1 BOSS KEY in order. Rewards auto-credit the second the win lands — no claim button. Tiles render three states: locked (dim), CURRENT (pulsing accent halo), CLAIMED (filled + checkmark). Reset is on UTC midnight (server day) with a live HH:MM:SS countdown in the footer. PvP only — practice / boss rush / forfeits don't count. State persists in settings.cfg under [daily].",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.5/Pulsewave-0.24.5-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.5/Pulsewave-0.24.5-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.5/Pulsewave-0.24.5-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.25.0/Pulsewave-0.25.0-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.25.0/Pulsewave-0.25.0-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.25.0/Pulsewave-0.25.0-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
