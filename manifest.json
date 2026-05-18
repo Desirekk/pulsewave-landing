@@ -1,10 +1,10 @@
 {
-  "version": "0.22.2",
-  "notes": "v0.22.2 — LANCE balance. Damage cooled (full overcharge ~80 base, ~100 with SUPERNOVA). Beam thickness halved (14→6) so aim has to track strafing targets. accuracy_mult stripped from LANCE modules (meaningless for a hitscan beam); replaced with damage / charge-time / move-speed bonuses. Legendary full-charge dmg bonuses rebalanced for the new curve.",
+  "version": "0.23.0",
+  "notes": "v0.23.0 — LANCE RAILGUN v2 + proper PvP cloak. Hitscan beam replaced with a dodgeable projectile (1800-2400 px/s, charge-scaled). Boss occlusion built in — no more punching through to the far side. DECOY HOLO (Space) is now properly asymmetric: local player sees own ship + decoy normally, opponent sees only the holo (looks identical to a real ship, no scan-lines / no flicker / real-looking HP bar) while the real ship is fully invisible.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.22.2/Pulsewave-0.22.2-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.22.2/Pulsewave-0.22.2-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.22.2/Pulsewave-0.22.2-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.23.0/Pulsewave-0.23.0-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.23.0/Pulsewave-0.23.0-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.23.0/Pulsewave-0.23.0-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
