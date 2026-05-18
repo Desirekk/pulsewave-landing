@@ -1,10 +1,10 @@
 {
-  "version": "0.25.0",
-  "notes": "v0.25.0 — DAILY WINS · PVP. New 5-tier reward ladder pinned to the bottom of the lobby's left column. Win ranked PvP matches to unlock 25 PULSE → 120 XP → 1 BOSS KEY → 25 PULSE → 1 BOSS KEY in order. Rewards auto-credit the second the win lands — no claim button. Tiles render three states: locked (dim), CURRENT (pulsing accent halo), CLAIMED (filled + checkmark). Reset is on UTC midnight (server day) with a live HH:MM:SS countdown in the footer. PvP only — practice / boss rush / forfeits don't count. State persists in settings.cfg under [daily].",
+  "version": "0.25.1",
+  "notes": "v0.25.1 — Daily Wins panel widened from 290 → 520 px so the 5 reward tiles aren't cramped. Parented directly to menu_content_root (instead of being clamped inside the narrow left column), bigger icons (30 → 40 px), larger amount text, more breathing room between tiles. Subtitle now spells out the 00:00 UTC reset rule. Same rewards/state as 0.25.0.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.25.0/Pulsewave-0.25.0-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.25.0/Pulsewave-0.25.0-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.25.0/Pulsewave-0.25.0-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.25.1/Pulsewave-0.25.1-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.25.1/Pulsewave-0.25.1-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.25.1/Pulsewave-0.25.1-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
