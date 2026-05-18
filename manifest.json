@@ -1,10 +1,10 @@
 {
-  "version": "0.27.0",
-  "notes": "v0.27.0 — Kit-style ship redesign live. All 16 hulls (4 per class × 4 classes) now render procedurally via the 5-layer mandala EVERYWHERE — lobby preview, mosaic tiles, in-arena player + opponent, LANCE decoy, COSMETICS, MODULES, shop, ship picker. Renamed to kit identities: SHARD = ASH/SOLSTICE/PRISM/PHANTOM, BASTION = AEGIS/GLADIATOR/HONEYCOMB/CATHEDRAL, LANCE = NEEDLE/RAZOR/NEON SCALPEL/VOID, CHORUS = HARMONY/WAVEFORM/GROVE/CHOIR. 2 free + 1 PULSE + 1 SURGE per class. Save IDs unchanged so unlocks carry over. Phase 2 next: themed trails + projectiles per kit, mixable across kits.",
+  "version": "0.28.0",
+  "notes": "v0.28.0 — 16 themed projectiles + 16 themed trails matching the hull kits. Each kit ships its own bullet + trail (ASH PULSE / SUN SPARK / PRISM DART / VOID ECHO etc.), all cross-class mixable: PRISM bullets on a VOID hull with a CATHEDRAL trail is now a valid loadout. Tier matches hulls (2 free + 1 PULSE 10k + 1 SURGE 200 per class). 12 new procedural bullet shapes in bullet.gd. Legacy chevron/bolt/diamond/fragment + jet/ribbon/particles/comet IDs auto-migrate via PROJ_RENAME / TRAIL_RENAME so existing equipped cosmetics carry over.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.27.0/Pulsewave-0.27.0-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.27.0/Pulsewave-0.27.0-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.27.0/Pulsewave-0.27.0-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.0/Pulsewave-0.28.0-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.0/Pulsewave-0.28.0-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.0/Pulsewave-0.28.0-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
