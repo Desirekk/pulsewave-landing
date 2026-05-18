@@ -1,10 +1,10 @@
 {
-  "version": "0.28.0",
-  "notes": "v0.28.0 — 16 themed projectiles + 16 themed trails matching the hull kits. Each kit ships its own bullet + trail (ASH PULSE / SUN SPARK / PRISM DART / VOID ECHO etc.), all cross-class mixable: PRISM bullets on a VOID hull with a CATHEDRAL trail is now a valid loadout. Tier matches hulls (2 free + 1 PULSE 10k + 1 SURGE 200 per class). 12 new procedural bullet shapes in bullet.gd. Legacy chevron/bolt/diamond/fragment + jet/ribbon/particles/comet IDs auto-migrate via PROJ_RENAME / TRAIL_RENAME so existing equipped cosmetics carry over.",
+  "version": "0.28.1",
+  "notes": "v0.28.1 — Trails actually look different (no more color-only): EMBER spark flicker · SPECTRUM hue-cycle · GLITCH cyan+magenta shards · SYNTH GRID dual-rail · DARK MATTER wisps + stars · SOUND WAVE sinusoidal curve · LIGHT RAYS halo stack · GOLD BURST cross-bands · 13 more. Trail kind wired into bullet.gd. Projectile + trail cosmetics now read tier price/currency in the COSMETICS picker — clicking a locked entry buys in-place. Lobby reorg: SEASON 1 left top-left and now sits as a bottom card flush against Daily Wins (8 tiers, same ladder UX). NEW FRIENDS panel in right column between profile + PLAY (scrollable, online-first, + ADD compose modal with mutual-accept placeholder). DAILY CHALLENGE + WEEKLY QUESTS slide up to fill the freed top space.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.0/Pulsewave-0.28.0-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.0/Pulsewave-0.28.0-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.0/Pulsewave-0.28.0-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.1/Pulsewave-0.28.1-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.1/Pulsewave-0.28.1-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.1/Pulsewave-0.28.1-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
