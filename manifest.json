@@ -1,10 +1,10 @@
 {
-  "version": "0.24.3",
-  "notes": "v0.24.3 — Lobby polish: ship card 3-4x smaller (single slot in trio), orbit+vanish/decoy animation, bullets clipped. PLAY mosaic restored to animated per-mode scenes (PRACTICE / MULTIPLAYER duel / BOSS RUSH), tiles capped at ~280px wide and centred. All panels reskinned via shared draw_lobby_panel_bg (gradient + accent strip + sliding shine + scanlines + hover glow). Difficulty / Casual-Ranked chips redesigned with halos + dots + footer hints. PLAY button gradient + multi-layer halo + shine band.",
+  "version": "0.24.4",
+  "notes": "v0.24.4 — Lobby final polish: trio centred vertically + transparent panels (Fortnite-style), nick chip moved to right column under WALLET, module strip gone (icons live inside ship card), ship card lost the glow disc and went translucent, party slots dropped to lower alpha. Daily Challenge gets reward icons (PULSE/XP/SURGE). PRACTICE submode picker uses bespoke per-mode animations (ARENA duel / CAPTURE orb chase / PAINT splatter). BOSS RUSH opens a dedicated boss picker showing BOSS_ROSTER — available bosses click through, planned ones wear SOON badges.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.3/Pulsewave-0.24.3-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.3/Pulsewave-0.24.3-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.3/Pulsewave-0.24.3-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.4/Pulsewave-0.24.4-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.4/Pulsewave-0.24.4-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.24.4/Pulsewave-0.24.4-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
