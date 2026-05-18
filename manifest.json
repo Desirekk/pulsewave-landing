@@ -1,6 +1,6 @@
 {
-  "version": "0.21.1",
-  "notes": "v0.21.1 — LANCE module catalog + tuning hooks. 51 new LANCE modules across all 6 slots (10 CORE / 10 WEAPON / 8 SHIELD / 7 ENGINE / 8 WINGS / 8 FRAME), default loadout granted to every account. 4 new stat keys plug into the OVERCHARGE math: lance_charge_time_mult, lance_full_charge_dmg_bonus, lance_beam_pierce_bonus, lance_beam_range_mult. Legendary picks (STARLIGHT CORE, SUPERNOVA BARREL, METEOR FINS, VOID FRAME) each push LANCE into a distinct build identity. CLASS description rewritten to match the OVERCHARGE mechanic; onboarding label updated (SHARD / BASTION / LANCE unlocked at LV 0, CHORUS still coming soon).",
+  "version": "0.21.2",
+  "notes": "v0.21.2 — LANCE bulletproof unlock. Hard-coded SHARD / BASTION / LANCE as always-pickable across every gate (picker click handler, picker tile draw, CLASS tab heredoc, onboarding tile heredoc + outer onboarding builder, ship-picker START gate). No save state, stale meta or dict typo can re-lock the starter trio. If your installed build was stuck on v0.20.x, relaunching through the launcher pulls v0.21.2 and LANCE is selectable immediately from the ship picker, class tab and onboarding screen. No gameplay changes vs v0.21.1 — modules, OVERCHARGE math and PvP RPCs untouched.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.8/Pulsewave-0.20.8-mac.zip",
     "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.8/Pulsewave-0.20.8-win.zip",
