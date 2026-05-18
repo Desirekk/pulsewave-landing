@@ -1,10 +1,10 @@
 {
-  "version": "0.26.0",
-  "notes": "v0.26.0 — TESTS tab in the top nav (rightmost). Opens an in-game SHIP LAB sandbox previewing 20 example ship redesigns (4 classes × 5 skins) using the 5-layer mandala approach: OUTER RING (class silhouette, locked) + WING PLATES + CORE + TRAIL + ACCENT GEMS. Every tile renders a live procedurally-drawn ship with a layer breakdown spelling out which slot variant the skin uses. Pure prototype — nothing wired into the live ships yet; use this to pick a direction.",
+  "version": "0.27.0",
+  "notes": "v0.27.0 — Kit-style ship redesign live. All 16 hulls (4 per class × 4 classes) now render procedurally via the 5-layer mandala EVERYWHERE — lobby preview, mosaic tiles, in-arena player + opponent, LANCE decoy, COSMETICS, MODULES, shop, ship picker. Renamed to kit identities: SHARD = ASH/SOLSTICE/PRISM/PHANTOM, BASTION = AEGIS/GLADIATOR/HONEYCOMB/CATHEDRAL, LANCE = NEEDLE/RAZOR/NEON SCALPEL/VOID, CHORUS = HARMONY/WAVEFORM/GROVE/CHOIR. 2 free + 1 PULSE + 1 SURGE per class. Save IDs unchanged so unlocks carry over. Phase 2 next: themed trails + projectiles per kit, mixable across kits.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.26.0/Pulsewave-0.26.0-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.26.0/Pulsewave-0.26.0-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.26.0/Pulsewave-0.26.0-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.27.0/Pulsewave-0.27.0-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.27.0/Pulsewave-0.27.0-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.27.0/Pulsewave-0.27.0-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
