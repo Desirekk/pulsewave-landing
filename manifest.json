@@ -1,6 +1,6 @@
 {
-  "version": "0.20.8",
-  "notes": "v0.20.8 — CLEANUP PASS 2. ~3340 lines stripped (game.gd 31001 → 27720). RIFTS state machine, all 9 _build_rifts_* page builders, 14 _make_rift_* helper scripts, caravan-defense mode (HAZARD / CORE DEFENCE) + SLIPSTREAM / STRAFE sister modes, mini-boss spawn path, RIFT_* constants, ENERGY_RIFT_COST, MINI_BOSS_KINDS — all gone. _make_rift_confirm_overlay_script kept and refactored (ship picker still uses it). Save keys rift_state / rift_in_match / rift_match_node / rift_complete dropped, existing saves still load. Zero gameplay change for anything reachable from nav (Practice / Boss Rush / Multiplayer).",
+  "version": "0.21.0",
+  "notes": "v0.21.0 — LANCE UNLOCKED. Third playable class with charged razor-beam mechanic. Hold LMB to charge (max 1.30s), release to fire a hitscan beam. OVERCHARGE variant: damage linearly scales 12→130, pierce count 1→6, full-charge (95%+) ignores walls. Movement throttled to 50% while charging — commit to the shot. Telegraph: dotted laser-sight along aim while charging (visible to PvP opponent). 0.65s cooldown after firing. Beam damage routes through the same pipeline as bullets (PvP-safe via PvPNet). New PvP RPCs: sc_remote_lance_charge / sc_remote_lance_beam for opponent-side telegraph + visual mirror. LANCE is unlocked at account LV 0 (no unlock gate) — was coming_soon. Base stats: 0.85x HP / 0.90x speed / 1.45x damage per shot. Lab artefact: test_lance_charge.gd kept for future tuning passes.",
   "builds": {
     "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.8/Pulsewave-0.20.8-mac.zip",
     "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.20.8/Pulsewave-0.20.8-win.zip",
