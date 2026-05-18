@@ -1,10 +1,10 @@
 {
-  "version": "0.21.3-LANCE",
-  "notes": "v0.21.3-LANCE — verification build. Same LANCE unlock + modules + defensive overrides as v0.21.2. GAME_VERSION carries explicit -LANCE suffix so testers can confirm at a glance which build the brand chip is reading. If you still see v0.20.8 in the brand chip after this update lands, the launcher did not extract the new binary — report it.",
+  "version": "0.22.0",
+  "notes": "v0.22.0 — LANCE DECOY HOLO active ability on Space (drop holo, go invisible 1.5s, 10s cd). Boss Rush damage fix — beam now properly hits bosses. Boss occlusion — beam stops at boss body, no more piercing through to far-side shields even on full overcharge. PvP RPC sync for the decoy state. Modules / OVERCHARGE math / charge mechanic untouched.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.21.3/Pulsewave-0.21.3-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.21.3/Pulsewave-0.21.3-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.21.3/Pulsewave-0.21.3-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.22.0/Pulsewave-0.22.0-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.22.0/Pulsewave-0.22.0-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.22.0/Pulsewave-0.22.0-linux.zip"
   },
   "launcher_display_version": "0.1.12",
   "launcher_builds": {
