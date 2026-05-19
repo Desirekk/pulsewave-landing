@@ -1,10 +1,10 @@
 {
-  "version": "0.29.6",
-  "notes": "v0.29.6 — Shop deepening. SHIP SKINS now has per-class sub-tabs (SHARD / BASTION / LANCE / CHORUS) and inside each class the skins are split into three labeled buckets: OWNED (your unlocked) / PULSE STORE / SURGE STORE — owned ships sit at the top, premium SURGE at the bottom, clean separation. NEW BUNDLES sidebar tab with 3 placeholder packs (STARTER PACK -15%, PRO LOADOUT -25%, PREMIUM VAULT -40%) each previewing ship + projectile + trail bundled, foundation for v0.30 SURGE-priced sales. NEW PULSEWAVE PRO tab (premium account upsell — 1.5× PULSE/XP, monthly exclusive drops, priority queue, ko-fi support badge, early access — payment hook lands later). BOSS KEYS card now uses the canonical orange-octagon boss_key_tex with rotation + bob + glow. PROJECTILE card: ship rotated 90° so the nose points to the firing direction (no more 'shooting sideways'). TRAIL card: now renders the actual in-game trail (fading colored circles from the equipped colour) — the previous 16 fake glyph variants didn't match what you see in a match.",
+  "version": "0.29.7",
+  "notes": "v0.29.7 — Hotfix for v0.29.6 black screen after Grindare splash. Root cause: the new _make_boss_key_card_script heredoc was missing its closing block (closing triple-quote + s.source_code = src + s.reload() + return s), so the GDScript parser silently consumed source until the next heredoc opener and rejected main.gd at runtime. Game booted to splash, then black screen. Heredoc closed properly, game boots clean again. All v0.29.6 features (ship class sub-tabs / OWNED-PULSE-SURGE buckets / BUNDLES + PULSEWAVE PRO placeholders / animated boss key card / projectile + trail card fixes) are intact.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.6/Pulsewave-0.29.6-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.6/Pulsewave-0.29.6-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.6/Pulsewave-0.29.6-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.7/Pulsewave-0.29.7-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.7/Pulsewave-0.29.7-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.7/Pulsewave-0.29.7-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
