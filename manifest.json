@@ -1,10 +1,10 @@
 {
-  "version": "0.29.1",
-  "notes": "v0.29.1 — Bullets spawn at cannon tip (radius*2.2 forward, very obvious on LANCE LONG CANNON) instead of inside the hull. Trails emit from engine ports (back of ship, opposite of aim). LOCKER composite ship-preview now reads the preview helper too — clicking an unowned ship skin actually shows that skin. Currency colours fixed: PULSE = cyan, SURGE = gold. Default-unlocked projectiles + trails merged back into saved unlocks on load (no more FREE buyables in the shop). Shop got its own toast banner so buy/equip clicks aren't silent. Shop mockup variants ship in v0.29.2.",
+  "version": "0.29.2",
+  "notes": "v0.29.2 — LOCKER composite preview finally fires from the cannon tip and trails from engine ports (v0.29.1 only fixed this in the live match; the preview is a separate simulator). Currency icon colours fixed properly: baked PNG palette preserved (white icon tint, PULSE/SURGE colour applied only to the price number). NEW: TESTS > SHOP MOCKUPS sandbox — three side-by-side variants (HOLOGRID cyberdeck grid, MUSIC STAGE FFT-reactive, FEATURED SHELF Fortnite-style) so we can pick a direction before rebuilding the live shop in v0.29.3.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.1/Pulsewave-0.29.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.1/Pulsewave-0.29.1-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.1/Pulsewave-0.29.1-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.2/Pulsewave-0.29.2-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.2/Pulsewave-0.29.2-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.2/Pulsewave-0.29.2-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
