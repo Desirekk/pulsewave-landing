@@ -1,10 +1,10 @@
 {
-  "version": "0.29.4",
-  "notes": "v0.29.4 — Shop mockups round 2. Killed the rotating chromatic rings on shop cards (they stole the eye from the actual skin). Replaced HOLOGRID with 4 brand-new full-shop layouts wired to a real CATEGORY tab row (FEATURED · SHIPS · PROJECTILES · TRAILS · BUNDLES): FEATURED + CATS (cleaned shelf), CATEGORY HUB (sidebar + grid), DAILY ROTATION (today + tomorrow + browse), EDITORIAL ROWS (App-Store-style hero + named collection rows), BUNDLE BAZAAR (3 bundle packs + standalone). MUSIC STAGE retained as the audio-reactive option. TESTS > SHOP MOCKUPS to flip between them and pick one — winner becomes the live shop in v0.29.5.",
+  "version": "0.29.5",
+  "notes": "v0.29.5 — Live SHOP rebuilt as CATEGORY HUB (the mockup you picked). Left sidebar = 5 animated category tiles, each with its own animation themed to the category content: SHIP SKINS = slow rotating triangle ship, PROJECTILES = mini ship parked + bullet looping right, TRAILS = ship gliding L→R with a trail trailing behind, BOSS KEYS = rotating octagon key, BOOSTERS = pulsing lightning bolt (soon). Right pane = 4-column grid of animated cards. Ship cards rotate the actual procedural ship 360° around the preview centre. Projectile cards show a SHARD ASH stand-in ship firing the catalog projectile rightward in a loop, with a fading trail behind the bullet — all 16 shapes read as real ammo. Trail cards show a SHARD ASH ship gliding L→R with the catalog's actual trail kind streaming behind it (all 16 trail kinds). PROJECTILES + TRAILS promoted to first-class tabs (no more COSMETICS sub-tab indirection). Buy/equip flow + toast intact.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.4/Pulsewave-0.29.4-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.4/Pulsewave-0.29.4-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.4/Pulsewave-0.29.4-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.5/Pulsewave-0.29.5-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.5/Pulsewave-0.29.5-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.5/Pulsewave-0.29.5-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
