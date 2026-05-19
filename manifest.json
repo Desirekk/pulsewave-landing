@@ -1,10 +1,10 @@
 {
-  "version": "0.28.8",
-  "notes": "v0.28.8 — LANCE prototypes round 2. TESTS > LANCE wiped of rhombus-based variants; six fully-custom silhouettes that don't share the LANCE mandala outer: ARROWHEAD / CRESCENT / WEDGE / DISC / OCTOPOD / TRIDENT. Each is a brand-new shape, drawn by its own routine instead of the locked rhombus outline. Pick a favourite and we'll canonise it into the LANCE roster.",
+  "version": "0.28.9",
+  "notes": "v0.28.9 — LANCE prototypes round 3 (sniper archetype). TESTS > LANCE shows six precision-weapon concepts: RAILGUN, SCOPE, LONG CANNON, CROSSBOW, MARKSMAN, RAIL COIL. Previous generic shapes (arrowhead/crescent/wedge/disc/octopod/trident) removed — these new ones all lean into the OVERCHARGE SNIPER identity with scopes/barrels/bipods/charging coils.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.8/Pulsewave-0.28.8-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.8/Pulsewave-0.28.8-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.8/Pulsewave-0.28.8-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.9/Pulsewave-0.28.9-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.9/Pulsewave-0.28.9-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.9/Pulsewave-0.28.9-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
