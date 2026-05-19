@@ -1,10 +1,10 @@
 {
-  "version": "0.29.8",
-  "notes": "v0.29.8 — Shop polish round. PROJECTILES and TRAILS now get the same SHARD/BASTION/LANCE/CHORUS class sub-tabs + OWNED/PULSE STORE/SURGE STORE buckets as SHIP SKINS (active class shared across all three tabs). TRAIL card preview restored — each of the 16 trail kinds (cyan_dash, warm_ember, spectrum, glitch_invert, gold_burst, dust, pollen, light_dust, hairline, slice, synth_grid, pulse_chevron, thrust_flame, choir_arc, ash_ash) renders with its own dot style again (the 'same dot only different colour' build was a regression). BOSS KEYS section reverted to the original rich layout (1/5/10/25 key bundles + bonus tiles); sidebar key icon now uses the canonical boss_key_tex art (orange octagon keycard) with slow rotation + glow. PULSEWAVE PRO banner trimmed to just wordmark + animated 'coming soon' line — the feature list was speculation, pulled it.",
+  "version": "0.29.9",
+  "notes": "v0.29.9 — Ship trail in-game now matches the shop preview. Every one of the 16 trail kinds (warm_ember, spectrum, glitch_invert, gold_burst, dust, pollen, light_dust, hairline, slice, synth_grid, dark_matter, sound_wave, musical, petal, light_ray, cyan_dash) renders its own silhouette behind your ship — was a plain colored circle regardless of which trail you bought. Trail dot sizes shaved ~25% in-game and in the shop preview so the trail reads as ship exhaust, not a halo cloud (fix for 'niektóre triale za grube'). Bullets and bullet trails already differentiated per kind so projectiles already matched; this brings the ship trail to parity.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.8/Pulsewave-0.29.8-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.8/Pulsewave-0.29.8-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.8/Pulsewave-0.29.8-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.9/Pulsewave-0.29.9-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.9/Pulsewave-0.29.9-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.9/Pulsewave-0.29.9-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
