@@ -1,10 +1,10 @@
 {
-  "version": "0.28.9",
-  "notes": "v0.28.9 — LANCE prototypes round 3 (sniper archetype). TESTS > LANCE shows six precision-weapon concepts: RAILGUN, SCOPE, LONG CANNON, CROSSBOW, MARKSMAN, RAIL COIL. Previous generic shapes (arrowhead/crescent/wedge/disc/octopod/trident) removed — these new ones all lean into the OVERCHARGE SNIPER identity with scopes/barrels/bipods/charging coils.",
+  "version": "0.29.0",
+  "notes": "v0.29.0 — LONG CANNON is the new LANCE. All four canon LANCE skins (ASH / VECTOR / SOLSTICE / VOID) now render as LONG CANNON variants everywhere — lobby preview, class page, locker, in-match PvP. Each variant tweaks rings/muzzle/fins/cockpit (twin fins + spike muzzle for SOLSTICE, halo muzzle + delta wings for VOID, etc.) so the four read as distinct loadout items. TESTS > LANCE shows the same four at full card size for side-by-side preview.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.9/Pulsewave-0.28.9-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.9/Pulsewave-0.28.9-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.9/Pulsewave-0.28.9-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.0/Pulsewave-0.29.0-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.0/Pulsewave-0.29.0-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.0/Pulsewave-0.29.0-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
