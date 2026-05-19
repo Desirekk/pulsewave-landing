@@ -1,10 +1,10 @@
 {
-  "version": "0.29.5",
-  "notes": "v0.29.5 — Live SHOP rebuilt as CATEGORY HUB (the mockup you picked). Left sidebar = 5 animated category tiles, each with its own animation themed to the category content: SHIP SKINS = slow rotating triangle ship, PROJECTILES = mini ship parked + bullet looping right, TRAILS = ship gliding L→R with a trail trailing behind, BOSS KEYS = rotating octagon key, BOOSTERS = pulsing lightning bolt (soon). Right pane = 4-column grid of animated cards. Ship cards rotate the actual procedural ship 360° around the preview centre. Projectile cards show a SHARD ASH stand-in ship firing the catalog projectile rightward in a loop, with a fading trail behind the bullet — all 16 shapes read as real ammo. Trail cards show a SHARD ASH ship gliding L→R with the catalog's actual trail kind streaming behind it (all 16 trail kinds). PROJECTILES + TRAILS promoted to first-class tabs (no more COSMETICS sub-tab indirection). Buy/equip flow + toast intact.",
+  "version": "0.29.6",
+  "notes": "v0.29.6 — Shop deepening. SHIP SKINS now has per-class sub-tabs (SHARD / BASTION / LANCE / CHORUS) and inside each class the skins are split into three labeled buckets: OWNED (your unlocked) / PULSE STORE / SURGE STORE — owned ships sit at the top, premium SURGE at the bottom, clean separation. NEW BUNDLES sidebar tab with 3 placeholder packs (STARTER PACK -15%, PRO LOADOUT -25%, PREMIUM VAULT -40%) each previewing ship + projectile + trail bundled, foundation for v0.30 SURGE-priced sales. NEW PULSEWAVE PRO tab (premium account upsell — 1.5× PULSE/XP, monthly exclusive drops, priority queue, ko-fi support badge, early access — payment hook lands later). BOSS KEYS card now uses the canonical orange-octagon boss_key_tex with rotation + bob + glow. PROJECTILE card: ship rotated 90° so the nose points to the firing direction (no more 'shooting sideways'). TRAIL card: now renders the actual in-game trail (fading colored circles from the equipped colour) — the previous 16 fake glyph variants didn't match what you see in a match.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.5/Pulsewave-0.29.5-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.5/Pulsewave-0.29.5-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.5/Pulsewave-0.29.5-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.6/Pulsewave-0.29.6-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.6/Pulsewave-0.29.6-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.29.6/Pulsewave-0.29.6-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
