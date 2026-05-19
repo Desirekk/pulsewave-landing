@@ -1,10 +1,10 @@
 {
-  "version": "0.28.3",
-  "notes": "v0.28.3 — SEASON 1 card moved from lobby to a sub-tab under LOBBY in the top nav (click opens a Soon page with the 8-tier ladder preview). Daily Wins reclaims full bottom-left width. PvP smoothing: send rate 30 → 45 Hz, remote pos lerp 22 → 36, remote aim lerp 45 → 60 — cuts the visible enemy-trail lag the user reported. Friends cross-player still needs the backend endpoint (next sprint).",
+  "version": "0.28.4",
+  "notes": "v0.28.4 — hotfix on top of v0.28.3. Windows zip was missing steam_api64.dll + steam_appid.txt; repacked with both files so the game stops crashing with 'steam_api64.dll was not found'. Version bumped so the launcher actually re-downloads (it was treating v0.28.3 as already-installed). Mac + Linux unchanged from v0.28.3.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.3/Pulsewave-0.28.3-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.3/Pulsewave-0.28.3-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.3/Pulsewave-0.28.3-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.4/Pulsewave-0.28.4-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.4/Pulsewave-0.28.4-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.4/Pulsewave-0.28.4-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
