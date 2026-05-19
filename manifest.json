@@ -1,10 +1,10 @@
 {
-  "version": "0.28.7",
-  "notes": "v0.28.7 — FRIENDS lobby panel is now an explicit COMING SOON placeholder (cross-player flow ships with Steam). TESTS > LANCE tab adds 5 alternative design prototypes (DELTA / TWIN FANG / STARLET / HORIZON / VORTEX) for the user to pick from — feedback was 'wszystko wygląda jak coś na patyku'. TESTS row is now horizontally scrollable.",
+  "version": "0.28.8",
+  "notes": "v0.28.8 — LANCE prototypes round 2. TESTS > LANCE wiped of rhombus-based variants; six fully-custom silhouettes that don't share the LANCE mandala outer: ARROWHEAD / CRESCENT / WEDGE / DISC / OCTOPOD / TRIDENT. Each is a brand-new shape, drawn by its own routine instead of the locked rhombus outline. Pick a favourite and we'll canonise it into the LANCE roster.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.7/Pulsewave-0.28.7-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.7/Pulsewave-0.28.7-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.7/Pulsewave-0.28.7-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.8/Pulsewave-0.28.8-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.8/Pulsewave-0.28.8-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.8/Pulsewave-0.28.8-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
