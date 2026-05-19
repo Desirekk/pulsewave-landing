@@ -1,10 +1,10 @@
 {
-  "version": "0.28.5",
-  "notes": "v0.28.5 — LOCKER overhaul. Tiles now draw distinct silhouettes per shape/kind (no more identical colored circles for 16 different items). Clicking any tile sets a live preview on the left composite. New PREVIEW ACTION CARD shows the previewed item's name + an EQUIP/BUY/ACTIVE button — click STAR (200 SURGE) and now actually see how it looks + a clear BUY button + a 'NOT ENOUGH SURGE — need X more' toast on fail. Composite preview ports the 16 shape recipes (SUN SPARK / PRISM DART / VOID ECHO / SHIELD ORB / HAMMER / HEX CELL / CROSS BOLT / NEEDLE DART / SCALPEL / NEON LASER / SINGULARITY / NOTE / BEAT BAR / SEED / STAR / ASH PULSE) + 16 trail kinds so the live ship preview shows the actual variety, not color-only.",
+  "version": "0.28.6",
+  "notes": "v0.28.6 — LOCKER preview bullets bumped 5 → 9 radius + slower + longer trail so SUN SPARK / STAR / SINGULARITY actually read in the orbit. SHOP > COSMETICS rewritten with sub-tabs: PROJECTILES (16) / TRAILS (16) / SHIP SKINS (16), each tile renders the real silhouette / streak / animated ship instead of an indistinguishable color dot. Buy failures pop a toast instead of silently no-op.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.5/Pulsewave-0.28.5-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.5/Pulsewave-0.28.5-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.5/Pulsewave-0.28.5-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.6/Pulsewave-0.28.6-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.6/Pulsewave-0.28.6-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.6/Pulsewave-0.28.6-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
