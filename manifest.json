@@ -1,10 +1,10 @@
 {
-  "version": "0.28.6",
-  "notes": "v0.28.6 — LOCKER preview bullets bumped 5 → 9 radius + slower + longer trail so SUN SPARK / STAR / SINGULARITY actually read in the orbit. SHOP > COSMETICS rewritten with sub-tabs: PROJECTILES (16) / TRAILS (16) / SHIP SKINS (16), each tile renders the real silhouette / streak / animated ship instead of an indistinguishable color dot. Buy failures pop a toast instead of silently no-op.",
+  "version": "0.28.7",
+  "notes": "v0.28.7 — FRIENDS lobby panel is now an explicit COMING SOON placeholder (cross-player flow ships with Steam). TESTS > LANCE tab adds 5 alternative design prototypes (DELTA / TWIN FANG / STARLET / HORIZON / VORTEX) for the user to pick from — feedback was 'wszystko wygląda jak coś na patyku'. TESTS row is now horizontally scrollable.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.6/Pulsewave-0.28.6-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.6/Pulsewave-0.28.6-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.6/Pulsewave-0.28.6-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.7/Pulsewave-0.28.7-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.7/Pulsewave-0.28.7-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.7/Pulsewave-0.28.7-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
