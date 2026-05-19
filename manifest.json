@@ -1,10 +1,10 @@
 {
-  "version": "0.28.2",
-  "notes": "v0.28.2 — LOCKER + SHOP fixes: cosmetics list was using the old hardcoded 4-entry path, now reads the full 16-projectile + 16-trail catalog with proper price chips. SHOP tab=3 (COSMETICS) was a 'coming soon' placeholder — now a real two-column section with click-to-buy. Friends placeholders (redsheep/plasma__/etc) removed — list starts empty. New ACCEPT/DECLINE incoming-request popup. Dev loopback: type your own nick into ADD FRIEND to fake the round-trip and test the popup flow without a backend.",
+  "version": "0.28.3",
+  "notes": "v0.28.3 — SEASON 1 card moved from lobby to a sub-tab under LOBBY in the top nav (click opens a Soon page with the 8-tier ladder preview). Daily Wins reclaims full bottom-left width. PvP smoothing: send rate 30 → 45 Hz, remote pos lerp 22 → 36, remote aim lerp 45 → 60 — cuts the visible enemy-trail lag the user reported. Friends cross-player still needs the backend endpoint (next sprint).",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.2/Pulsewave-0.28.2-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.2/Pulsewave-0.28.2-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.2/Pulsewave-0.28.2-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.3/Pulsewave-0.28.3-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.3/Pulsewave-0.28.3-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.3/Pulsewave-0.28.3-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
