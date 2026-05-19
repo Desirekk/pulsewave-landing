@@ -1,10 +1,10 @@
 {
-  "version": "0.28.1",
-  "notes": "v0.28.1 — Trails actually look different (no more color-only): EMBER spark flicker · SPECTRUM hue-cycle · GLITCH cyan+magenta shards · SYNTH GRID dual-rail · DARK MATTER wisps + stars · SOUND WAVE sinusoidal curve · LIGHT RAYS halo stack · GOLD BURST cross-bands · 13 more. Trail kind wired into bullet.gd. Projectile + trail cosmetics now read tier price/currency in the COSMETICS picker — clicking a locked entry buys in-place. Lobby reorg: SEASON 1 left top-left and now sits as a bottom card flush against Daily Wins (8 tiers, same ladder UX). NEW FRIENDS panel in right column between profile + PLAY (scrollable, online-first, + ADD compose modal with mutual-accept placeholder). DAILY CHALLENGE + WEEKLY QUESTS slide up to fill the freed top space.",
+  "version": "0.28.2",
+  "notes": "v0.28.2 — LOCKER + SHOP fixes: cosmetics list was using the old hardcoded 4-entry path, now reads the full 16-projectile + 16-trail catalog with proper price chips. SHOP tab=3 (COSMETICS) was a 'coming soon' placeholder — now a real two-column section with click-to-buy. Friends placeholders (redsheep/plasma__/etc) removed — list starts empty. New ACCEPT/DECLINE incoming-request popup. Dev loopback: type your own nick into ADD FRIEND to fake the round-trip and test the popup flow without a backend.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.1/Pulsewave-0.28.1-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.1/Pulsewave-0.28.1-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.1/Pulsewave-0.28.1-linux.zip"
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.2/Pulsewave-0.28.2-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.2/Pulsewave-0.28.2-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.28.2/Pulsewave-0.28.2-linux.zip"
   },
   "launcher_display_version": "0.1.13",
   "launcher_builds": {
